@@ -1,0 +1,29 @@
+﻿<div class="sidebar-wrapper">
+
+    <div class="head">
+        <a href="/start"><h2>Fotosteam</h2></a>
+    </div>
+
+    {{#unless AuthMember}}
+    {{> LoginBay}}
+    {{/unless}}
+
+    {{#unless Registered}}
+    {{> RegisterBay}}
+    {{/unless}}
+
+    {{#if AuthMember}}
+    {{> NotificationBay}}
+    {{/if}}
+
+    {{> ContactBay}}
+
+    {{> KeyboardBay}}
+
+    <ul class="sidebar-commands">
+
+        {{> SidebarCommonCommands}}
+
+    </ul>
+
+</div>

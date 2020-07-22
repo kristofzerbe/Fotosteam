@@ -1,0 +1,15 @@
+﻿[
+    {
+        "Name": "Test-Event",
+        "Date": "",
+        "Location": {
+            "Name": "Berlin",
+            "CountryIsoCode": "DEU",
+            "Latitude": 52.519451,
+            "Longitude": 13.383594,
+            "PhotoCount": 2
+        },
+        "Description": "Dies ist ein Test-Event ohne jegliche Bedeutung",
+        "PhotoCount": 1
+    }
+]

@@ -1,0 +1,164 @@
+﻿{
+    "Id": "22";
+    "Name": "DSC_7903",
+    "Title": "Vintage Letters",
+    "CaptureDate": "2014-09-28T10:18:59",
+    "PublishDate": "2014-11-09T15:33:00",
+    "IsPrivate": false,
+    "CommentCount": 6,
+    "AverageRating": 0,
+    "Categories": [
+        {
+            "Type": "abstract",
+            "PhotoCount": 3
+        },
+        {
+            "Type": "still",
+            "PhotoCount": 3
+        }
+    ],
+    "Topics": [
+        {
+            "Name": "Best of...",
+            "Description": "Meine besten Bilder",
+            "PhotoCount": 4
+        }
+    ],
+    "Location": {
+        "Name": "Brügge",
+        "CountryIsoCode": "BEL",
+        "Latitude": 51.208958,
+        "Longitude": 3.224651,
+        "PhotoCount": 6
+    },
+    "Event": {
+        "Name": "Rommelmarkt in Brügge",
+        "Date": "",
+        "Location": {
+            "Name": "Brügge",
+            "CountryIsoCode": "BEL",
+            "Latitude": 51.208958,
+            "Longitude": 3.224651,
+            "PhotoCount": 6
+        },
+        "Description": "September Rommelmarkt in Brügge",
+        "PhotoCount": 2
+    },
+    "Stories": [
+        {
+            "Name": "Brügge Foto-Tour",
+            "HeaderFoto": "DSC_7487-Bearbeitet",
+            "ChapterCount": 1,
+            "PhotoCount": 6
+        },
+        {
+            "Name": "Belgien sehen und sterben",
+            "HeaderFoto": "DSC_7849",
+            "ChapterCount": 2,
+            "PhotoCount": 6
+        }
+    ],
+    "Width": 4025,
+    "Height": 2513,
+    "AspectRatio": 1.6016713091922006,
+    "Orientation": "landscape",
+    "DirectLinks": [
+        {
+            "Size": 0,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7903/full.jpg"
+        },
+        {
+            "Size": 100,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7903/100.jpg"
+        },
+        {
+            "Size": 200,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7903/200.jpg"
+        },
+        {
+            "Size": 400,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7903/400.jpg"
+        },
+        {
+            "Size": 640,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7903/640.jpg"
+        },
+        {
+            "Size": 1024,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7903/1024.jpg"
+        },
+        {
+            "Size": 1440,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7903/1440.jpg"
+        },
+        {
+            "Size": 1920,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7903/1920.jpg"
+        }
+    ],
+    "Comments": [
+        {
+            "Date": "2014-11-11T10:05:00",
+            "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quantum Aristoxeni ingenium consumptum videmus in musicis? Hic ambiguo ludimur. Non igitur bene. Falli igitur possumus. Duo Reges: constructio interrete. Invidiosum nomen est, infame, suspectum.",
+            "User": { "Name": "Xaver Linz", "AvatarUrl": "" }
+
+        },
+        {
+            "Date": "2014-11-12T22:00:00",
+            "Text": "Inquit, dasne adolescenti veniam? Ego vero isti, inquam, permitto. Suo enim quisque studio maxime ducitur. Num quid tale Democritus? Prioris generis est docilitas, memoria; Putabam equidem satis, inquit, me dixisse.",
+            "User": { "Name": "Lena Staude", "AvatarUrl": "" }
+
+        },
+        {
+            "Date": "2014-11-12T23:35:00",
+            "Text": "Hoc Hieronymus summum bonum esse dixit. Hoc Hieronymus summum bonum esse dixit. Quis Aristidem non mortuum diligit? Haec quo modo conveniant, non sane intellego. Tum Torquatus: Prorsus, inquit, assentior; Sed haec nihil sane ad rem; Omnia contraria, quos etiam insanos esse vultis.",
+            "User": { "Name": "Angelique Dieterich", "AvatarUrl": "" }
+
+        },
+        {
+            "Date": "2014-11-15T08:53:00",
+            "Text": "Moriatur, inquit. Primum Theophrasti, Strato, physicum se voluit.",
+            "User": { "Name": "Klara Gajewski", "AvatarUrl": "" }
+
+        },
+        {
+            "Date": "2014-11-18T19:01:00",
+            "Text": "Quam si explicavisset, non tam haesitaret. Sin aliud quid voles, postea. Nulla erit controversia. Quae cum essent dicta, discessimus. Duo Reges: constructio interrete. Minime vero istorum quidem, inquit. ",
+            "User": { "Name": "Franz-Josef Reichelt", "AvatarUrl": "" }
+
+        },
+        {
+            "Date": "2014-11-18T19:55:00",
+            "Text": "Avaritiamne minuis? Tamen a proposito, inquam, aberramus. Zenonis est, inquam, hoc Stoici.",
+            "User": { "Name": "Mats Schmutte", "AvatarUrl": "" }
+
+        }
+    ],
+    "Ratings": [ ],
+    "License": 35,
+    "AllowFullsizeDownload": true,
+    "Exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D90",
+        "CaptureDate": "2014-09-28T10:18:59",
+        "Description": null,
+        "Software": "Adobe Photoshop Lightroom 5.6 (Windows)",
+        "Artist": "Kristof Zerbe",
+        "Copyright": null,
+        "FocalLength": 280.0,
+        "FNumber": 5.6,
+        "ApertureValue": 4.970854,
+        "MaxApertureValue": 5.0,
+        "ExposureTime": 0.008,
+        "ExposureBiasValue": 0.0,
+        "ExposureProgram": 2,
+        "ExposureMode": 0,
+        "ISOSpeedRatings": 200,
+        "MeteringMode": 5,
+        "XResolution": 240.0,
+        "YResolution": 240.0,
+        "ResolutionUnit": 2,
+        "Latitude": 51.215486666666663,
+        "Longitude": 3.2238
+    }
+}

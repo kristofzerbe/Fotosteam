@@ -1,0 +1,102 @@
+﻿{
+    "Id": "35";
+    "Name": "DSC_2361",
+    "Title": "Dublin Door",
+    "CaptureDate": "2011-04-30T00:31:58",
+    "PublishDate": "2014-11-09T15:33:00",
+    "IsPrivate": false,
+    "CommentCount": 0,
+    "AverageRating": 0,
+    "Categories": [
+        {
+            "Type": "urban",
+            "PhotoCount": 6
+        },
+        {
+            "Type": "night",
+            "PhotoCount": 5
+        }
+    ],
+    "Topics": [
+        {
+            "Name": "Doors & Windows",
+            "Description": "Bildersammlung von allem wo man rausgehen oder rausschauen kann",
+            "PhotoCount": 2
+        }
+    ],
+    "Location": {
+        "Name": "Dublin",
+        "CountryIsoCode": "IRL",
+        "Latitude": 53.347883,
+        "Longitude": -6.259334,
+        "PhotoCount": 3
+    },
+    "Event": null,
+    "Stories": [ ],
+    "Width": 3216,
+    "Height": 2136,
+    "AspectRatio": 1.5056179775280898,
+    "Orientation": "landscape",
+    "DirectLinks": [
+        {
+            "Size": 0,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_2361/full.jpg"
+        },
+        {
+            "Size": 100,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_2361/100.jpg"
+        },
+        {
+            "Size": 200,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_2361/200.jpg"
+        },
+        {
+            "Size": 400,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_2361/400.jpg"
+        },
+        {
+            "Size": 640,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_2361/640.jpg"
+        },
+        {
+            "Size": 1024,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_2361/1024.jpg"
+        },
+        {
+            "Size": 1440,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_2361/1440.jpg"
+        },
+        {
+            "Size": 1920,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_2361/1920.jpg"
+        }
+    ],
+    "Comments": [ ],
+    "Ratings": [ ],
+    "License": 12,
+    "AllowFullsizeDownload": true,
+    "Exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D90",
+        "CaptureDate": "2011-04-30T00:31:58",
+        "Description": null,
+        "Software": "Ver.1.00 ",
+        "Artist": "Kristof Zerbe",
+        "Copyright": null,
+        "FocalLength": 58.0,
+        "FNumber": 5.0,
+        "ApertureValue": 0.0,
+        "MaxApertureValue": 4.7,
+        "ExposureTime": 0.16666666666666666,
+        "ExposureBiasValue": 0.0,
+        "ExposureProgram": 0,
+        "ExposureMode": 0,
+        "ISOSpeedRatings": 1600,
+        "MeteringMode": 5,
+        "XResolution": 300.0,
+        "YResolution": 300.0,
+        "ResolutionUnit": 2,
+        "Latitude": 0.0,
+        "Longitude": 0.0
+    }
+}

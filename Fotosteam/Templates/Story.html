@@ -1,0 +1,45 @@
+﻿<div>
+    {{#if CurrentChapter}}
+    <div class="chapter">
+        <figcaption>
+            
+            {{#PrevChapters}}
+            <a class="leftwing" href="{{../Story.StoryUrl}}/{{ChapterKey}}" title="{{ChapterName}}">{{Idx}}</a>
+            {{/PrevChapters}}
+            
+            <span style="margin:0 10px;">{{CurrentChapter.ChapterName}}</span>
+
+            {{#NextChapters}}
+            <a class="rightwing" href="{{../Story.StoryUrl}}/{{ChapterKey}}" title="{{ChapterName}}">{{Idx}}</a>
+            {{/NextChapters}}
+        </figcaption>
+
+        <div class="ledges"></div>
+
+        <div class="chapters content-box">
+            <div class="prev-chapter {{PrevChapterClass}}">
+                {{#PrevChapter}}
+                <a href="{{../Story.StoryUrl}}/{{ChapterKey}}">
+                    <i class="icon icon-angle-left" style="left: 10px;"></i>
+                    <h2>{{../Story.StoryName}}</h2>
+                    <span>{{ChapterName}}</span>
+                </a>
+                {{/PrevChapter}}
+            </div>
+            <div class="next-chapter {{NextChapterClass}}">
+                {{#NextChapter}}
+                <a href="{{../Story.StoryUrl}}/{{ChapterKey}}">
+                    <i class="icon icon-angle-right" style="right: 10px;"></i>
+                    <h2>{{../Story.StoryName}}</h2>
+                    <span>{{ChapterName}}</span>
+                </a>
+                {{/NextChapter}}
+            </div>
+        </div>
+    </div>
+    {{else}}
+    <div>
+        <p data-i18n="chapter-not-found">Kapitel nicht gefunden</p>
+    </div>
+    {{/if}}
+</div>

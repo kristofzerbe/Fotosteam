@@ -1,0 +1,111 @@
+﻿<div id="start-intro" class="box">
+
+    {{> StartScreenshot}}
+
+    <div id="start-intro-text">
+        <h1>A place for your photos</h1>
+
+        <p class="subtitle" style="margin-bottom: 30px;">
+            FOTOSTEAM is a new kind of photo portfolio.
+            Present your images the only way they deserve:<br />
+            In full width and uncompromising. Every inch for your work.
+        </p>
+
+        {{> StartFeatures}}
+        {{> StartIntroButtons}}
+    </div>
+</div>
+
+<div id="start-howto" class="box" style="display:none;">
+
+    <div id="start-howto-text">
+        <h1>How FOTOSTEAM works</h1>
+
+        <p>First of all...</p>
+        <p class="subtitle">
+            Your data stay where they belong: with you!
+        </p>
+        <p>
+            FOTOSTEAM, saves your photos at your cloud provider and
+            not on a server, where you don't have direct access.
+            This way, you keep full and easy control over your data!
+        </p>
+
+        <h3 class="strip">Step 1</h3>
+        <p>
+            Create your <strong>FOTOSTEAM</strong> account, by
+            <strong>registering</strong> up via one of the following
+            social media services, because, neither we store your
+            password...
+        </p>
+        <p>
+            {{> StartAuthBrand}}
+        </p>
+
+        <h3 class="strip">Step 2</h3>
+        <p>
+            You connect your account with one of the available cloud providers...
+        </p>
+        {{> StartCloudBrand}}
+
+        <h3 class="strip">Step 3</h3>
+        <p>
+            You upload your photos either via this website or you just copy them in the folder
+            named <span class="folder">.../Fotosteam/ToPublish</span> on your hard-drive,
+            which was created during the connect with your cloud provider.
+        </p>
+        <img src="/Content/Images/Screen-Windows-ToPublish-Dropbox.png" style="display:block; margin: 10px 0;" />
+
+        <h3 class="strip">Step 4</h3>
+        <p>
+            Synchronize the photos via the button on your
+            <a data-i18n="dashboard" href="/dashboard">Dashboard</a>.
+            Dropbox users can save the effort by activating
+            <strong>automatic sync</strong> in their
+            <a data-i18n="dashboard" href="/dashboard#options">options</a>.
+        </p>
+        <p>
+            The images will be read from the ToPublish-folder, optimized and stored in several sizes in a new folder under
+            <span class="folder">.../Fotosteam/Internal/Fotos</span>, for giving your friends the best
+            photo experience.
+        </p>
+        <img src="/Content/Images/Screen-Windows-Foto-Dropbox.png" style="display:block; margin: 10px 0;" />
+
+        <h3 class="strip">Step 5</h3>
+        <p>
+            After the synchronization you will find your new photos on the dashboard tab <strong>New Photos</strong>.
+        </p>
+        <p><strong>Done!</strong></p>
+
+    </div>
+    <div id="start-howto-pic"></div>
+
+</div>
+
+{{> StartFotosNew}}
+{{> StartFotosTop}}
+
+<div id="start-featured-story" class="box">
+    <div id="start-featured-story-text">
+        <h1>Featured Story</h1>
+        <p>
+            <strong>FOTOSTEAM Stories</strong> will be finalized and introduced in a
+            few weeks. To show you how they look like, we decided to set up
+            a pre-release and tell you the story about a walk ... a long walk.
+        </p>
+        <p>
+            <a href="/robert">Robert</a>, co-founder of FOTOSTEAM, is actually on a 5 month
+            hike alongside the <a href="http://www.wikiwand.com/en/Appalachian_Trail" target="_blank">Appalachian Trail</a>
+            and is reporting about this adventure, whenever he has access to the internet.
+        </p>
+        <p>
+            Stay tuned...
+        </p>
+    </div>
+    <div id="start-featured-story-pic"
+         style="background-image: url(https://dl.dropboxusercontent.com/s/vx0lr89jiw8ebzb/640.jpg);">
+        <a href="/robert/story/appalachian-trail">Appalachian Trail<span>by Robert Bakos</span></a>
+    </div>
+</div>
+
+{{> StartMember}}

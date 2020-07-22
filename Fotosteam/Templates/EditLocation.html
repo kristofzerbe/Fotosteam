@@ -1,0 +1,76 @@
+﻿<form id="location-edit-form">
+    <div id="location-map"></div>
+    <div class="field input">
+        <input id="LocationName" name="LocationName" type="text"
+               data-i18n-placeholder="location-name" value="{{Location.LocationName}}" />
+        <label for="LocationName" data-i18n="location-name">Name</label>
+        <span id="errorLocationName" class='help-block'></span>
+        <small class="edit-note" data-i18n="location-name-edit-note"></small>
+    </div>
+    <div class="field input">
+        <input id="LocationUrl" name="LocationUrl" type="text" disabled="disabled"
+               data-i18n-placeholder="location-url" value="{{Location.LocationUrl}}" />
+        <label for="LocationUrl" data-i18n="location-url">Url</label>
+    </div>
+    <div class="field input">
+        <input id="LocationLatitude" name="LocationLatitude" type="text"
+               data-i18n-placeholder="location-latitude" value="{{Location.LocationLatitude}}" />
+        <label for="LocationLatitude" data-i18n="location-latitude">Latitude</label>
+    </div>
+    <div class="field input">
+        <input id="LocationLongitude" name="LocationLongitude" type="text"
+               data-i18n-placeholder="location-longitude" value="{{Location.LocationLongitude}}" />
+        <label for="LocationLongitude" data-i18n="location-longitude">Longitude</label>
+    </div>
+    <div class="field input">
+        <input id="LocationStreet" name="LocationStreet" type="text"
+               data-i18n-placeholder="location-street" value="{{Location.LocationStreet}}" />
+        <label for="LocationStreet" data-i18n="location-street">Street</label>
+    </div>
+    <div class="field input">
+        <input id="LocationCity" name="LocationCity" type="text"
+               data-i18n-placeholder="location-city" value="{{Location.LocationCity}}" />
+        <label for="LocationCity" data-i18n="location-city">City</label>
+        <!--<span id="errorLocationCity" class='help-block'></span>-->
+    </div>
+    <div class="field input">
+        <input id="LocationCounty" name="LocationCounty" type="text"
+               data-i18n-placeholder="location-county" value="{{Location.LocationCounty}}" />
+        <label for="LocationCounty" data-i18n="location-county">County</label>
+        <!--<span id="errorLocationCounty" class='help-block'></span>-->
+    </div>
+    <div class="field input">
+        <input id="LocationCountry" name="LocationCountry" type="text"
+               data-i18n-placeholder="location-country" value="{{Location.LocationCountry}}" />
+        <label for="LocationCountry" data-i18n="location-country">Country</label>
+        <span id="errorLocationCountry" class='help-block'></span>
+    </div>
+    <div class="field input">
+        <input id="LocationCountryIsoCode" name="LocationCountryIsoCode" type="text"
+                data-i18n-placeholder="location-country-iso-code" value="{{Location.LocationCountryIsoCode}}" />
+        <label for="LocationCountryIsoCode" data-i18n="location-country-iso-code">CountryIsoCode</label>
+        <span id="errorLocationCountryIsoCode" class='help-block'></span>
+    </div>
+    
+    <div style="overflow: auto;">
+        <button id="DeleteLocation" class="small ghost" style="float:right;" data-i18n="location-delete"></button>
+        <button id="MergeLocation" class="small ghost" style="float:right; margin-right: 10px;" data-i18n="location-merge"></button>
+    </div>
+
+    <div id="merge-location-wrapper" class="instant-input" style="display: none;">
+        <label data-i18n="location-merge-info">Merge this location with:</label>
+        <select id="MergeLocationSelect"
+                data-i18n-placeholder="location-merge"
+                data-placeholder="{{ChoosePlaceholder}}"></select>
+        <div class="instant-cmds">
+            <button id="MergeLocationCancel" class="small ghost" style="float:right;"
+                    data-i18n="cancel">
+                Cancel
+            </button>
+            <button id="MergeLocationOk" class="small" style="float: right; margin-right: 10px;"
+                    data-i18n="location-merge-command">
+                Merge
+            </button>
+        </div>
+    </div>
+</form>

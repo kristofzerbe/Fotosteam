@@ -1,0 +1,37 @@
+﻿[
+    {
+        "Name": "Wiesbaden",
+        "CountryIsoCode": "DEU",
+        "Latitude": 50.084655,
+        "Longitude": 8.244405,
+        "PhotoCount": 1
+    },
+    {
+        "Name": "Kloster Eberbach, Eltville",
+        "CountryIsoCode": "DEU",
+        "Latitude": 50.044157,
+        "Longitude": 8.046154,
+        "PhotoCount": 1
+    },
+    {
+        "Name": "Brügge",
+        "CountryIsoCode": "BEL",
+        "Latitude": 51.208958,
+        "Longitude": 3.224651,
+        "PhotoCount": 6
+    },
+    {
+        "Name": "Antwerpen",
+        "CountryIsoCode": "BEL",
+        "Latitude": 51.222175,
+        "Longitude": 4.399050,
+        "PhotoCount": 1
+    },
+    {
+        "Name": "Dublin",
+        "CountryIsoCode": "IRL",
+        "Latitude": 53.347883,
+        "Longitude": -6.259334,
+        "PhotoCount": 3
+    }
+]

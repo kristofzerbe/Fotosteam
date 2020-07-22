@@ -1,0 +1,71 @@
+﻿<div class="about-info">
+    <div id="about-map"></div>
+    <img src="{{Member.Avatar200Url}}" />
+    <div id="about-fotos">
+        <div id="about-fotos-count">{{Member.Fotos.length}} <span data-i18n="photos">Fotos</span></div>
+        <a class="about-fotos-link" id="about-fotos-journal"
+           href="{{Member.SteamPath}}/journal" data-i18n="journal">Journal</a>
+        <a class="about-fotos-link" id="about-fotos-overview"
+           href="{{Member.SteamPath}}/overview" data-i18n="overview">Übersicht</a>
+    </div>
+</div>
+<div class="about-details page-details">
+
+    <div class="details-panel" id="about-meta">
+
+        <div id="about-meta-buddy"></div>
+
+        <div id="about-meta-info">
+            <h2>{{Member.Motto}}</h2>
+            <p>{{Member.Description}}</p>
+
+            <div>
+                {{#if Member.Options.DisplayEmailAddress}}
+                <a class="text brand icon icon-mail"
+                   href="mailto:{{Member.Email}}" target="_blank">Email</a>
+                {{/if}}
+                {{#Member.SocialMedias}}
+                <a class="text brand icon icon-{{TypeClass}}"
+                   href="{{Url}}" target="_blank">{{TypeCaption}}</a>
+                {{/Member.SocialMedias}}
+            </div>
+
+            <div id="about-meta-fotos">
+                <h3 id="fotos-member-random" data-i18n="random-fotos"></h3>
+                <h3 id="fotos-member-toprated" class="link" data-i18n="toprated-fotos"></h3>
+                <div class="collection-container">
+                    <div class="collection-wrapper"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="about-meta-collections">
+            <a href="#" class="stories" data-collection="stories">
+                <i class="icon icon-feather"></i>
+            </a>
+            <a href="#" class="events" data-collection="events">
+                <i class="icon icon-rocket"></i>
+            </a>
+            <a href="#" class="locations" data-collection="locations">
+                <i class="icon icon-location"></i>
+            </a>
+            <a href="#" class="topics" data-collection="topics">
+                <i class="icon icon-bullseye"></i>
+            </a>
+            <a href="#" class="categories current" data-collection="categories">
+                <i class="icon icon-pin"></i>
+            </a>
+            <h2 id="about-meta-collection-current"></h2>
+            <div id="about-meta-collection-items"></div>
+        </div>
+    </div>
+
+    <div class="details-panel" id="about-buddies">
+        <h2 data-i18n="buddies"></h2>
+        {{#BuddiesList}}
+        <a class="buddy {{MutualClass}}" style="background-image: url('{{Member.Avatar100Url}}');"
+           href="{{Member.SteamPath}}/about"></a>
+        {{/BuddiesList}}
+    </div>
+
+</div>

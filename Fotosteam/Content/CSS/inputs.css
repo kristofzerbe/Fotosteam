@@ -1,0 +1,471 @@
+﻿/*  Inputs
+    http://anjlab.github.io/inputs
+*/
+.field {
+    position: relative;
+}
+.input-label {
+    font-size: 0.9rem;
+    margin-bottom: 2px;
+    display: block;
+}
+.input {
+    position: relative;
+    margin-bottom: 15px;
+}
+.input > small.edit-note {
+    color: #888;
+    margin: 0 0 0 2px;
+    display: block;
+    width: 100%;
+    text-align: right;
+    font-weight: 300;
+}
+.input label,
+.input-label {
+    color: #888;
+    font-weight: 400;
+    cursor: text;
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+    -webkit-font-smoothing: antialiased;
+}
+.input .help-block {
+    display: none;
+    text-align: left;
+    font-size: 0.8rem;
+    line-height: 13px;
+    margin-top: 3px;
+    color: #222;
+    -webkit-font-smoothing: antialiased;
+    -moz-transition: all 1s cubic-bezier(0.4, 1, 0.65, 1);
+    -webkit-transition: all 1s cubic-bezier(0.4, 1, 0.65, 1);
+    -o-transition: all 1s cubic-bezier(0.4, 1, 0.65, 1);
+    transition: all 1s cubic-bezier(0.4, 1, 0.65, 1);
+}
+.input input[type='text'],
+.input input[type='email'],
+.input input[type='password'],
+.input textarea {
+    width: 100%;
+    border: 0;
+    border-bottom: 4px solid transparent;
+    margin: 30px 0 0 0;
+    padding: 4px 10px 0 10px;
+    border-radius: 0; 
+    resize: none;
+    color: #222;
+    -moz-transition: all 1s cubic-bezier(0.4, 1, 0.65, 1);
+    -webkit-transition: all 1s cubic-bezier(0.4, 1, 0.65, 1);
+    -o-transition: all 1s cubic-bezier(0.4, 1, 0.65, 1);
+    transition: all 1s cubic-bezier(0.4, 1, 0.65, 1);	
+}
+.input textarea {
+    padding: 10px 10px 5px 10px;
+}
+.input input[type='text']::-webkit-input-placeholder,
+.input input[type='email']::-webkit-input-placeholder,
+.input input[type='password']::-webkit-input-placeholder,
+.input textarea::-webkit-input-placeholder {  
+    color: white;
+}
+.input input[type='text']:-moz-placeholder,
+.input input[type='email']:-moz-placeholder,
+.input input[type='password']:-moz-placeholder,
+.input textarea:-moz-placeholder {
+    color: white;
+}
+.input input[type='text']::-moz-placeholder,
+.input input[type='email']::-moz-placeholder,
+.input input[type='password']::-moz-placeholder,
+.input textarea::-moz-placeholder {
+    color: white;
+}
+.input input[type='text']:-ms-input-placeholder,
+.input input[type='email']:-ms-input-placeholder,
+.input input[type='password']:-ms-input-placeholder,
+.input textarea:-ms-input-placeholder {
+    color: white;
+}
+.input input[type='text']:-webkit-autofill,
+.input input[type='email']:-webkit-autofill,
+.input input[type='password']:-webkit-autofill,
+.input textarea:-webkit-autofill {
+    box-shadow: 0 0 0 1000px white inset;
+}
+.input input[type='text']:not(.error):focus,
+.input input[type='email']:not(.error):focus,
+.input input[type='password']:not(.error):focus,
+.input textarea:focus {
+    outline: 0;
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 4px solid #FF435D;
+    background: white;
+}
+.input input[type='text']:focus::-webkit-input-placeholder,
+.input input[type='email']:focus::-webkit-input-placeholder,
+.input input[type='password']:focus::-webkit-input-placeholder,
+.input textarea:focus::-webkit-input-placeholder {
+    color: transparent !important;
+}
+.input input[type='text']:focus:-moz-placeholder,
+.input input[type='email']:focus:-moz-placeholder,
+.input input[type='password']:focus:-moz-placeholder,
+.input textarea:focus:-moz-placeholder {
+    color: transparent !important;
+}
+.input input[type='text']:focus::-moz-placeholder,
+.input input[type='email']:focus::-moz-placeholder,
+.input input[type='password']:focus::-moz-placeholder,
+.input textarea:focus::-moz-placeholder {
+    color: transparent !important;
+}
+.input input[type='text']:focus:-ms-input-placeholder,
+.input input[type='email']:focus:-ms-input-placeholder,
+.input input[type='password']:focus:-ms-input-placeholder,
+.input textarea:focus:-ms-input-placeholder {
+    color: transparent !important;
+}
+.input input[type='text']:focus + label,
+.input input[type='email']:focus + label,
+.input input[type='password']:focus + label,
+.input textarea:focus + label,
+.input input[type='text'][value] + label,
+.input input[type='email'][value] + label,
+.input input[type='password'][value] + label,
+.input textarea[value] + label {
+    -webkit-transform: translate(-5%, -1.5em) scale(0.9, 0.9) !important;
+    -ms-transform: translate(-5%, -1.5em) scale(0.9, 0.9) !important;
+    -moz-transform: translate(-5%, -1.5em) scale(0.9, 0.9) !important;
+    -o-transform: translate(-5%, -1.5em) scale(0.9, 0.9) !important;
+    transform: translate(-5%, -1.5em) scale(0.9, 0.9) !important;
+    left: 0;
+    top: -5px;   
+    color: #888;
+    padding-left: 0 !important;     
+}
+.input input[type='text']:focus + label a,
+.input input[type='email']:focus + label a,
+.input input[type='password']:focus + label a,
+.input textarea:focus + label a,
+.input input[type='text'][value] + label a,
+.input input[type='email'][value] + label a,
+.input input[type='password'][value] + label a,
+.input textarea[value] + label a {
+    color: #888;
+}
+.input input[type='text']:focus + label,
+.input input[type='email']:focus + label,
+.input input[type='password']:focus + label,
+.input textarea:focus + label,
+.input input[type='text']:focus + label a,
+.input input[type='email']:focus + label a,
+.input input[type='password']:focus + label a,
+.input textarea:focus + label a,
+.input.dark input[type='text'][value] + label,
+.input.dark input[type='email'][value] + label,
+.input.dark input[type='password'][value] + label,
+.input.dark textarea[value] + label {
+    color: #FF435D;
+}
+.input input[type='text']:-webkit-autofill + label,
+.input input[type='email']:-webkit-autofill + label,
+.input input[type='password']:-webkit-autofill + label,
+.input textarea:-webkit-autofill + label {
+    -webkit-transform: translate(-12.5%, -1.5em) scale(0.75, 0.75);
+    -moz-transform: translate(-12.5%, -1.5em) scale(0.75, 0.75);
+    -ms-transform: translate(-12.5%, -1.5em) scale(0.75, 0.75);
+    -o-transform: translate(-12.5%, -1.5em) scale(0.75, 0.75);
+    transform: translate(-12.5%, -1.5em) scale(0.75, 0.75);
+}
+.input input[type='text'][disabled],
+.input input[type='email'][disabled],
+.input input[type='password'][disabled],
+.input textarea[disabled] {
+    color: #999;
+    background-color: rgba(255,255,255,0.5);
+    border-style: none;
+}
+.input input[type='text'][disabled] + label,
+.input input[type='email'][disabled] + label,
+.input input[type='password'][disabled] + label,
+.input textarea[disabled] + label,
+.input input[type='text'][disabled] + label a,
+.input input[type='email'][disabled] + label a,
+.input input[type='password'][disabled] + label a,
+.input textarea[disabled] + label a {
+    color: #888;
+}
+.input input[type='text'] + label,
+.input input[type='email'] + label,
+.input input[type='password'] + label,
+.input textarea + label {
+    width: 100%;
+    position: absolute;
+    left: 10px;
+    top: 3px;
+    margin-bottom: 2px;
+    padding: 5px 0;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    color: #ccc;
+}
+.input input[type='text'] + label a,
+.input input[type='email'] + label a,
+.input input[type='password'] + label a,
+.input textarea + label a {
+    color: #ccc;
+    text-decoration: underline;
+}
+    .input input[type='text'].error,
+.input input[type='email'].error,
+.input input[type='password'].error,
+.input textarea.error {
+    border-color: rgba(236, 0, 0, 0.9)
+}
+.input input[type='text'].error ~ .help-block,
+.input input[type='email'].error ~ .help-block,
+.input input[type='password'].error ~ .help-block,
+.input textarea.error ~ .help-block {
+    display: block;
+    color: rgba(236, 0, 0, 1);
+}
+.input textarea:focus + label,
+.input textarea[value] + label {
+    top: -5px;
+}
+.input textarea + label {
+    margin-bottom: 5px;
+    -webkit-transform: translate(-12.5%, -1.5em) scale(0.75, 0.75);
+    -ms-transform: translate(-12.5%, -1.5em) scale(0.75, 0.75);
+    -moz-transform: translate(-12.5%, -1.5em) scale(0.75, 0.75);
+    -o-transform: translate(-12.5%, -1.5em) scale(0.75, 0.75);
+    transform: translate(-12.5%, -1.5em) scale(0.75, 0.75);
+}
+.input textarea:empty + label {
+    -webkit-transform: translate(0, 0) scale(1, 1);
+    -ms-transform: translate(0, 0) scale(1, 1);
+    -moz-transform: translate(0, 0) scale(1, 1);
+    -o-transform: translate(0, 0) scale(1, 1);
+    transform: translate(0, 0) scale(1, 1);
+}
+.input input[type='checkbox'] {
+    position: absolute;
+    opacity: 0;
+}
+.input input[type='checkbox'] + label {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    padding-left: 30px;
+}
+.input input[type='checkbox'] + label:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    content: "";
+    border: 2px solid gray;
+    height: 20px;
+    width: 20px;
+    border-radius: 2px;
+    background: white;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.input input[type='checkbox'] + label:after {
+    position: absolute;
+    display: block;
+    content: "";
+    bottom: 5px;
+    left: 7px;
+    width: 6px;
+    height: 13px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease;
+    -moz-transition: opacity 0.3s ease;
+    -o-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+    -webkit-transition-delay: 0.1s;
+    -moz-transition-delay: 0.1s;
+    -o-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.input input[type='checkbox']:focus + label:before {
+    box-shadow: 0 0 5px #FF435D;
+}
+.input input[type='checkbox']:checked + label:before {
+    background: #FF435D;
+    border-color: #FF435D;
+}
+.input input[type='checkbox']:checked + label:after {
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    opacity: 1;
+}
+.input input[type='checkbox'][disabled] + label {
+    color: silver;
+}
+.input input[type='checkbox'][disabled] + label:before {
+    border-color: silver;
+}
+.input input[type='checkbox'][disabled]:checked + label:before {
+    background: silver;
+}
+.input input[type='radio'] {
+    position: absolute;
+    opacity: 0;
+}
+.input input[type='radio'] + label {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    padding-left: 30px;
+}
+.input input[type='radio'] + label:before,
+.input input[type='radio'] + label:after {
+    position: absolute;
+    left: 3px;
+    bottom: 3px;
+    display: block;
+    content: "";
+    border: 2px solid gray;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: white;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+.input input[type='radio'] + label:after {
+    background: #FF435D;
+    border: 2px solid white;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.input input[type='radio']:focus + label:before {
+    box-shadow: 0 0 5px #FF435D;
+}
+.input input[type='radio']:checked + label:before {
+    border-color: #FF435D;
+}
+.input input[type='radio']:checked + label:after {
+    -webkit-transform: scale(0.75, 0.75);
+    -ms-transform: scale(0.75, 0.75);
+    transform: scale(0.75, 0.75);
+}
+.input input[type='radio'][disabled] + label {
+    color: silver;
+}
+.input input[type='radio'][disabled] + label:before {
+    border-color: silver;
+}
+.input input[type='radio'][disabled]:checked + label:before,
+.input input[type='radio'][disabled]:checked + label:after {
+    background: silver;
+}
+.input.select {
+    width: 100%;
+    overflow: hidden;
+}
+.input.select:after {
+    bottom: 1px;
+    right: 5px;
+    border: solid transparent;
+    content: ' ';
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-top-color: silver;
+    border-width: 5px;
+    margin-top: -2px;
+    z-index: 100;
+}
+.input.select label {
+    position: absolute;
+    font-size: 75%;
+    left: 0;
+    top: 0;
+}
+.input.select select {
+    padding: 1.5em 0 1px 0;
+    color: gray;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    width: 108%;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid silver;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.input.select select:focus {
+    padding-bottom: 0px;
+    border-bottom: 2px solid #FF435D;
+    outline: none;
+}
+.input.select select[disabled] {
+    color: silver;
+    background-color: white;
+    border-bottom: 1px dashed silver;
+}
+.input.select select[disabled] + label {
+    color: silver;
+}
+.input.select select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+}
+/* --------------------------------------------- */
+.input.inline-icon i.icon.inline {
+    position: absolute;
+    left: 0;
+    top: 3px;    
+}
+.input.inline-icon input[type='text'] {
+    padding-left: 40px;
+}
+.inline-icon.input input[type='text'] + label {
+    padding-left: 25px;
+}

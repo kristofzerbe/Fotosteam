@@ -1,0 +1,7 @@
+<strong>##userAlias##</strong> commented your photo 
+<a href="https://www.fotosteam.com/##alias##/foto/##photoname##">##phototitle##</a>: 
+<br />
+<pre>##comment##</pre>
+<br />
+<br />
+<img src="##photourl##" width="400" />

@@ -1,0 +1,356 @@
+﻿/*  Define mobile styles 
+
+    block-size = 30
+*/
+@media only screen { 
+
+    /* TEST */ #logomenu #tile-12.tile:before { content: "S"; }
+
+    h1 { font-size: 2.25rem; }
+    h2 { font-size: 1.6875rem; }
+    h3 { font-size: 1.545rem; }
+    h4 { font-size: 1.325rem; }
+    h5 { font-size: 1.225rem; }
+    h6 { font-size: 1rem; }
+
+    h3.strip { margin: 15px 0 20px -40px; }
+    h2.principal { display: inline-block; }
+    div.adjunct {
+        position: absolute;    
+        top: 0;
+        right: 0;        
+    }
+
+    #content p,
+    #content ul,
+    #content ol {
+        font-size: 1.2rem;
+        font-weight: 300;
+        line-height: 1.3;
+        margin-bottom: 10px;
+    }
+
+    #attention-bar { height: 30px; line-height: 30px; font-size: 1.3rem; }
+    #attention-bar ~ .sidebar,
+    #attention-bar ~ #logomenu,
+    #attention-bar ~ #container { top: 30px; }
+
+    body.sidebar-open .sidebar { width: 225px; left: 0; }
+    body.sidebar-open #logomenu { left: 225px; }
+    body.sidebar-open header { background-position: 225px; }
+
+    .sidebar h2, footer h2 { font-size: 2.6em; }
+    body.common .sidebar div.head { padding-bottom: 0; }
+    body.steam .sidebar div.head { padding-bottom: 20px; }
+    .sidebar div.head h2 { padding: 0 15px; }
+    .sidebar small.head-by { font-size: 1.8em; left: 23px; top: 36px; }    
+    .sidebar a.head-steam {
+        font-size: 1.5em; 
+        line-height: 18px; 
+        top: 50px;
+        left: 45px; 
+        width: calc(100% - 55px);
+    }
+    .sidebar ul.sidebar-commands li a, .sidebar-bay h3, .sidebar .bay-close { font-size: 1.4em; }
+    .sidebar ul.sidebar-commands li a { padding: 0 15px; line-height: 32px; }
+    .sidebar ul.sidebar-commands li a i.icon { margin-right: 0; }
+    .sidebar ul.sidebar-commands li.line {
+        background-image: url(/Content/Images/hr-line-mobile.png);
+        height: 20px;
+        background-repeat: no-repeat;
+        background-position: 15px center;
+        margin: 5px 0;
+        padding: 0;        
+    }
+
+    .sidebar-bay .bay-wrapper { padding: 0 15px; }
+    .sidebar .bay-close { padding: 10px 0; }
+    .sidebar .bay-close:before { margin: -2px 10px 0 0; }
+
+    ul#sidebar-notifications li a.go img, ul#sidebar-notifications li div.toggle img {
+        width: 30px;
+        height: 30px;
+    }
+    ul#sidebar-notifications > li > a.go { padding: 0 25px; }
+    ul#sidebar-notifications li > a.go img span { padding-left: 40px; }
+    ul#sidebar-notifications li.group div.toggle img ~ div > span { min-height: 30px; }
+
+    #logomenu { height: 120px; width: 90px; }
+    #logomenu .tile, #logomenu .tile i:before { height: 30px; width: 30px; }    
+    #logomenu .tile.tile-moveup i:before { font-size: 2.2rem; margin-top: 3px; }
+    #logomenu .tile.tile-dashboard i:before { font-size: 1.4rem; margin-top: 3px; }
+
+    #logomenu .tile.tile-menu span { width: 24px; height: 3px; left: 5px; }
+    #logomenu .tile.tile-menu span:nth-child(1) { top: 7px; }
+    #logomenu .tile.tile-menu span:nth-child(2) { top: 13px; } 
+    #logomenu .tile.tile-menu span:nth-child(3) { top: 13px;}
+    #logomenu .tile.tile-menu span:nth-child(4) { top: 19px; }
+    #logomenu .tile.tile-menu.open span:nth-child(2),
+    #logomenu .tile.tile-menu.open span:nth-child(3) { top: 13px; }
+    
+    #logomenu .tile#tile-32 a { font-size: 1.3rem; }
+    .tooltipster-menu.tooltipster-base { left: 90px !important; }
+    .sidebar-open .tooltipster-menu.tooltipster-base { left: 315px !important; }
+    .tooltipster-menu .tooltipster-content { padding: 8px; }
+
+    body.common header { height: 80px; }
+    body.common header .title { font-size: 3.4em; right: 15px; top: 10px; line-height: 30px; }
+    body.common i.err { font-size: 6em; }
+    body.common .box { padding: 20px 40px; margin: 30px 0 30px 30px; }
+    body.common .box h1 { line-height: 30px; margin: 10px 0 20px; }
+
+    /*body.steam header { height: 200px; }*/
+    body.steam header { height: 30% }
+    body.steam header.stories { height: 50%; }
+    body.steam header.foto { height: 40%; }
+    body.steam header .title { font-size: 3.4em; bottom: -12px; line-height: 35px; padding-right: 10px; }
+    body.steam header .title > small { font-size: 1.2rem; top: -35px; }
+    body.steam header .title > div.title-commands { right: 10px; top: -40px; }
+    body.steam header .title > div.title-commands a { font-size: 1.2rem; }
+    body.steam header .title > div.title-commands a i.icon-left-dir,
+    body.steam header .title > div.title-commands a i.icon-right-dir { font-size: 1.8rem; }
+    body.steam header .avatar {
+        height: 60px; width: 60px; 
+        background-size: 52px 52px; /* > border-width */
+        border-width: 4px;
+        top: 5px; right: 5px;
+    }
+    body.steam header:not(.headerbar) .avatar:hover {
+        background-size: 60px 60px;
+        background-position: -4px -4px; /* > border-width */
+    }
+    body.steam header .member {
+        font-size: 2.2em;
+        line-height: 24px;
+        right: 70px;
+        top: 8px;
+    }
+    body.steam header.headerbar { height: 30px; left: 90px; width: calc(100% - 90px) }    
+    body.steam header.headerbar .avatar {
+        height: 30px; width: 30px;
+        background-size: 30px;
+    }
+    body.steam header.headerbar .title { font-size: 1.6em; bottom: -2px; margin-right: 12px; }
+    body.steam header.headerbar .title.icon:before { font-size: 16px; left: -22px; top: 0; }
+    
+    body.steam .event-info { display: block; }
+
+    div.foto { height: auto; } /* initial */
+
+    figure { padding-top: 30px; }
+    #overview { padding-top: 40px; }
+    figcaption { font-size: 1.6em; top: -3px; right: 5px; }
+    figcaption .info-icons { margin-right: 3px; }
+    figcaption .info-icons i.icon { padding: 7px 8px 0 0; }
+    figcaption .info-icons i.icon-lock { font-size: 1.1rem; }
+    figcaption .info-icons i.icon-feather { font-size: 1rem; padding-top: 6px; }
+    figcaption a {
+      height: 20px;
+      width: 20px;
+      font-size: 18px;
+      line-height: 22px;
+    }
+    figcaption a.leftwing { margin: 8px 5px 0 0; }
+    figcaption a.rightwing { margin: 8px 0 0 5px; }
+    .figure-details { padding: 30px 25px 25px 15px }
+    .page-details { padding: 0 0 5px 30px; }
+    .page-details .details-panel { padding: 20px; margin: 30px 0 15px; }
+    .page-details .details-commands a,
+    .page-commands a { font-size: 24px; padding: 8px; }
+    .page-details .details-commands a i,
+    .page-commands a i { margin-right: 7px; }    
+    .page-details .details-commands ~ .details-panel { margin-top: 10px /*!important*/ }
+    .panel-exif .flex-cell { display: block; }
+
+    figure.open .figure-details { top: 30px; }
+    figure .figure-bar {
+        height: calc(100% - 35px);
+        width: 50px;
+        padding-left: 13px;
+        box-shadow: -50px 0 15px -10px rgba(0, 0, 0, 0.15) inset;
+    }
+    figure .figure-btn { min-height: 32px; margin-bottom: 3px; }
+    figure .figure-btn.icon:before,
+    .foto-meta a.foto-btn.icon:before { font-size: 24px; }
+
+    figure .figure-btn.icon-fullscreen { padding-top: 6px; }
+    figure .figure-btn.icon-picture { padding-top: 8px; }
+    figure .figure-btn.icon-camera { padding-top: 8px; }
+    figure .figure-btn.icon-chat { padding-top: 8px; }
+    figure .figure-btn.icon-star { padding-top: 8px; }
+    figure .figure-btn.icon-share { padding-top: 8px; }
+
+    .figure-details .foto-meta-pic.landscape,
+    .figure-details .foto-meta-pic.portrait {
+        width: 100%;
+        margin-bottom: 20px;
+        display: block;
+    }
+    .figure-details .foto-meta-pic.landscape ~ .foto-meta-sub,
+    .figure-details .foto-meta-pic.portrait ~ .foto-meta-sub { width: 100%; }
+
+    .foto-details .foto-meta-sub { margin-top: 20px; }
+
+    .foto-details .foto-interaction .foto-comments {
+        padding-right: 0;
+        border-right: none;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px rgba(0,0,0,0.1) solid;
+    }
+    .foto-ratings .rating-wrapper a.rater {
+        width: 60px; height: 60px;
+        background-size: 60px 60px;
+    }
+
+    #overview-list li.list-item a:hover { height: 75px; }
+    #overview-list li.list-item a:hover img { width: 75px; }
+    #overview-list li.list-item a span { font-size: 0.9rem; }
+    #overview-list li.list-item a span.item-id,
+    #overview-list li.list-header a.item-id {
+        margin-left: 75px;
+        width: 80px;
+        padding-right: 0;
+    }
+    #overview-list li.list-item a:hover span.item-id { margin-left: 75px; }
+    #overview-list li.list-item a span.item-name,
+    #overview-list li.list-header a.item-name { width: 200px; }
+    #overview-list li.list-item a span.item-date,
+    #overview-list li.list-header a.item-date { width: 100px; }
+    #overview-list li.list-item a > div { margin-left: 90px; margin-top: 0; } 
+    #overview-list li.list-item a > div i { font-size: 1rem; margin-right: 10px; }
+
+    #about-meta-collections { display: none; }
+    .about-info { height: 120px; }
+    .about-info img,
+    #about-fotos { font-size: 26px; width: 120px; height: 120px; }
+    #about-fotos-count { margin-top: 15px; margin-bottom: 5px; }
+    .about-fotos-link { font-size: 20px; width: 100%; display: block; position: relative; }
+    #about-fotos-journal { left: auto; }
+    #about-fotos-overview { right: auto;}
+    #about-meta-buddy { top: 8px; left: 30px; font-size: 0.9rem; }
+
+    .chapter { padding: 30px 0 0; }
+    .ledge { display: block; }
+    .brick { min-height: 400px; }
+    .ledge-template-S .brick { min-height: 400px; }
+    .brick.portrait { min-height: 600px; }
+    .brick-map { min-height: 300px !important; }
+    .brick-text { min-height: 0 !important; }
+    .chapters .prev-chapter, .chapters .next-chapter { min-height: 90px; }
+    .chapters .prev-chapter.empty, .chapters .next-chapter.empty { display: none; }
+    .chapters span { font-size: 40px; margin-top: -10px; }
+
+    .content-box p { margin: 0; }
+
+    a.brand.logo {
+        margin: 5px 5px 0 0;
+    }
+    a.brand.logo img {
+        -moz-box-sizing: content-box;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;        
+    }
+
+    #start-intro { display: block; overflow: hidden }
+    #start-intro-screenshot,
+    #start-howto-pic { display: none; }
+    #start-intro-text { padding-bottom: 20px;  }
+    #start-intro-text .sl { cursor: default; }
+    #start-intro-buttons button {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    div.feature-list { padding: 0; }
+    a.feature { width: 50%; margin: 0; cursor: default; }
+    a.feature i.icon { font-size: 2rem; margin-bottom: 8px; }
+    a.feature i:before { font-size: 3rem; }
+    a.feature p { font-size: 1.1rem !important; line-height: 20px !important; }
+
+    .box-collection .collection-container { margin: 0 -40px -20px; } 
+    .box-collection .collection-wrapper .cubicle { width: 33.333%; }
+    .box-collection .collection-wrapper.collection-small .cubicle { width: 20%; }
+    .collection-wrapper .cubicle:hover .title { font-size: 1.4em; }    
+    .collection-wrapper.collection-small .cubicle:hover .title { font-size: 1.1em; }    
+    .cubicle { width: calc(100%/3); }
+    #multieditor-selection .cubicle { width: calc(100%/4); }
+    .cubicle .title,
+    .collection-container.selector .cubicle.selected .title {
+        font-size: 1.4rem !important;
+        line-height: 20px;
+        padding: 4px 6px;
+    }
+    #multieditor {
+        /*border: 1px red solid;*/
+    }
+    #multieditor-selection {
+        width: 100%;
+        height: auto;
+    }
+    #multieditor-controls {
+        margin: 20px 0 0;
+    }
+    #multieditor-controls-wrapper {
+        padding-right: 25px;    
+    }
+
+    #start-howto-text a.brand.logo { padding: 0 5px; }
+    #start-howto-text a.brand.logo img { width: 75px; }
+    #start-featured-story-pic {
+        width: calc(100% + 80px);
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        margin: 30px -40px -20px;
+        overflow: hidden; 
+    }
+
+    #setup-intro-provider a.brand.logo { padding: 0 10px; } 
+    #setup-intro-provider a.brand.logo img { width: 100px; } 
+    #setup-intro-info .setup-intro-info-provider img.screenshot {
+        float: none;
+        width: 100%;
+        margin: 10px 0;    
+    }
+
+    #dashboard-tabs > ul > li { float: none; }
+    #dashboard-tabs > ul > li a { font-size: 2rem; padding: 10px 20px; text-align: left; }
+    #dashboard .tabulous-container { padding: 20px 30px; }
+    #dashboard .tabulous-container .tabulous-shelf { margin-right: 30px; width: calc(100% - 60px); }
+    #tab-profile-avatar { margin: 40px 0; }
+    #profile-header-image-form { height: 300px; }
+    #profile-header-image-form .dz-image,
+    #profile-header-image-form div.current { height: 290px; }
+    #profile-avatar-form img { margin: 0; margin-top: -1px; }
+    #dashboard-tabs section.flex .collection-item-list {
+        padding-bottom: 20px;
+        border-right: none;
+        border-bottom: 1px #aaa solid;
+    }
+    #dashboard-tabs section.flex .collection-items { height: 360px; overflow: hidden; }
+    #dashboard-tabs section.flex .collection-item-edit { padding-top: 20px; }
+
+    #team { margin: 0 -40px -20px; }
+    #team .team-person img { width: 120px; }
+    #team .team-person-info h2 { font-size: 1.6rem; }
+    #team .team-person-info p { font-size: 1rem; }
+
+    footer #appinfo { padding-left: 30px; }
+    footer #appinfo-social { margin-top: 15px; } 
+    footer #appinfo p { display: block; margin-left: 0; margin-top: -20px; font-size: 1.3em; line-height: 18px; }
+    footer #appinfo p a.rokr:after { content: " | "; color: rgba(255, 255, 255, 0.75); }
+    footer #appinfo p br { display: none; }
+    footer #appinfo-social a { height: 40px; width: 40px; margin: 0 8px 10px 0; }
+    footer #appinfo-social a:hover { height: 42px; width: 42px; margin: 0 6px 5px 0; }
+    footer #moreinfo { padding: 15px 0 20px 30px;}
+    footer #moreinfo-background {
+        line-height: 16px; 
+        padding: 0 10px 5px 0;
+    }
+    footer #moreinfo-breakpoint { margin: 0 0 7px; }
+    footer .button { padding: 5px 10px; }
+    
+    #overview .offset {margin-top: 0px;}
+
+} 

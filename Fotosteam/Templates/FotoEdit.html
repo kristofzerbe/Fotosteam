@@ -1,0 +1,176 @@
+﻿<div id="figure-{{Foto.fId}}"
+     data-share-image-url="{{Foto.Url}}"
+     data-title="{{Foto.Title}}" style="padding-top: 0;background-position:{{Foto.PLeft}}% {{Foto.PTop}}%;">
+
+    <div class="foto-details page-details">
+        <div class="details-panel foto-meta">
+            <div class="foto-meta-pic {{Foto.Orientation}}">
+
+                <img src="{{Foto.Url640}}" data-id="{{Foto.Id}}" id="foto-meta-image"
+                     data-top="{{Foto.Top}}" data-left="{{Foto.Left}}" />
+
+                <h3 data-i18n="foto-set-focalpoint" style="margin-top: 20px;"></h3>
+                <div id="focalpoint-selection">
+                    <button id="activate-focalpoint-selection" data-i18n="foto-set-focalpoint-activate" class="small fotocolor"></button>
+                    <button id="save-focalpoint-selection" data-i18n="foto-set-focalpoint-save" class="small fotocolor force" style="display:none;"></button>
+                    <button id="cancel-focalpoint-selection" data-i18n="cancel" class="small fotocolor" style="display:none;"></button>
+                    <label id="focalpoint-selection-info" data-i18n="foto-set-focalpoint-info"></label>
+                </div>
+
+                <h3 data-i18n="foto-color" style="margin-top: 20px;"></h3>
+                <div class="color-chooser">
+                    <a id="color-reset" href="#" data-i18n-title="foto-reset-color">
+                        <i class="icon icon-arrows-cw"></i>
+                    </a>
+                    <label id="color-label" for="Color">{{Foto.ColorHex}}</label>
+                    <input id="Color" type="color" value="{{Foto.ColorHex}}" />
+                </div>
+
+            </div>
+            <div class="foto-meta-sub">
+
+                <ul id="foto-menu" class="menu">
+                    <li>
+                        <a href="#" class="icon icon-down-open"></a>
+                        <ul>
+                            <li><a href="#" data-i18n="foto-upload-new-version" onclick="UploadNewFotoVersion({{Foto.Id}}); return false;">&nbsp;<small data-i18n="foto-upload-new-version-info"></small></a></li>
+                            <li><a href="#" data-i18n="foto-delete" onclick="deleteFoto({{Foto.Id}}); return false;">&nbsp;<small data-i18n="foto-delete-info"></small></a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form id="upload-new-version-form" enctype="multipart/form-data" style="display: none;">
+                    <input type="file" id="upload-new-version" name="upload-new-version" />
+                </form>
+
+                <a class="foto-btn btn-show icon icon-fullscreen tooltip-top" href="{{Foto.Url1920}}"
+                   data-i18n-title="full-screen"></a>
+
+                {{#if Member.Options.AllowRating}}
+                <a class="foto-btn btn-rating icon icon-star tooltip-top"
+                   data-i18n-title="rating">
+                    <span>{{Foto.RatingSum}}</span>
+                </a>
+                {{/if}}
+
+                {{#if Member.Options.AllowSharing}}
+                <a class="foto-btn btn-share btn-popout icon icon-share tooltip-top"
+                   data-popout="sharing-popout-{{Foto.fId}}"
+                   data-i18n-title="share"></a>
+                {{/if}}
+
+                <h3 data-i18n="status"></h3>
+                <input id="IsPrivate" type="checkbox" class="ios pubpriv" {{IsPrivateAttribute}} />
+
+                <h3 data-i18n="title"></h3>
+                <input id="Title" class="info edit" type="text" role="textbox" value="{{Foto.Caption}}" />
+
+                <h3 data-i18n="description"></h3>
+                <textarea rows="3" id="Description" class="mdd_editor info edit" type="text" role="textbox">{{Foto.Description}}</textarea>
+
+                <h3 data-i18n="categories"></h3>
+                <select id="Categories" multiple data-placeholder="{{ChoosePlaceholder}}">
+                    {{#Categories}}
+                    {{#if Selected}}
+                    <option value="{{CategoryTypeValue}}" selected="selected">{{CategoryName}}</option>
+                    {{else}}
+                    <option value="{{CategoryTypeValue}}">{{CategoryName}}</option>
+                    {{/if}}
+                    {{/Categories}}
+                </select>
+
+                <h3 data-i18n="topics"></h3>
+                <select id="Topics" multiple data-placeholder="{{ChoosePlaceholder}}">
+                    {{#Topics}}
+                    {{#if Selected}}
+                    <option value="{{TopicId}}" selected="selected">{{TopicName}}</option>
+                    {{else}}
+                    <option value="{{TopicId}}">{{TopicName}}</option>
+                    {{/if}}
+                    {{/Topics}}
+                </select>
+
+                <h3 data-i18n="location"></h3>
+                <select id="Location" data-placeholder="{{ChoosePlaceholder}}">
+                    <option value="0" data-i18n="no-location"></option>
+                    {{#Locations}}
+                    {{#if Selected}}
+                    <option value="{{LocationId}}" selected="selected">{{LocationName}}</option>
+                    {{else}}
+                    <option value="{{LocationId}}">{{LocationName}}</option>
+                    {{/if}}
+                    {{/Locations}}
+                </select>
+
+                <h3 data-i18n="event"></h3>
+                <select id="Event" data-placeholder="{{ChoosePlaceholder}}">
+                    <option value="0" data-i18n="no-event"></option>
+                    {{#Events}}
+                    {{#if Selected}}
+                    <option value="{{EventId}}" selected="selected">{{EventName}}</option>
+                    {{else}}
+                    <option value="{{EventId}}">{{EventName}}</option>
+                    {{/if}}
+                    {{/Events}}
+                </select>
+
+                {{#if Foto.StoryList.length}}
+                <h3 data-i18n="stories"></h3>
+                {{#Foto.StoryList}}
+                <a class="collection-item collection-story"
+                   href="{{StoryUrl}}">{{StoryName}}<i>{{StoryPhotoCount}}</i></a>
+                {{/Foto.StoryList}}
+                {{/if}}
+
+                <h3 data-i18n="license"></h3>
+                <select id="License">
+                    {{#Licenses}}
+                    {{#if Selected}}
+                    <option value="{{Value}}" selected="selected">{{Caption}}</option>
+                    {{else}}
+                    <option value="{{Value}}">{{Caption}}</option>
+                    {{/if}}
+                    {{/Licenses}}
+                </select>
+
+                <h3 data-i18n="download-original"></h3>
+                <input id="AllowFullSizeDownload" type="checkbox" class="ios allowdeny" {{AllowFullSizeDownloadAttribute}} />
+
+                <h3 data-i18n="foto-commenting"></h3>
+                <input id="AllowCommenting" type="checkbox" class="ios allowdeny" {{AllowCommentingAttribute}} />
+
+                <h3 data-i18n="foto-rating"></h3>
+                <input id="AllowRating" type="checkbox" class="ios allowdeny" {{AllowRatingAttribute}} />
+
+                <h3 data-i18n="foto-sharing"></h3>
+                <input id="AllowSharing" type="checkbox" class="ios allowdeny" {{AllowSharingAttribute}} />
+
+                <h3 data-i18n="show-in-overview"></h3>
+                <input id="ShowInOverview" type="checkbox" class="ios yesno" {{ShowInOverviewAttribute}} />
+
+                <h3 data-i18n="story-only"></h3>
+                <input id="IsForStoryOnly" type="checkbox" class="ios yesno" {{IsForStoryOnlyAttribute}} />
+
+                <h3 data-i18n="fotosteam-promote"></h3>
+                <input id="AllowPromoting" type="checkbox" class="ios allowdeny" {{AllowPromotingAttribute}} />
+
+                <h3 data-i18n="publication">Veröffentlichung</h3>
+                <span class="info">{{Foto.PublishDate_Formatted}}</span>
+
+            </div>
+        </div>
+
+        <div class="location-map" style="display: none;"></div>
+
+        <div class="details-panel foto-interaction">
+            <div class="foto-comments"></div>
+            <div class="foto-ratings"></div>
+        </div>
+
+        {{> FotoExif}}
+
+        {{#if Member.Options.AllowSharing}}
+        {{> FotoSharing}}
+        {{/if}}
+
+    </div>
+</div>

@@ -1,0 +1,6 @@
+<strong>##userAlias##</strong> hat dein Foto 
+<a href="https://www.fotosteam.com/##alias##/foto/##photoname##">##phototitle##</a> 
+mit <strong>##rating##</strong> bewertet.
+<br />
+<br />
+<img src="##photourl##" width="400" />

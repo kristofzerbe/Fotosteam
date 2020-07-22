@@ -1,0 +1,48 @@
+﻿<form id="event-edit-form">
+    <div class="field input">
+        <input id="EventName" name="EventName" type="text"
+               data-i18n-placeholder="Event-name" value="{{Event.EventName}}" />
+        <label for="EventName" data-i18n="event-name">Name</label>
+        <span id="errorEventName" class='help-block'></span>
+        <small class="edit-note" data-i18n="event-name-edit-note"></small>
+    </div>
+    <div class="field input">
+        <input id="EventUrl" name="EventUrl" type="text" disabled="disabled"
+               data-i18n-placeholder="event-url" value="{{Event.EventUrl}}" />
+        <label for="EventUrl" data-i18n="event-url">Url</label>
+    </div>    
+    <div class="field input">
+        <input id="Date" name="Date" type="text"
+               data-i18n-placeholder="event-date" value="{{Event.EventDate}}" />
+        <label for="Date" data-i18n="event-date">Datum</label>
+        <span id="errorDate" class='help-block'></span>
+    </div>
+    <div class="field input">
+        <input id="DateTo" name="DateTo" type="text"
+               data-i18n-placeholder="event-date-to" value="{{Event.EventDateTo}}" />
+        <label for="DateTo" data-i18n="event-date-to">Datum bis</label>
+        <span id="errorDateTo" class='help-block'></span>
+    </div>    
+    <div class="field">
+        <label for="EventLocationId" class="input-label" data-i18n="location"></label>
+        <select id="EventLocationId" 
+                data-i18n-placeholder="event-location" 
+                data-placeholder="{{ChoosePlaceholder}}">
+            <option value="0" data-i18n="no-location"></option>
+            {{#Locations}}
+            {{#if Selected}}
+            <option value="{{LocationId}}" selected="selected">{{LocationName}}</option>
+            {{else}}
+            <option value="{{LocationId}}">{{LocationName}}</option>
+            {{/if}}
+            {{/Locations}}
+        </select>
+    </div>
+    <div class="field input">
+        <textarea id="EventDescription" data-i18n-placeholder="event-description">{{EventDescription}}</textarea>
+        <label for="EventDescription" data-i18n="event-description">Description</label>
+    </div>
+    <button class="small ghost" style="float:right;" data-i18n="event-delete"></button>
+    <input id="EventDate" name="EventDate" type="hidden" data-i18n-placeholder="event-date" />
+    <input id="EventDateTo" name="EventDateTo" type="hidden" data-i18n-placeholder="event-date-to" />
+</form>

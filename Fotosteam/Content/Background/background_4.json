@@ -1,0 +1,44 @@
+﻿[
+    {
+        "Id": 1,
+        "Title": "Steam from old City Hall",
+        "Artist": "Simon Carr",
+        "OriginalUrl": "https://www.flickr.com/photos/simoncarr/6743653889",
+        "License": "CC BY-SA 2.0"
+    },
+    {
+        "Id": 2,
+        "Title": "Steam Train",
+        "Artist": "Pete Dragomir",
+        "OriginalUrl": "https://www.flickr.com/photos/91818084@N02/14077383602",
+        "License": "CC BY 2.0"
+    },
+    {
+        "Id": 3,
+        "Title": "steam",
+        "Artist": "Asher Isbrucker",
+        "OriginalUrl": "https://www.flickr.com/photos/asherisbrucker/13174085625",
+        "License": "CC BY 2.0"
+    },
+    {
+        "Id": 4,
+        "Title": "Carbonic steam and light",
+        "Artist": "Tambako The Jaguar",
+        "OriginalUrl": "https://www.flickr.com/photos/tambako/6818918376",
+        "License": "CC BY-ND 2.0"
+    },
+    {
+        "Id": 5,
+        "Title": "Untitled",
+        "Artist": "Pawel Kadysz",
+        "OriginalUrl": "https://stocksnap.io/photo/IZYP5AYVUD",
+        "License": "CC0 1.0"
+    },
+    {
+        "Id": 6,
+        "Title": "sugo di pomodori",
+        "Artist": "Sandra Zecchino",
+        "OriginalUrl": "https://fotosteam.com/ArdnaSino/foto/tomaten4",
+        "License": "CC-BY-NC-SA 3.0"
+    }
+]

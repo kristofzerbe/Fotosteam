@@ -1,0 +1,3 @@
+<strong>##userAlias##</strong> want to add you as a buddy. Confirm the request on:
+<br /><br />
+<a href="##userUrl##">##userUrl##</a>

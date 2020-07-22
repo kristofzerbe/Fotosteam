@@ -1,0 +1,3948 @@
+{
+    "$type": "System.Collections.Generic.List`1[[Fotosteam.Service.Repository.Poco.Photo, Fotosteam.Service]], mscorlib",
+    "$values": [
+        {
+            "$type": "Fotosteam.Service.Repository.Poco.Photo, Fotosteam.Service",
+            "MemberId": 2,
+            "Name": "DSC_7903",
+            "OriginalName": "DSC_7903",
+            "Folder": "NotSet",
+            "Title": "Vintage Letters",
+            "EventId": 4,
+            "LocationId": 7,
+            "Width": 4025,
+            "Height": 2513,
+            "AspectRation": 0.0,
+            "Orientation": "landscape",
+            "CaptureDate": "2014-09-28T10:18:59",
+            "PublishDate": "2014-11-09T15:33:00",
+            "CommentCount": 0,
+            "AverageRating": 0.0,
+            "IsPrivate": false,
+            "License": 16,
+            "AllowFullSizeDownload": false,
+            "ExifUrl": null,
+            "Comments": null,
+            "Ratings": null,
+            "Exif": {
+                "$type": "Fotosteam.Service.Repository.Poco.ExifData, Fotosteam.Service",
+                "PhotoId": 22,
+                "Make": "NIKON CORPORATION",
+                "Model": "NIKON D90",
+                "CaptureDate": "2014-09-28T10:18:59",
+                "Description": null,
+                "Software": "Adobe Photoshop Lightroom 5.6 (Windows)",
+                "Artist": "Kristof Zerbe",
+                "Copyright": null,
+                "FocalLength": 280.0,
+                "FNumber": 5.6,
+                "ApertureValue": 4.970854,
+                "MaxApertureValue": 5.0,
+                "ExposureTime": 8.0,
+                "ExposureBiasValue": 0.0,
+                "ExposureProgram": 2,
+                "ExposureMode": 0,
+                "ISOSpeedRatings": 200,
+                "MeteringMode": 5,
+                "XResolution": 240.0,
+                "YResolution": 240.0,
+                "ResolutionUnit": 2,
+                "Width": 0,
+                "Height": 0,
+                "AspectRatio": 0.0,
+                "Orientation": "0",
+                "Latitude": 51.215486666666663,
+                "Longitude": 3.2238
+            },
+            "DirectLinks": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 22,
+                        "Size": 0,
+                        "Url": "https://dl.dropboxusercontent.com/s/na0ose48280xi9v/full.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 22,
+                        "Size": 100,
+                        "Url": "https://dl.dropboxusercontent.com/s/8k1p2f5ihs5jowz/100.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 22,
+                        "Size": 200,
+                        "Url": "https://dl.dropboxusercontent.com/s/v9bre7sjgr3542d/200.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 22,
+                        "Size": 400,
+                        "Url": "https://dl.dropboxusercontent.com/s/wzmb9vv9nmm6ytt/400.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 22,
+                        "Size": 640,
+                        "Url": "https://dl.dropboxusercontent.com/s/m5i90j08pf95s74/640.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 22,
+                        "Size": 1024,
+                        "Url": "https://dl.dropboxusercontent.com/s/emhyok41qocy6lz/1024.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 22,
+                        "Size": 1440,
+                        "Url": "https://dl.dropboxusercontent.com/s/gevlld9nj3s5zsk/1440.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 22,
+                        "Size": 1920,
+                        "Url": "https://dl.dropboxusercontent.com/s/zdvy9fmvaxbnd7m/1920.jpg"
+                    }
+                ]
+            },
+            "Category": 160,
+            "Categories": {
+                "$type": "System.Collections.Generic.List`1[[Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service]], mscorlib",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "Still",
+                        "PhotoCount": 1
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "Abstract",
+                        "PhotoCount": 1
+                    }
+                ]
+            },
+            "Topics": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service",
+                        "Name": "Best of...",
+                        "Description": "Meine besten Bilder",
+                        "PhotoCount": 0,
+                        "MemberId": 2,
+                        "Member": null,
+                        "Id": 6
+                    }
+                ]
+            },
+            "Event": {
+                "$type": "Fotosteam.Service.Repository.Poco.Event, Fotosteam.Service",
+                "MemberId": 2,
+                "Name": "Rommelmarkt in Brügge",
+                "Date": null,
+                "DateTo": null,
+                "Description": "September Rommelmarkt in Brügge",
+                "Location": {
+                    "$type": "Fotosteam.Service.Repository.Poco.Location, Fotosteam.Service",
+                    "MemberId": 2,
+                    "Name": "Brügge",
+                    "CountryIsoCode": "BEL",
+                    "Country": "Belgium",
+                    "Street": null,
+                    "City": "Brugge",
+                    "State": "Vlaams Gewest",
+                    "County": "West-Vlaanderen",
+                    "Longitude": 3.224651000,
+                    "Latitude": 51.208958000,
+                    "PhotoCount": 0,
+                    "Id": 7
+                },
+                "PhotoCount": 0,
+                "Id": 4
+            },
+            "Location": {
+                "$type": "Fotosteam.Service.Repository.Poco.Location, Fotosteam.Service",
+                "MemberId": 2,
+                "Name": "Brügge",
+                "CountryIsoCode": "BEL",
+                "Country": "Belgium",
+                "Street": null,
+                "City": "Brugge",
+                "State": "Vlaams Gewest",
+                "County": "West-Vlaanderen",
+                "Longitude": 3.224651000,
+                "Latitude": 51.208958000,
+                "PhotoCount": 0,
+                "Id": 7
+            },
+            "Id": 22
+        },
+        {
+            "$type": "Fotosteam.Service.Repository.Poco.Photo, Fotosteam.Service",
+            "MemberId": 2,
+            "Name": "DSC_7898",
+            "OriginalName": "DSC_7898",
+            "Folder": "NotSet",
+            "Title": "Vintage Boxes",
+            "EventId": 4,
+            "LocationId": 7,
+            "Width": 4025,
+            "Height": 2513,
+            "AspectRation": 0.0,
+            "Orientation": "landscape",
+            "CaptureDate": "2014-09-28T10:18:59",
+            "PublishDate": "2014-11-09T15:33:00",
+            "CommentCount": 0,
+            "AverageRating": 0.0,
+            "IsPrivate": false,
+            "License": 16,
+            "AllowFullSizeDownload": false,
+            "ExifUrl": null,
+            "Comments": null,
+            "Ratings": null,
+            "Exif": {
+                "$type": "Fotosteam.Service.Repository.Poco.ExifData, Fotosteam.Service",
+                "PhotoId": 23,
+                "Make": "NIKON CORPORATION",
+                "Model": "NIKON D90",
+                "CaptureDate": "2014-09-28T10:18:59",
+                "Description": null,
+                "Software": "Adobe Photoshop Lightroom 5.6 (Windows)",
+                "Artist": "Kristof Zerbe",
+                "Copyright": null,
+                "FocalLength": 280.0,
+                "FNumber": 5.6,
+                "ApertureValue": 4.970854,
+                "MaxApertureValue": 5.0,
+                "ExposureTime": 8.0,
+                "ExposureBiasValue": 0.0,
+                "ExposureProgram": 2,
+                "ExposureMode": 0,
+                "ISOSpeedRatings": 200,
+                "MeteringMode": 5,
+                "XResolution": 240.0,
+                "YResolution": 240.0,
+                "ResolutionUnit": 2,
+                "Width": 0,
+                "Height": 0,
+                "AspectRatio": 0.0,
+                "Orientation": "0",
+                "Latitude": 51.215486666666663,
+                "Longitude": 3.2238
+            },
+            "DirectLinks": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 23,
+                        "Size": 0,
+                        "Url": "https://dl.dropboxusercontent.com/s/jzv91xjlq6sulju/full.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 23,
+                        "Size": 100,
+                        "Url": "https://dl.dropboxusercontent.com/s/ioks20lnnor7r0b/100.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 23,
+                        "Size": 200,
+                        "Url": "https://dl.dropboxusercontent.com/s/eh4m8xuxuwvb2z9/200.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 23,
+                        "Size": 400,
+                        "Url": "https://dl.dropboxusercontent.com/s/54hce8c45z5z259/400.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 23,
+                        "Size": 640,
+                        "Url": "https://dl.dropboxusercontent.com/s/mcv16yea027vw4q/640.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 23,
+                        "Size": 1024,
+                        "Url": "https://dl.dropboxusercontent.com/s/82i9b2o90n1kqwq/1024.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 23,
+                        "Size": 1440,
+                        "Url": "https://dl.dropboxusercontent.com/s/ctlejncs3yju2zk/1440.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 23,
+                        "Size": 1920,
+                        "Url": "https://dl.dropboxusercontent.com/s/78nw01je870o81t/1920.jpg"
+                    }
+                ]
+            },
+            "Category": 160,
+            "Categories": {
+                "$type": "System.Collections.Generic.List`1[[Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service]], mscorlib",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "Still",
+                        "PhotoCount": 1
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "Abstract",
+                        "PhotoCount": 1
+                    }
+                ]
+            },
+            "Topics": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service]], System.Core",
+                "$values": [
+                ]
+            },
+            "Event": {
+                "$type": "Fotosteam.Service.Repository.Poco.Event, Fotosteam.Service",
+                "MemberId": 2,
+                "Name": "Rommelmarkt in Brügge",
+                "Date": null,
+                "DateTo": null,
+                "Description": "September Rommelmarkt in Brügge",
+                "Location": {
+                    "$type": "Fotosteam.Service.Repository.Poco.Location, Fotosteam.Service",
+                    "MemberId": 2,
+                    "Name": "Brügge",
+                    "CountryIsoCode": "BEL",
+                    "Country": "Belgium",
+                    "Street": null,
+                    "City": "Brugge",
+                    "State": "Vlaams Gewest",
+                    "County": "West-Vlaanderen",
+                    "Longitude": 3.224651000,
+                    "Latitude": 51.208958000,
+                    "PhotoCount": 0,
+                    "Id": 7
+                },
+                "PhotoCount": 0,
+                "Id": 4
+            },
+            "Location": {
+                "$type": "Fotosteam.Service.Repository.Poco.Location, Fotosteam.Service",
+                "MemberId": 2,
+                "Name": "Brügge",
+                "CountryIsoCode": "BEL",
+                "Country": "Belgium",
+                "Street": null,
+                "City": "Brugge",
+                "State": "Vlaams Gewest",
+                "County": "West-Vlaanderen",
+                "Longitude": 3.224651000,
+                "Latitude": 51.208958000,
+                "PhotoCount": 0,
+                "Id": 7
+            },
+            "Id": 23
+        },
+        {
+            "$type": "Fotosteam.Service.Repository.Poco.Photo, Fotosteam.Service",
+            "MemberId": 2,
+            "Name": "DSC_7615",
+            "OriginalName": "DSC_7615",
+            "Folder": "NotSet",
+            "Title": "Door Lamp",
+            "EventId": null,
+            "LocationId": 7,
+            "Width": 2760,
+            "Height": 3964,
+            "AspectRation": 0.0,
+            "Orientation": "portrait",
+            "CaptureDate": "2014-09-27T12:36:53",
+            "PublishDate": "2014-11-09T15:33:00",
+            "CommentCount": 0,
+            "AverageRating": 0.0,
+            "IsPrivate": false,
+            "License": 16,
+            "AllowFullSizeDownload": false,
+            "ExifUrl": null,
+            "Comments": null,
+            "Ratings": null,
+            "Exif": {
+                "$type": "Fotosteam.Service.Repository.Poco.ExifData, Fotosteam.Service",
+                "PhotoId": 24,
+                "Make": "NIKON CORPORATION",
+                "Model": "NIKON D90",
+                "CaptureDate": "2014-09-27T12:36:53",
+                "Description": null,
+                "Software": "Adobe Photoshop Lightroom 5.6 (Windows)",
+                "Artist": "Kristof Zerbe",
+                "Copyright": null,
+                "FocalLength": 105.0,
+                "FNumber": 5.6,
+                "ApertureValue": 4.970854,
+                "MaxApertureValue": 5.0,
+                "ExposureTime": 4.0,
+                "ExposureBiasValue": 0.0,
+                "ExposureProgram": 2,
+                "ExposureMode": 0,
+                "ISOSpeedRatings": 400,
+                "MeteringMode": 5,
+                "XResolution": 240.0,
+                "YResolution": 240.0,
+                "ResolutionUnit": 2,
+                "Width": 0,
+                "Height": 0,
+                "AspectRatio": 0.0,
+                "Orientation": "0",
+                "Latitude": 51.215486666666663,
+                "Longitude": 3.2238
+            },
+            "DirectLinks": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 24,
+                        "Size": 0,
+                        "Url": "https://dl.dropboxusercontent.com/s/qenqagegygtk4x3/full.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 24,
+                        "Size": 100,
+                        "Url": "https://dl.dropboxusercontent.com/s/2phkt5q2u2dfgxs/100.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 24,
+                        "Size": 200,
+                        "Url": "https://dl.dropboxusercontent.com/s/9y39bhfwy8zlz5z/200.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 24,
+                        "Size": 400,
+                        "Url": "https://dl.dropboxusercontent.com/s/9lvg6szvuho2xri/400.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 24,
+                        "Size": 640,
+                        "Url": "https://dl.dropboxusercontent.com/s/xf7ir9eojj8cgj9/640.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 24,
+                        "Size": 1024,
+                        "Url": "https://dl.dropboxusercontent.com/s/3zjnons9uia5khl/1024.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 24,
+                        "Size": 1440,
+                        "Url": "https://dl.dropboxusercontent.com/s/ocrq9qxbf785q5k/1440.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 24,
+                        "Size": 1920,
+                        "Url": "https://dl.dropboxusercontent.com/s/g8qc9ijroyfz4wh/1920.jpg"
+                    }
+                ]
+            },
+            "Category": 4,
+            "Categories": {
+                "$type": "System.Collections.Generic.List`1[[Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service]], mscorlib",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "Urban",
+                        "PhotoCount": 1
+                    }
+                ]
+            },
+            "Topics": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service",
+                        "Name": "Doors & Windows",
+                        "Description": "Bildersammlung von allem wo man rausgehen oder rausschauen kann",
+                        "PhotoCount": 0,
+                        "MemberId": 2,
+                        "Member": null,
+                        "Id": 7
+                    }
+                ]
+            },
+            "Event": null,
+            "Location": {
+                "$type": "Fotosteam.Service.Repository.Poco.Location, Fotosteam.Service",
+                "MemberId": 2,
+                "Name": "Brügge",
+                "CountryIsoCode": "BEL",
+                "Country": "Belgium",
+                "Street": null,
+                "City": "Brugge",
+                "State": "Vlaams Gewest",
+                "County": "West-Vlaanderen",
+                "Longitude": 3.224651000,
+                "Latitude": 51.208958000,
+                "PhotoCount": 0,
+                "Id": 7
+            },
+            "Id": 24
+        },
+        {
+            "$type": "Fotosteam.Service.Repository.Poco.Photo, Fotosteam.Service",
+            "MemberId": 2,
+            "Name": "DSC_7975",
+            "OriginalName": "DSC_7975",
+            "Folder": "NotSet",
+            "Title": "Black Tower",
+            "EventId": null,
+            "LocationId": 12,
+            "Width": 2571,
+            "Height": 3747,
+            "AspectRation": 0.0,
+            "Orientation": "portrait",
+            "CaptureDate": "2014-09-28T19:37:11",
+            "PublishDate": "2014-11-09T15:33:00",
+            "CommentCount": 0,
+            "AverageRating": 0.0,
+            "IsPrivate": false,
+            "License": 0,
+            "AllowFullSizeDownload": false,
+            "ExifUrl": null,
+            "Comments": null,
+            "Ratings": null,
+            "Exif": {
+                "$type": "Fotosteam.Service.Repository.Poco.ExifData, Fotosteam.Service",
+                "PhotoId": 25,
+                "Make": "NIKON CORPORATION",
+                "Model": "NIKON D90",
+                "CaptureDate": "2014-09-28T19:37:11",
+                "Description": null,
+                "Software": "Adobe Photoshop Lightroom 5.6 (Windows)",
+                "Artist": "Kristof Zerbe",
+                "Copyright": null,
+                "FocalLength": 80.0,
+                "FNumber": 5.6,
+                "ApertureValue": 4.970854,
+                "MaxApertureValue": 4.9,
+                "ExposureTime": 0.1,
+                "ExposureBiasValue": -2.0,
+                "ExposureProgram": 3,
+                "ExposureMode": 0,
+                "ISOSpeedRatings": 400,
+                "MeteringMode": 5,
+                "XResolution": 240.0,
+                "YResolution": 240.0,
+                "ResolutionUnit": 2,
+                "Width": 0,
+                "Height": 0,
+                "AspectRatio": 0.0,
+                "Orientation": "0",
+                "Latitude": 51.225808333333333,
+                "Longitude": 4.400025
+            },
+            "DirectLinks": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 25,
+                        "Size": 0,
+                        "Url": "https://dl.dropboxusercontent.com/s/y30ttw4itiklwrh/full.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 25,
+                        "Size": 100,
+                        "Url": "https://dl.dropboxusercontent.com/s/38a6tqdqqgqp595/100.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 25,
+                        "Size": 200,
+                        "Url": "https://dl.dropboxusercontent.com/s/wyiwf0o67v6ic0i/200.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 25,
+                        "Size": 400,
+                        "Url": "https://dl.dropboxusercontent.com/s/9unj2oc9r3wnnd8/400.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 25,
+                        "Size": 640,
+                        "Url": "https://dl.dropboxusercontent.com/s/2jx3g1ublitf0om/640.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 25,
+                        "Size": 1440,
+                        "Url": "https://dl.dropboxusercontent.com/s/5jf73ojt52gumz2/1440.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 25,
+                        "Size": 1920,
+                        "Url": "https://dl.dropboxusercontent.com/s/8eqjid6rf4szfh8/1920.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 25,
+                        "Size": 2014,
+                        "Url": "https://dl.dropboxusercontent.com/s/a6yyenpd3dq5w8c/1024.jpg"
+                    }
+                ]
+            },
+            "Category": 2,
+            "Categories": {
+                "$type": "System.Collections.Generic.List`1[[Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service]], mscorlib",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "Architecture",
+                        "PhotoCount": 1
+                    }
+                ]
+            },
+            "Topics": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service",
+                        "Name": "Best of...",
+                        "Description": "Meine besten Bilder",
+                        "PhotoCount": 0,
+                        "MemberId": 2,
+                        "Member": null,
+                        "Id": 6
+                    }
+                ]
+            },
+            "Event": null,
+            "Location": {
+                "$type": "Fotosteam.Service.Repository.Poco.Location, Fotosteam.Service",
+                "MemberId": 2,
+                "Name": "Antwerpen",
+                "CountryIsoCode": "BEL",
+                "Country": "Belgium",
+                "Street": null,
+                "City": "Antwerpen",
+                "State": "Vlaams Gewest",
+                "County": "Antwerpen",
+                "Longitude": 4.399050000,
+                "Latitude": 51.222175000,
+                "PhotoCount": 0,
+                "Id": 12
+            },
+            "Id": 25
+        },
+        {
+            "$type": "Fotosteam.Service.Repository.Poco.Photo, Fotosteam.Service",
+            "MemberId": 2,
+            "Name": "DSC_0019",
+            "OriginalName": "DSC_0019",
+            "Folder": "NotSet",
+            "Title": "Inside",
+            "EventId": null,
+            "LocationId": 19,
+            "Width": 3199,
+            "Height": 2125,
+            "AspectRation": 0.0,
+            "Orientation": "landscape",
+            "CaptureDate": "2011-04-21T12:21:26",
+            "PublishDate": "2014-11-09T15:33:00",
+            "CommentCount": 0,
+            "AverageRating": 0.0,
+            "IsPrivate": false,
+            "License": 0,
+            "AllowFullSizeDownload": false,
+            "ExifUrl": null,
+            "Comments": null,
+            "Ratings": null,
+            "Exif": {
+                "$type": "Fotosteam.Service.Repository.Poco.ExifData, Fotosteam.Service",
+                "PhotoId": 30,
+                "Make": "NIKON CORPORATION",
+                "Model": "NIKON D90",
+                "CaptureDate": "2011-04-21T12:21:26",
+                "Description": null,
+                "Software": "Adobe Photoshop CC 2014 (Windows)",
+                "Artist": "Kristof Zerbe",
+                "Copyright": "2011",
+                "FocalLength": 280.0,
+                "FNumber": 6.3,
+                "ApertureValue": 5.310704,
+                "MaxApertureValue": 5.0,
+                "ExposureTime": 0.0015625,
+                "ExposureBiasValue": 0.0,
+                "ExposureProgram": 0,
+                "ExposureMode": 0,
+                "ISOSpeedRatings": 200,
+                "MeteringMode": 5,
+                "XResolution": 300.0,
+                "YResolution": 300.0,
+                "ResolutionUnit": 2,
+                "Width": 0,
+                "Height": 0,
+                "AspectRatio": 0.0,
+                "Orientation": "0",
+                "Latitude": 0.0,
+                "Longitude": 0.0
+            },
+            "DirectLinks": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 30,
+                        "Size": 0,
+                        "Url": "https://dl.dropboxusercontent.com/s/do1pkpqk2og5yn7/full.JPG"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 30,
+                        "Size": 100,
+                        "Url": "https://dl.dropboxusercontent.com/s/hgkj2pi7wnadp2r/100.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 30,
+                        "Size": 200,
+                        "Url": "https://dl.dropboxusercontent.com/s/x98lzrtjl01np05/200.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 30,
+                        "Size": 400,
+                        "Url": "https://dl.dropboxusercontent.com/s/akn2am3ec9mmulg/400.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 30,
+                        "Size": 640,
+                        "Url": "https://dl.dropboxusercontent.com/s/qui5q4ior2aqvfk/640.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 30,
+                        "Size": 1024,
+                        "Url": "https://dl.dropboxusercontent.com/s/h8nrsl9k8r4fzoz/1024.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 30,
+                        "Size": 1440,
+                        "Url": "https://dl.dropboxusercontent.com/s/00qwhn5oulctpx1/1440.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 30,
+                        "Size": 1920,
+                        "Url": "https://dl.dropboxusercontent.com/s/ebwp9usty17zbhv/1920.jpg"
+                    }
+                ]
+            },
+            "Category": 0,
+            "Categories": {
+                "$type": "System.Collections.Generic.List`1[[Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service]], mscorlib",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "NotSet",
+                        "PhotoCount": 1
+                    }
+                ]
+            },
+            "Topics": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service]], System.Core",
+                "$values": [
+                ]
+            },
+            "Event": null,
+            "Location": {
+                "$type": "Fotosteam.Service.Repository.Poco.Location, Fotosteam.Service",
+                "MemberId": 2,
+                "Name": "Wiesbaden",
+                "CountryIsoCode": "DEU",
+                "Country": "Germany",
+                "Street": null,
+                "City": "Wiesbaden",
+                "State": "Hessen",
+                "County": "Darmstadt",
+                "Longitude": 8.248353400,
+                "Latitude": 50.072482500,
+                "PhotoCount": 0,
+                "Id": 19
+            },
+            "Id": 30
+        },
+        {
+            "$type": "Fotosteam.Service.Repository.Poco.Photo, Fotosteam.Service",
+            "MemberId": 2,
+            "Name": "DSC_7957",
+            "OriginalName": "DSC_7957",
+            "Folder": "NotSet",
+            "Title": "Belgian Beer",
+            "EventId": null,
+            "LocationId": 7,
+            "Width": 2740,
+            "Height": 4084,
+            "AspectRation": 0.0,
+            "Orientation": "portrait",
+            "CaptureDate": "2014-09-28T17:14:21",
+            "PublishDate": "2014-11-09T15:33:00",
+            "CommentCount": 0,
+            "AverageRating": 0.0,
+            "IsPrivate": false,
+            "License": 0,
+            "AllowFullSizeDownload": false,
+            "ExifUrl": null,
+            "Comments": null,
+            "Ratings": null,
+            "Exif": {
+                "$type": "Fotosteam.Service.Repository.Poco.ExifData, Fotosteam.Service",
+                "PhotoId": 31,
+                "Make": "NIKON CORPORATION",
+                "Model": "NIKON D90",
+                "CaptureDate": "2014-09-28T17:14:21",
+                "Description": null,
+                "Software": "Adobe Photoshop Lightroom 5.6 (Windows)",
+                "Artist": "Kristof Zerbe",
+                "Copyright": null,
+                "FocalLength": 98.0,
+                "FNumber": 5.6,
+                "ApertureValue": 4.970854,
+                "MaxApertureValue": 5.0,
+                "ExposureTime": 33333333333333332.0,
+                "ExposureBiasValue": 0.0,
+                "ExposureProgram": 2,
+                "ExposureMode": 0,
+                "ISOSpeedRatings": 200,
+                "MeteringMode": 5,
+                "XResolution": 240.0,
+                "YResolution": 240.0,
+                "ResolutionUnit": 2,
+                "Width": 0,
+                "Height": 0,
+                "AspectRatio": 0.0,
+                "Orientation": "0",
+                "Latitude": 51.225808333333333,
+                "Longitude": 4.400025
+            },
+            "DirectLinks": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 31,
+                        "Size": 0,
+                        "Url": "https://dl.dropboxusercontent.com/s/84ykr0m5ker0bka/full.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 31,
+                        "Size": 100,
+                        "Url": "https://dl.dropboxusercontent.com/s/rly1w1yu4zmu5qz/100.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 31,
+                        "Size": 200,
+                        "Url": "https://dl.dropboxusercontent.com/s/pe5wseww5r4kcqv/200.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 31,
+                        "Size": 400,
+                        "Url": "https://dl.dropboxusercontent.com/s/nwvnm6r8pmmo0a0/400.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 31,
+                        "Size": 640,
+                        "Url": "https://dl.dropboxusercontent.com/s/ibwe8xyyxry3j8c/640.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 31,
+                        "Size": 1024,
+                        "Url": "https://dl.dropboxusercontent.com/s/ew56eh8ieuq9yzm/1024.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 31,
+                        "Size": 1440,
+                        "Url": "https://dl.dropboxusercontent.com/s/j69381dmln9fx9p/1440.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 31,
+                        "Size": 1920,
+                        "Url": "https://dl.dropboxusercontent.com/s/nhphzvfhc8u8325/1920.jpg"
+                    }
+                ]
+            },
+            "Category": 4,
+            "Categories": {
+                "$type": "System.Collections.Generic.List`1[[Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service]], mscorlib",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "Urban",
+                        "PhotoCount": 1
+                    }
+                ]
+            },
+            "Topics": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service]], System.Core",
+                "$values": [
+                ]
+            },
+            "Event": null,
+            "Location": {
+                "$type": "Fotosteam.Service.Repository.Poco.Location, Fotosteam.Service",
+                "MemberId": 2,
+                "Name": "Brügge",
+                "CountryIsoCode": "BEL",
+                "Country": "Belgium",
+                "Street": null,
+                "City": "Brugge",
+                "State": "Vlaams Gewest",
+                "County": "West-Vlaanderen",
+                "Longitude": 3.224651000,
+                "Latitude": 51.208958000,
+                "PhotoCount": 0,
+                "Id": 7
+            },
+            "Id": 31
+        },
+        {
+            "$type": "Fotosteam.Service.Repository.Poco.Photo, Fotosteam.Service",
+            "MemberId": 2,
+            "Name": "DSC_7849",
+            "OriginalName": "DSC_7849",
+            "Folder": "NotSet",
+            "Title": "Bruges Canal III",
+            "EventId": null,
+            "LocationId": 7,
+            "Width": 3964,
+            "Height": 2739,
+            "AspectRation": 0.0,
+            "Orientation": "landscape",
+            "CaptureDate": "2014-09-27T20:42:27",
+            "PublishDate": "2014-11-09T15:33:00",
+            "CommentCount": 0,
+            "AverageRating": 0.0,
+            "IsPrivate": false,
+            "License": 0,
+            "AllowFullSizeDownload": false,
+            "ExifUrl": null,
+            "Comments": null,
+            "Ratings": null,
+            "Exif": {
+                "$type": "Fotosteam.Service.Repository.Poco.ExifData, Fotosteam.Service",
+                "PhotoId": 32,
+                "Make": "NIKON CORPORATION",
+                "Model": "NIKON D90",
+                "CaptureDate": "2014-09-27T20:42:27",
+                "Description": null,
+                "Software": "Adobe Photoshop Lightroom 5.6 (Windows)",
+                "Artist": "Kristof Zerbe",
+                "Copyright": null,
+                "FocalLength": 42.0,
+                "FNumber": 8.0,
+                "ApertureValue": 6.0,
+                "MaxApertureValue": 4.5,
+                "ExposureTime": 6.0,
+                "ExposureBiasValue": 0.0,
+                "ExposureProgram": 3,
+                "ExposureMode": 0,
+                "ISOSpeedRatings": 200,
+                "MeteringMode": 5,
+                "XResolution": 240.0,
+                "YResolution": 240.0,
+                "ResolutionUnit": 2,
+                "Width": 0,
+                "Height": 0,
+                "AspectRatio": 0.0,
+                "Orientation": "0",
+                "Latitude": 51.215486666666663,
+                "Longitude": 3.2238
+            },
+            "DirectLinks": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 32,
+                        "Size": 0,
+                        "Url": "https://dl.dropboxusercontent.com/s/9eijp8j9pi1g7zq/full.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 32,
+                        "Size": 100,
+                        "Url": "https://dl.dropboxusercontent.com/s/gqsc87detn9xa0w/100.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 32,
+                        "Size": 200,
+                        "Url": "https://dl.dropboxusercontent.com/s/oo3wn08gjxzn93l/200.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 32,
+                        "Size": 400,
+                        "Url": "https://dl.dropboxusercontent.com/s/drrrw7sat405yqq/400.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 32,
+                        "Size": 640,
+                        "Url": "https://dl.dropboxusercontent.com/s/q4zc32zzx02svno/640.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 32,
+                        "Size": 1024,
+                        "Url": "https://dl.dropboxusercontent.com/s/wplhzrdnc6k9b7d/1024.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 32,
+                        "Size": 1440,
+                        "Url": "https://dl.dropboxusercontent.com/s/9heuqhimsxnstqo/1440.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 32,
+                        "Size": 1920,
+                        "Url": "https://dl.dropboxusercontent.com/s/lu1yv0u618aozzq/1920.jpg"
+                    }
+                ]
+            },
+            "Category": 68,
+            "Categories": {
+                "$type": "System.Collections.Generic.List`1[[Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service]], mscorlib",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "Urban",
+                        "PhotoCount": 1
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "Night",
+                        "PhotoCount": 1
+                    }
+                ]
+            },
+            "Topics": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service]], System.Core",
+                "$values": [
+                ]
+            },
+            "Event": null,
+            "Location": {
+                "$type": "Fotosteam.Service.Repository.Poco.Location, Fotosteam.Service",
+                "MemberId": 2,
+                "Name": "Brügge",
+                "CountryIsoCode": "BEL",
+                "Country": "Belgium",
+                "Street": null,
+                "City": "Brugge",
+                "State": "Vlaams Gewest",
+                "County": "West-Vlaanderen",
+                "Longitude": 3.224651000,
+                "Latitude": 51.208958000,
+                "PhotoCount": 0,
+                "Id": 7
+            },
+            "Id": 32
+        },
+        {
+            "$type": "Fotosteam.Service.Repository.Poco.Photo, Fotosteam.Service",
+            "MemberId": 2,
+            "Name": "DSC_7487-Bearbeitet",
+            "OriginalName": "DSC_7487-Bearbeitet",
+            "Folder": "NotSet",
+            "Title": "Bruges Lights I",
+            "EventId": null,
+            "LocationId": 7,
+            "Width": 4181,
+            "Height": 2766,
+            "AspectRation": 0.0,
+            "Orientation": "landscape",
+            "CaptureDate": "2014-09-26T20:53:52",
+            "PublishDate": "2014-11-09T15:33:00",
+            "CommentCount": 0,
+            "AverageRating": 0.0,
+            "IsPrivate": false,
+            "License": 0,
+            "AllowFullSizeDownload": false,
+            "ExifUrl": null,
+            "Comments": null,
+            "Ratings": null,
+            "Exif": {
+                "$type": "Fotosteam.Service.Repository.Poco.ExifData, Fotosteam.Service",
+                "PhotoId": 33,
+                "Make": "NIKON CORPORATION",
+                "Model": "NIKON D90",
+                "CaptureDate": "2014-09-26T20:53:52",
+                "Description": null,
+                "Software": "Adobe Photoshop Lightroom 5.6 (Windows)",
+                "Artist": "Kristof Zerbe",
+                "Copyright": null,
+                "FocalLength": 18.0,
+                "FNumber": 3.5,
+                "ApertureValue": 3.61471,
+                "MaxApertureValue": 3.6,
+                "ExposureTime": 0.5,
+                "ExposureBiasValue": 0.0,
+                "ExposureProgram": 2,
+                "ExposureMode": 0,
+                "ISOSpeedRatings": 200,
+                "MeteringMode": 5,
+                "XResolution": 240.0,
+                "YResolution": 240.0,
+                "ResolutionUnit": 2,
+                "Width": 0,
+                "Height": 0,
+                "AspectRatio": 0.0,
+                "Orientation": "0",
+                "Latitude": 51.215486666666663,
+                "Longitude": 3.2238
+            },
+            "DirectLinks": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 33,
+                        "Size": 0,
+                        "Url": "https://dl.dropboxusercontent.com/s/p1azhza6tf76a3w/full.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 33,
+                        "Size": 100,
+                        "Url": "https://dl.dropboxusercontent.com/s/30r08blazipgfw0/100.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 33,
+                        "Size": 200,
+                        "Url": "https://dl.dropboxusercontent.com/s/bqgidfgn4403pm0/200.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 33,
+                        "Size": 400,
+                        "Url": "https://dl.dropboxusercontent.com/s/1w856qkqjxik0cg/400.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 33,
+                        "Size": 640,
+                        "Url": "https://dl.dropboxusercontent.com/s/ahnhs58zci7zveu/640.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 33,
+                        "Size": 1024,
+                        "Url": "https://dl.dropboxusercontent.com/s/trg35ecz2qai0tv/1024.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 33,
+                        "Size": 1440,
+                        "Url": "https://dl.dropboxusercontent.com/s/om94w2ods1onnqe/1440.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 33,
+                        "Size": 1920,
+                        "Url": "https://dl.dropboxusercontent.com/s/o70b4fgrln30dvm/1920.jpg"
+                    }
+                ]
+            },
+            "Category": 68,
+            "Categories": {
+                "$type": "System.Collections.Generic.List`1[[Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service]], mscorlib",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "Urban",
+                        "PhotoCount": 1
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "Night",
+                        "PhotoCount": 1
+                    }
+                ]
+            },
+            "Topics": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service",
+                        "Name": "Best of...",
+                        "Description": "Meine besten Bilder",
+                        "PhotoCount": 0,
+                        "MemberId": 2,
+                        "Member": null,
+                        "Id": 6
+                    }
+                ]
+            },
+            "Event": null,
+            "Location": {
+                "$type": "Fotosteam.Service.Repository.Poco.Location, Fotosteam.Service",
+                "MemberId": 2,
+                "Name": "Brügge",
+                "CountryIsoCode": "BEL",
+                "Country": "Belgium",
+                "Street": null,
+                "City": "Brugge",
+                "State": "Vlaams Gewest",
+                "County": "West-Vlaanderen",
+                "Longitude": 3.224651000,
+                "Latitude": 51.208958000,
+                "PhotoCount": 0,
+                "Id": 7
+            },
+            "Id": 33
+        },
+        {
+            "$type": "Fotosteam.Service.Repository.Poco.Photo, Fotosteam.Service",
+            "MemberId": 2,
+            "Name": "DSC_1564",
+            "OriginalName": "DSC_1564",
+            "Folder": "NotSet",
+            "Title": "",
+            "EventId": null,
+            "LocationId": 23,
+            "Width": 3199,
+            "Height": 2125,
+            "AspectRation": 0.0,
+            "Orientation": "landscape",
+            "CaptureDate": "2011-04-21T12:21:26",
+            "PublishDate": "2014-11-09T15:33:00",
+            "CommentCount": 0,
+            "AverageRating": 0.0,
+            "IsPrivate": false,
+            "License": 0,
+            "AllowFullSizeDownload": false,
+            "ExifUrl": null,
+            "Comments": null,
+            "Ratings": null,
+            "Exif": {
+                "$type": "Fotosteam.Service.Repository.Poco.ExifData, Fotosteam.Service",
+                "PhotoId": 34,
+                "Make": "NIKON CORPORATION",
+                "Model": "NIKON D90",
+                "CaptureDate": "2011-04-21T12:21:26",
+                "Description": null,
+                "Software": "Adobe Photoshop CC 2014 (Windows)",
+                "Artist": "Kristof Zerbe",
+                "Copyright": "2011",
+                "FocalLength": 280.0,
+                "FNumber": 6.3,
+                "ApertureValue": 5.310704,
+                "MaxApertureValue": 5.0,
+                "ExposureTime": 15625.0,
+                "ExposureBiasValue": 0.0,
+                "ExposureProgram": 0,
+                "ExposureMode": 0,
+                "ISOSpeedRatings": 200,
+                "MeteringMode": 5,
+                "XResolution": 300.0,
+                "YResolution": 300.0,
+                "ResolutionUnit": 2,
+                "Width": 0,
+                "Height": 0,
+                "AspectRatio": 0.0,
+                "Orientation": "0",
+                "Latitude": 0.0,
+                "Longitude": 0.0
+            },
+            "DirectLinks": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 34,
+                        "Size": 0,
+                        "Url": "https://dl.dropboxusercontent.com/s/gwpoj5q6euinkpj/full.JPG"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 34,
+                        "Size": 100,
+                        "Url": "https://dl.dropboxusercontent.com/s/bo31jsntwdvny30/100.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 34,
+                        "Size": 200,
+                        "Url": "https://dl.dropboxusercontent.com/s/td3kg03r62qaku0/200.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 34,
+                        "Size": 400,
+                        "Url": "https://dl.dropboxusercontent.com/s/zyie6pnd7smygu7/400.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 34,
+                        "Size": 640,
+                        "Url": "https://dl.dropboxusercontent.com/s/4hcnsbsowivvhzs/640.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 34,
+                        "Size": 1024,
+                        "Url": "https://dl.dropboxusercontent.com/s/08g049v131r4am9/1024.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 34,
+                        "Size": 1440,
+                        "Url": "https://dl.dropboxusercontent.com/s/g3giqz4yx3f6k1c/1440.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 34,
+                        "Size": 1920,
+                        "Url": "https://dl.dropboxusercontent.com/s/td5j5701wmuo0o1/1920.jpg"
+                    }
+                ]
+            },
+            "Category": 130,
+            "Categories": {
+                "$type": "System.Collections.Generic.List`1[[Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service]], mscorlib",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "Architecture",
+                        "PhotoCount": 1
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "Abstract",
+                        "PhotoCount": 1
+                    }
+                ]
+            },
+            "Topics": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service",
+                        "Name": "Walls",
+                        "Description": "Bildersammlung von Mauern und Wänden",
+                        "PhotoCount": 0,
+                        "MemberId": 2,
+                        "Member": null,
+                        "Id": 13
+                    }
+                ]
+            },
+            "Event": null,
+            "Location": {
+                "$type": "Fotosteam.Service.Repository.Poco.Location, Fotosteam.Service",
+                "MemberId": 2,
+                "Name": "Kloster Eberbach, Eltville",
+                "CountryIsoCode": "DEU",
+                "Country": "Germany",
+                "Street": null,
+                "City": "Eltville",
+                "State": "Hessen",
+                "County": "Darmstadt",
+                "Longitude": 8.047865000,
+                "Latitude": 50.042766000,
+                "PhotoCount": 0,
+                "Id": 23
+            },
+            "Id": 34
+        },
+        {
+            "$type": "Fotosteam.Service.Repository.Poco.Photo, Fotosteam.Service",
+            "MemberId": 2,
+            "Name": "DSC_2361",
+            "OriginalsName": "DSC_2361",
+            "Folder": "NotSet",
+            "Title": "Dublin Door",
+            "EventId": null,
+            "LocationId": 24,
+            "Width": 3216,
+            "Height": 2136,
+            "AspectRation": 0.0,
+            "Orientation": "landscape",
+            "CaptureDate": "2011-04-30T00:31:58",
+            "PublishDate": "2014-11-09T15:33:00",
+            "CommentCount": 0,
+            "AverageRating": 0.0,
+            "IsPrivate": false,
+            "License": 0,
+            "AllowFullSizeDownload": false,
+            "ExifUrl": null,
+            "Comments": null,
+            "Ratings": null,
+            "Exif": {
+                "$type": "Fotosteam.Service.Repository.Poco.ExifData, Fotosteam.Service",
+                "PhotoId": 35,
+                "Make": "NIKON CORPORATION",
+                "Model": "NIKON D90",
+                "CaptureDate": "2011-04-30T00:31:58",
+                "Description": null,
+                "Software": "Ver.10 ",
+                "Artist": "Kristof Zerbe",
+                "Copyright": null,
+                "FocalLength": 58.0,
+                "FNumber": 5.0,
+                "ApertureValue": 0.0,
+                "MaxApertureValue": 4.7,
+                "ExposureTime": 0.16666666666666666,
+                "ExposureBiasValue": 0.0,
+                "ExposureProgram": 0,
+                "ExposureMode": 0,
+                "ISOSpeedRatings": 1600,
+                "MeteringMode": 5,
+                "XResolution": 300.0,
+                "YResolution": 300.0,
+                "ResolutionUnit": 2,
+                "Width": 0,
+                "Height": 0,
+                "AspectRatio": 0.0,
+                "Orientation": "0",
+                "Latitude": 0.0,
+                "Longitude": 0.0
+            },
+            "DirectLinks": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 35,
+                        "Size": 0,
+                        "Url": "https://dl.dropboxusercontent.com/s/r3ub4rfkn0dj2zz/full.JPG"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 35,
+                        "Size": 100,
+                        "Url": "https://dl.dropboxusercontent.com/s/turvg8ppex04ha6/100.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 35,
+                        "Size": 200,
+                        "Url": "https://dl.dropboxusercontent.com/s/7b8i6ty3lbyuw26/200.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 35,
+                        "Size": 400,
+                        "Url": "https://dl.dropboxusercontent.com/s/9i5ys09tw85v6xe/400.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 35,
+                        "Size": 640,
+                        "Url": "https://dl.dropboxusercontent.com/s/1z3pss7fb4nai61/640.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 35,
+                        "Size": 1024,
+                        "Url": "https://dl.dropboxusercontent.com/s/re35kxt01truure/1024.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 35,
+                        "Size": 1440,
+                        "Url": "https://dl.dropboxusercontent.com/s/iswsir1kssanstg/1440.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 35,
+                        "Size": 1920,
+                        "Url": "https://dl.dropboxusercontent.com/s/12bfn42a95mvf5s/1920.jpg"
+                    }
+                ]
+            },
+            "Category": 68,
+            "Categories": {
+                "$type": "System.Collections.Generic.List`1[[Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service]], mscorlib",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "Urban",
+                        "PhotoCount": 1
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "Night",
+                        "PhotoCount": 1
+                    }
+                ]
+            },
+            "Topics": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service",
+                        "Name": "Doors & Windows",
+                        "Description": "Bildersammlung von allem wo man rausgehen oder rausschauen kann",
+                        "PhotoCount": 0,
+                        "MemberId": 2,
+                        "Member": null,
+                        "Id": 7
+                    }
+                ]
+            },
+            "Event": null,
+            "Location": {
+                "$type": "Fotosteam.Service.Repository.Poco.Location, Fotosteam.Service",
+                "MemberId": 2,
+                "Name": "Dublin",
+                "CountryIsoCode": "IRL",
+                "Country": "Ireland",
+                "Street": null,
+                "City": "Dublin",
+                "State": "Dublin",
+                "County": "Dublin City",
+                "Longitude": -6.259334000,
+                "Latitude": 53.347883000,
+                "PhotoCount": 0,
+                "Id": 24
+            },
+            "Id": 35
+        },
+        {
+            "$type": "Fotosteam.Service.Repository.Poco.Photo, Fotosteam.Service",
+            "MemberId": 2,
+            "Name": "DSC_2350-HDR",
+            "Folder": "NotSet",
+            "Title": "Dublin Night",
+            "EventId": null,
+            "LocationId": 24,
+            "Width": 3216,
+            "Height": 2117,
+            "AspectRation": 0.0,
+            "Orientation": "landscape",
+            "CaptureDate": "2011-04-30T00:16:00",
+            "PublishDate": "2014-11-09T15:33:00",
+            "CommentCount": 0,
+            "AverageRating": 0.0,
+            "IsPrivate": false,
+            "License": 0,
+            "AllowFullSizeDownload": false,
+            "ExifUrl": null,
+            "Comments": null,
+            "Ratings": null,
+            "Exif": {
+                "$type": "Fotosteam.Service.Repository.Poco.ExifData, Fotosteam.Service",
+                "PhotoId": 36,
+                "Make": "NIKON CORPORATION",
+                "Model": "NIKON D90",
+                "CaptureDate": "2011-04-30T00:16:00",
+                "Description": null,
+                "Software": "Oloneo PhotoEngine",
+                "Artist": "Kristof Zerbe",
+                "Copyright": "2011",
+                "FocalLength": 24.0,
+                "FNumber": 20.0,
+                "ApertureValue": 8.643856,
+                "MaxApertureValue": 0.0,
+                "ExposureTime": 30.0,
+                "ExposureBiasValue": 0.0,
+                "ExposureProgram": 0,
+                "ExposureMode": 0,
+                "ISOSpeedRatings": 200,
+                "MeteringMode": 0,
+                "XResolution": 300.0,
+                "YResolution": 300.0,
+                "ResolutionUnit": 2,
+                "Width": 0,
+                "Height": 0,
+                "AspectRatio": 0.0,
+                "Orientation": "0",
+                "Latitude": 53.34553055,
+                "Longitude": -6.2755972166666663
+            },
+            "DirectLinks": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 36,
+                        "Size": 0,
+                        "Url": "https://dl.dropboxusercontent.com/s/v9lsrh7l4hjb760/full.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 36,
+                        "Size": 100,
+                        "Url": "https://dl.dropboxusercontent.com/s/q4dysf46rjy7haz/100.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 36,
+                        "Size": 200,
+                        "Url": "https://dl.dropboxusercontent.com/s/nqnguzna83bjy25/200.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 36,
+                        "Size": 400,
+                        "Url": "https://dl.dropboxusercontent.com/s/xz132mtox03v0ir/400.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 36,
+                        "Size": 640,
+                        "Url": "https://dl.dropboxusercontent.com/s/ydd9tm2y62y4zzo/640.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 36,
+                        "Size": 1024,
+                        "Url": "https://dl.dropboxusercontent.com/s/m4q5plxi70lw9ms/1024.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 36,
+                        "Size": 1440,
+                        "Url": "https://dl.dropboxusercontent.com/s/9bj54mq48obdkak/1440.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 36,
+                        "Size": 1920,
+                        "Url": "https://dl.dropboxusercontent.com/s/2y2vhbquebgkfkw/1920.jpg"
+                    }
+                ]
+            },
+            "Category": 68,
+            "Categories": {
+                "$type": "System.Collections.Generic.List`1[[Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service]], mscorlib",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "Urban",
+                        "PhotoCount": 1
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "Night",
+                        "PhotoCount": 1
+                    }
+                ]
+            },
+            "Topics": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service]], System.Core",
+                "$values": [
+                ]
+            },
+            "Event": null,
+            "Location": {
+                "$type": "Fotosteam.Service.Repository.Poco.Location, Fotosteam.Service",
+                "MemberId": 2,
+                "Name": "Dublin",
+                "CountryIsoCode": "IRL",
+                "Country": "Ireland",
+                "Street": null,
+                "City": "Dublin",
+                "State": "Dublin",
+                "County": "Dublin City",
+                "Longitude": -6.259334000,
+                "Latitude": 53.347883000,
+                "PhotoCount": 0,
+                "Id": 24
+            },
+            "Id": 36
+        },
+        {
+            "$type": "Fotosteam.Service.Repository.Poco.Photo, Fotosteam.Service",
+            "MemberId": 2,
+            "Name": "DSC_2343",
+            "OriginalName": "DSC_2343",
+            "Folder": "NotSet",
+            "Title": "Dublin Curtain",
+            "EventId": null,
+            "LocationId": 24,
+            "Width": 2136,
+            "Height": 3216,
+            "AspectRation": 0.0,
+            "Orientation": "portrait",
+            "CaptureDate": "2011-04-29T23:58:01",
+            "PublishDate": "2014-11-09T15:33:00",
+            "CommentCount": 0,
+            "AverageRating": 0.0,
+            "IsPrivate": false,
+            "License": 0,
+            "AllowFullSizeDownload": false,
+            "ExifUrl": null,
+            "Comments": null,
+            "Ratings": null,
+            "Exif": {
+                "$type": "Fotosteam.Service.Repository.Poco.ExifData, Fotosteam.Service",
+                "PhotoId": 37,
+                "Make": "NIKON CORPORATION",
+                "Model": "NIKON D90",
+                "CaptureDate": "2011-04-29T23:58:01",
+                "Description": "In einer Bar",
+                "Software": "Adobe Photoshop Lightroom 5.6 (Windows)",
+                "Artist": "Kristof Zerbe",
+                "Copyright": "2011",
+                "FocalLength": 105.0,
+                "FNumber": 5.6,
+                "ApertureValue": 4.970854,
+                "MaxApertureValue": 5.0,
+                "ExposureTime": 0.125,
+                "ExposureBiasValue": 0.0,
+                "ExposureProgram": 0,
+                "ExposureMode": 0,
+                "ISOSpeedRatings": 1600,
+                "MeteringMode": 5,
+                "XResolution": 240.0,
+                "YResolution": 240.0,
+                "ResolutionUnit": 2,
+                "Width": 0,
+                "Height": 0,
+                "AspectRatio": 0.0,
+                "Orientation": "0",
+                "Latitude": 53.34553,
+                "Longitude": -6.2755966666666669
+            },
+            "DirectLinks": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 37,
+                        "Size": 0,
+                        "Url": "https://dl.dropboxusercontent.com/s/f5uzx69ns2pta8d/full.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 37,
+                        "Size": 100,
+                        "Url": "https://dl.dropboxusercontent.com/s/2x08dsnjj6iulvr/100.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 37,
+                        "Size": 200,
+                        "Url": "https://dl.dropboxusercontent.com/s/6vrxx9kzvhqgl54/200.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 37,
+                        "Size": 400,
+                        "Url": "https://dl.dropboxusercontent.com/s/9nw0bia7wsvvqaf/400.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 37,
+                        "Size": 640,
+                        "Url": "https://dl.dropboxusercontent.com/s/yd4bbsyp8ctx4es/640.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 37,
+                        "Size": 1024,
+                        "Url": "https://dl.dropboxusercontent.com/s/r76ne0zwp5z3cdp/1024.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 37,
+                        "Size": 1440,
+                        "Url": "https://dl.dropboxusercontent.com/s/r8dm6o4suf40ddg/1440.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 37,
+                        "Size": 1920,
+                        "Url": "https://dl.dropboxusercontent.com/s/hi4zzq8ptq442jr/1920.jpg"
+                    }
+                ]
+            },
+            "Category": 36,
+            "Categories": {
+                "$type": "System.Collections.Generic.List`1[[Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service]], mscorlib",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "Urban",
+                        "PhotoCount": 1
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "Still",
+                        "PhotoCount": 1
+                    }
+                ]
+            },
+            "Topics": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service",
+                        "Name": "Walls",
+                        "Description": "Bildersammlung von Mauern und Wänden",
+                        "PhotoCount": 0,
+                        "MemberId": 2,
+                        "Member": null,
+                        "Id": 13
+                    }
+                ]
+            },
+            "Event": null,
+            "Location": {
+                "$type": "Fotosteam.Service.Repository.Poco.Location, Fotosteam.Service",
+                "MemberId": 2,
+                "Name": "Dublin",
+                "CountryIsoCode": "IRL",
+                "Country": "Ireland",
+                "Street": null,
+                "City": "Dublin",
+                "State": "Dublin",
+                "County": "Dublin City",
+                "Longitude": -6.259334000,
+                "Latitude": 53.347883000,
+                "PhotoCount": 0,
+                "Id": 24
+            },
+            "Id": 37
+        },
+        {
+            "$type": "Fotosteam.Service.Repository.Poco.Photo, Fotosteam.Service",
+            "MemberId": 3,
+            "Name": "500-0246",
+            "OriginalName": "500-0246",
+            "Folder": "v1kektjj.owu",
+            "Title": "Chess",
+            "EventId": null,
+            "LocationId": 37,
+            "Width": 5227,
+            "Height": 3485,
+            "AspectRation": 1.4998565279770444,
+            "Orientation": "landscape",
+            "CaptureDate": "2014-09-18T19:24:07",
+            "PublishDate": "2015-02-24T11:07:05.467",
+            "CommentCount": 0,
+            "AverageRating": 0.0,
+            "IsPrivate": false,
+            "License": 0,
+            "AllowFullSizeDownload": false,
+            "ExifUrl": "https://dl.dropboxusercontent.com/s/r3kvbts7gp8i3su/meta.json",
+            "Comments": null,
+            "Ratings": null,
+            "Exif": {
+                "$type": "Fotosteam.Service.Repository.Poco.ExifData, Fotosteam.Service",
+                "PhotoId": 53,
+                "Make": "Canon",
+                "Model": "Canon EOS 6D",
+                "CaptureDate": "2014-09-18T19:24:07",
+                "Description": null,
+                "Software": "Adobe Photoshop Lightroom 5.6 (Windows)",
+                "Artist": null,
+                "Copyright": null,
+                "FocalLength": 80.0,
+                "FNumber": 4.0,
+                "ApertureValue": 4.0,
+                "MaxApertureValue": 4.0,
+                "ExposureTime": 0.2,
+                "ExposureBiasValue": 0.33333333333333331,
+                "ExposureProgram": 3,
+                "ExposureMode": 0,
+                "ISOSpeedRatings": 100,
+                "MeteringMode": 3,
+                "XResolution": 240.0,
+                "YResolution": 240.0,
+                "ResolutionUnit": 2,
+                "Width": 5227,
+                "Height": 3485,
+                "AspectRatio": 1.4998565279770444,
+                "Orientation": "landscape",
+                "Latitude": 50.085344433333333,
+                "Longitude": 8.24180555
+            },
+            "DirectLinks": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 53,
+                        "Size": 0,
+                        "Url": "https://dl.dropboxusercontent.com/s/32cd4y5ckyxm90g/full.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 53,
+                        "Size": 100,
+                        "Url": "https://dl.dropboxusercontent.com/s/o2n0rbrzwpvj9bc/100.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 53,
+                        "Size": 200,
+                        "Url": "https://dl.dropboxusercontent.com/s/p17n9bbu6osjxdm/200.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 53,
+                        "Size": 400,
+                        "Url": "https://dl.dropboxusercontent.com/s/rs9f2pzausmkmpy/400.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 53,
+                        "Size": 480,
+                        "Url": "https://dl.dropboxusercontent.com/s/g5ddxpkw4n9lzun/480.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 53,
+                        "Size": 640,
+                        "Url": "https://dl.dropboxusercontent.com/s/l2bazcbcbeo5krg/640.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 53,
+                        "Size": 1024,
+                        "Url": "https://dl.dropboxusercontent.com/s/isfo1x6c9droku0/1024.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 53,
+                        "Size": 1440,
+                        "Url": "https://dl.dropboxusercontent.com/s/2ghj2zsy7p3j128/1440.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 53,
+                        "Size": 1920,
+                        "Url": "https://dl.dropboxusercontent.com/s/o3rnfq6erg2nuu9/1920.jpg"
+                    }
+                ]
+            },
+            "Category": 160,
+            "Categories": {
+                "$type": "System.Collections.Generic.List`1[[Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service]], mscorlib",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "NotSet",
+                        "PhotoCount": 1
+                    }
+                ]
+            },
+            "Topics": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "Name": "Black and white",
+                        "Description": "A colloection of picture in black and white",
+                        "PhotoCount": 0,
+                        "Id": 1,
+                        "Member": null
+                    }
+                ]
+            },
+            "Event": null,
+            "Location": {
+                "$type": "Fotosteam.Service.Repository.Poco.Location, Fotosteam.Service",
+                "MemberId": 3,
+                "Name": "Wiesbaden,Hessen,Germany",
+                "CountryIsoCode": "DEU",
+                "Country": "Germany",
+                "Street": "Kranzplatz",
+                "City": "Wiesbaden",
+                "State": "Hessen",
+                "County": "Darmstadt",
+                "Longitude": 8.248353400,
+                "Latitude": 50.072482500,
+                "PhotoCount": 0,
+                "Id": 37
+            },
+            "Id": 53
+        },
+        {
+            "$type": "Fotosteam.Service.Repository.Poco.Photo, Fotosteam.Service",
+            "MemberId": 3,
+            "Name": "Ahaus-0277",
+            "OriginalName": "Ahaus-0277",
+            "Folder": "xpyi4qqd.mxi",
+            "Title": "Sunrise @ Angkor Wat",
+            "EventId": null,
+            "LocationId": 38,
+            "Width": 5184,
+            "Height": 2827,
+            "AspectRation": 1.8337460205164486,
+            "Orientation": "landscape",
+            "CaptureDate": "2011-02-01T01:37:05",
+            "PublishDate": "2015-02-24T11:08:41.943",
+            "CommentCount": 0,
+            "AverageRating": 0.0,
+            "IsPrivate": false,
+            "License": 0,
+            "AllowFullSizeDownload": false,
+            "ExifUrl": "https://dl.dropboxusercontent.com/s/04vrfzuj1vucsff/meta.json",
+            "Comments": null,
+            "Ratings": null,
+            "Exif": {
+                "$type": "Fotosteam.Service.Repository.Poco.ExifData, Fotosteam.Service",
+                "PhotoId": 54,
+                "Make": "Canon",
+                "Model": "Canon EOS 60D",
+                "CaptureDate": "2011-02-01T01:37:05",
+                "Description": null,
+                "Software": "Adobe Photoshop Lightroom 5.7 (Windows)",
+                "Artist": null,
+                "Copyright": null,
+                "FocalLength": 17.0,
+                "FNumber": 14.0,
+                "ApertureValue": 7.61471,
+                "MaxApertureValue": 4.0,
+                "ExposureTime": 0.0025,
+                "ExposureBiasValue": 0.0,
+                "ExposureProgram": 2,
+                "ExposureMode": 0,
+                "ISOSpeedRatings": 400,
+                "MeteringMode": 2,
+                "XResolution": 96.0,
+                "YResolution": 96.0,
+                "ResolutionUnit": 2,
+                "Width": 5184,
+                "Height": 2827,
+                "AspectRatio": 1.8337460205164486,
+                "Orientation": "landscape",
+                "Latitude": 13.413477766666667,
+                "Longitude": 103.86793055
+            },
+            "DirectLinks": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 54,
+                        "Size": 0,
+                        "Url": "https://dl.dropboxusercontent.com/s/6470k5cf1y41b4x/full.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 54,
+                        "Size": 100,
+                        "Url": "https://dl.dropboxusercontent.com/s/y2h5w53ddo7ycvi/100.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 54,
+                        "Size": 200,
+                        "Url": "https://dl.dropboxusercontent.com/s/xhh0tpizubg386x/200.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 54,
+                        "Size": 400,
+                        "Url": "https://dl.dropboxusercontent.com/s/lgbnqvspttpk40h/400.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 54,
+                        "Size": 480,
+                        "Url": "https://dl.dropboxusercontent.com/s/853v64kuw9a0t9w/480.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 54,
+                        "Size": 640,
+                        "Url": "https://dl.dropboxusercontent.com/s/2u2tcs5yw26nqri/640.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 54,
+                        "Size": 1024,
+                        "Url": "https://dl.dropboxusercontent.com/s/4fjflzfmxjqtgl8/1024.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 54,
+                        "Size": 1440,
+                        "Url": "https://dl.dropboxusercontent.com/s/q92qeq36gfxlv1b/1440.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 54,
+                        "Size": 1920,
+                        "Url": "https://dl.dropboxusercontent.com/s/ntqxcnri1e04x5f/1920.jpg"
+                    }
+                ]
+            },
+            "Category": 0,
+            "Categories": {
+                "$type": "System.Collections.Generic.List`1[[Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service]], mscorlib",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "NotSet",
+                        "PhotoCount": 1
+                    }
+                ]
+            },
+            "Topics": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service]], System.Core",
+                "$values": [
+                ]
+            },
+            "Event": null,
+            "Location": {
+                "$type": "Fotosteam.Service.Repository.Poco.Location, Fotosteam.Service",
+                "MemberId": 3,
+                "Name": "Krong Siem Reap,Siem Reap,Cambodia",
+                "CountryIsoCode": "KHM",
+                "Country": "Cambodia",
+                "Street": "Unnamed Road",
+                "City": "Krong Siem Reap",
+                "State": "Siem Reap",
+                "County": "Siem Reap",
+                "Longitude": 103.859722222,
+                "Latitude": 13.3622222222,
+                "PhotoCount": 0,
+                "Id": 38
+            },
+            "Id": 54
+        },
+        {
+            "$type": "Fotosteam.Service.Repository.Poco.Photo, Fotosteam.Service",
+            "MemberId": 3,
+            "Name": "nz-5040",
+            "OriginalName": "nz-5040",
+            "Folder": "grkm4zh2.tj1",
+            "Title": "The Stone Store, Kerikeri",
+            "EventId": null,
+            "LocationId": 39,
+            "Width": 4395,
+            "Height": 2198,
+            "AspectRation": 1.9995450409463149,
+            "Orientation": "landscape",
+            "CaptureDate": "2013-02-09T22:08:36",
+            "PublishDate": "2015-02-24T11:09:10.07",
+            "CommentCount": 0,
+            "AverageRating": 0.0,
+            "IsPrivate": false,
+            "License": 0,
+            "AllowFullSizeDownload": false,
+            "ExifUrl": "https://dl.dropboxusercontent.com/s/efg360wxzls4ovy/meta.json",
+            "Comments": null,
+            "Ratings": null,
+            "Exif": {
+                "$type": "Fotosteam.Service.Repository.Poco.ExifData, Fotosteam.Service",
+                "PhotoId": 55,
+                "Make": "Canon",
+                "Model": "Canon EOS 60D",
+                "CaptureDate": "2013-02-09T22:08:36",
+                "Description": null,
+                "Software": "Adobe Photoshop Lightroom 5.7 (Windows)",
+                "Artist": "Robert Bakos",
+                "Copyright": "(c) All rights reserved",
+                "FocalLength": 17.0,
+                "FNumber": 10.0,
+                "ApertureValue": 6.643856,
+                "MaxApertureValue": 4.0,
+                "ExposureTime": 0.004,
+                "ExposureBiasValue": 0.0,
+                "ExposureProgram": 2,
+                "ExposureMode": 0,
+                "ISOSpeedRatings": 100,
+                "MeteringMode": 3,
+                "XResolution": 96.0,
+                "YResolution": 96.0,
+                "ResolutionUnit": 2,
+                "Width": 4395,
+                "Height": 2198,
+                "AspectRatio": 1.9995450409463149,
+                "Orientation": "landscape",
+                "Latitude": -35.217855,
+                "Longitude": 173.96267
+            },
+            "DirectLinks": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 55,
+                        "Size": 0,
+                        "Url": "https://dl.dropboxusercontent.com/s/mzwg04d3vsyfoia/full.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 55,
+                        "Size": 100,
+                        "Url": "https://dl.dropboxusercontent.com/s/3f4arq718arvdf7/100.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 55,
+                        "Size": 200,
+                        "Url": "https://dl.dropboxusercontent.com/s/0r89g029salr23i/200.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 55,
+                        "Size": 400,
+                        "Url": "https://dl.dropboxusercontent.com/s/nl9dy4ztqywmxuj/400.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 55,
+                        "Size": 480,
+                        "Url": "https://dl.dropboxusercontent.com/s/eu73ck51agwi97p/480.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 55,
+                        "Size": 640,
+                        "Url": "https://dl.dropboxusercontent.com/s/ghr86yr5xtxtju7/640.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 55,
+                        "Size": 1024,
+                        "Url": "https://dl.dropboxusercontent.com/s/vgs1nw0dcquwssr/1024.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 55,
+                        "Size": 1440,
+                        "Url": "https://dl.dropboxusercontent.com/s/ny1c3tu9ldjy4wc/1440.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 55,
+                        "Size": 1920,
+                        "Url": "https://dl.dropboxusercontent.com/s/2uomw4jxqbnwlb3/1920.jpg"
+                    }
+                ]
+            },
+            "Category": 0,
+            "Categories": {
+                "$type": "System.Collections.Generic.List`1[[Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service]], mscorlib",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "NotSet",
+                        "PhotoCount": 1
+                    }
+                ]
+            },
+            "Topics": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service]], System.Core",
+                "$values": [
+                ]
+            },
+            "Event": null,
+            "Location": {
+                "$type": "Fotosteam.Service.Repository.Poco.Location, Fotosteam.Service",
+                "MemberId": 3,
+                "Name": "Kerikeri,Northland,New Zealand",
+                "CountryIsoCode": "NZL",
+                "Country": "New Zealand",
+                "Street": "Kerikeri Road",
+                "City": "Kerikeri",
+                "State": "Northland",
+                "County": null,
+                "Longitude": 173.966667,
+                "Latitude": -35.216667,
+                "PhotoCount": 0,
+                "Id": 39
+            },
+            "Id": 55
+        },
+        {
+            "$type": "Fotosteam.Service.Repository.Poco.Photo, Fotosteam.Service",
+            "MemberId": 3,
+            "Name": "SriLanka2014-0041",
+            "OriginalName": "SriLanka2014-0041",
+            "Folder": "4ht3aud0.kn2",
+            "Title": "Champagne Pool",
+            "EventId": null,
+            "LocationId": 40,
+            "Width": 1468,
+            "Height": 2200,
+            "AspectRation": 0.66727272727272724,
+            "Orientation": "portrait",
+            "CaptureDate": "2013-02-11T23:46:11",
+            "PublishDate": "2015-02-24T11:09:32.963",
+            "CommentCount": 0,
+            "AverageRating": 0.0,
+            "IsPrivate": false,
+            "License": 0,
+            "AllowFullSizeDownload": false,
+            "ExifUrl": "https://dl.dropboxusercontent.com/s/bzby4weawgyvi3w/meta.json",
+            "Comments": null,
+            "Ratings": null,
+            "Exif": {
+                "$type": "Fotosteam.Service.Repository.Poco.ExifData, Fotosteam.Service",
+                "PhotoId": 56,
+                "Make": "Canon",
+                "Model": "Canon EOS 60D",
+                "CaptureDate": "2013-02-11T23:46:11",
+                "Description": null,
+                "Software": "Adobe Photoshop Lightroom 5.7 (Windows)",
+                "Artist": "Robert Bakos",
+                "Copyright": "(c) All rights reserved",
+                "FocalLength": 17.0,
+                "FNumber": 10.0,
+                "ApertureValue": 6.643856,
+                "MaxApertureValue": 4.0,
+                "ExposureTime": 0.005,
+                "ExposureBiasValue": 0.0,
+                "ExposureProgram": 0,
+                "ExposureMode": 0,
+                "ISOSpeedRatings": 100,
+                "MeteringMode": 5,
+                "XResolution": 96.0,
+                "YResolution": 96.0,
+                "ResolutionUnit": 2,
+                "Width": 1468,
+                "Height": 2200,
+                "AspectRatio": 0.66727272727272724,
+                "Orientation": "portrait",
+                "Latitude": -38.359394433333335,
+                "Longitude": 176.368975
+            },
+            "DirectLinks": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 56,
+                        "Size": 0,
+                        "Url": "https://dl.dropboxusercontent.com/s/7kjoacln3gu6x57/full.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 56,
+                        "Size": 100,
+                        "Url": "https://dl.dropboxusercontent.com/s/7oblsfzwfwuvuz4/100.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 56,
+                        "Size": 200,
+                        "Url": "https://dl.dropboxusercontent.com/s/ymfy0cjvpviyhlv/200.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 56,
+                        "Size": 400,
+                        "Url": "https://dl.dropboxusercontent.com/s/ana35htsrnme7jg/400.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 56,
+                        "Size": 480,
+                        "Url": "https://dl.dropboxusercontent.com/s/pofvmm3ocaff9nf/480.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 56,
+                        "Size": 640,
+                        "Url": "https://dl.dropboxusercontent.com/s/zcb82l0nz0kisgk/640.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 56,
+                        "Size": 1024,
+                        "Url": "https://dl.dropboxusercontent.com/s/ek35jr7i61mqgxi/1024.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 56,
+                        "Size": 1440,
+                        "Url": "https://dl.dropboxusercontent.com/s/80mbdcr5uhktnud/1440.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 56,
+                        "Size": 1920,
+                        "Url": "https://dl.dropboxusercontent.com/s/k7otv7e25m5b6e0/1920.jpg"
+                    }
+                ]
+            },
+            "Category": 0,
+            "Categories": {
+                "$type": "System.Collections.Generic.List`1[[Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service]], mscorlib",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "NotSet",
+                        "PhotoCount": 1
+                    }
+                ]
+            },
+            "Topics": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service]], System.Core",
+                "$values": [
+                ]
+            },
+            "Event": null,
+            "Location": {
+                "$type": "Fotosteam.Service.Repository.Poco.Location, Fotosteam.Service",
+                "MemberId": 3,
+                "Name": "Waiotapu,Bay Of Plenty,New Zealand",
+                "CountryIsoCode": "NZL",
+                "Country": "New Zealand",
+                "Street": "Rotohoe Road",
+                "City": "Waiotapu",
+                "State": "Bay Of Plenty",
+                "County": null,
+                "Longitude": 176.367513,
+                "Latitude": -38.3558981,
+                "PhotoCount": 0,
+                "Id": 40
+            },
+            "Id": 56
+        },
+        {
+            "$type": "Fotosteam.Service.Repository.Poco.Photo, Fotosteam.Service",
+            "MemberId": 3,
+            "Name": "SriLanka2014-0084",
+            "OriginalName": "SriLanka2014-0084",
+            "Folder": "rcpg3p2e.h4z",
+            "Title": "NZ South Island",
+            "EventId": null,
+            "LocationId": null,
+            "Width": 2592,
+            "Height": 864,
+            "AspectRation": 3.0,
+            "Orientation": "landscape",
+            "CaptureDate": "2013-02-17T16:42:27",
+            "PublishDate": "2015-02-24T11:09:51.5",
+            "CommentCount": 0,
+            "AverageRating": 0.0,
+            "IsPrivate": false,
+            "License": 0,
+            "AllowFullSizeDownload": false,
+            "ExifUrl": "https://dl.dropboxusercontent.com/s/uzylkpztp2ikgdq/meta.json",
+            "Comments": null,
+            "Ratings": null,
+            "Exif": {
+                "$type": "Fotosteam.Service.Repository.Poco.ExifData, Fotosteam.Service",
+                "PhotoId": 57,
+                "Make": "Panasonic",
+                "Model": "DMC-TZ25",
+                "CaptureDate": "2013-02-17T16:42:27",
+                "Description": null,
+                "Software": "Adobe Photoshop Lightroom 5.7 (Windows)",
+                "Artist": null,
+                "Copyright": null,
+                "FocalLength": 4.3,
+                "FNumber": 6.3,
+                "ApertureValue": 5.310704,
+                "MaxApertureValue": 3.4453125,
+                "ExposureTime": 0.004,
+                "ExposureBiasValue": 0.0,
+                "ExposureProgram": 2,
+                "ExposureMode": 0,
+                "ISOSpeedRatings": 100,
+                "MeteringMode": 5,
+                "XResolution": 96.0,
+                "YResolution": 96.0,
+                "ResolutionUnit": 2,
+                "Width": 2592,
+                "Height": 864,
+                "AspectRatio": 3.0,
+                "Orientation": "landscape",
+                "Latitude": 0.0,
+                "Longitude": 0.0
+            },
+            "DirectLinks": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 57,
+                        "Size": 0,
+                        "Url": "https://dl.dropboxusercontent.com/s/dzg823xdtdiuewp/full.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 57,
+                        "Size": 100,
+                        "Url": "https://dl.dropboxusercontent.com/s/3frqdnybddi0rvt/100.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 57,
+                        "Size": 200,
+                        "Url": "https://dl.dropboxusercontent.com/s/1kx0quy2bzpsatl/200.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 57,
+                        "Size": 400,
+                        "Url": "https://dl.dropboxusercontent.com/s/0xm9ix1tdbv41eo/400.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 57,
+                        "Size": 480,
+                        "Url": "https://dl.dropboxusercontent.com/s/fgdb8kecibaevcm/480.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 57,
+                        "Size": 640,
+                        "Url": "https://dl.dropboxusercontent.com/s/yycfcn2zczsyp6n/640.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 57,
+                        "Size": 1024,
+                        "Url": "https://dl.dropboxusercontent.com/s/i4h2rih1w1tgdop/1024.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 57,
+                        "Size": 1440,
+                        "Url": "https://dl.dropboxusercontent.com/s/agq1kyxl8mcdsqp/1440.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 57,
+                        "Size": 1920,
+                        "Url": "https://dl.dropboxusercontent.com/s/p9doob6oyr5kw1f/1920.jpg"
+                    }
+                ]
+            },
+            "Category": 0,
+            "Categories": {
+                "$type": "System.Collections.Generic.List`1[[Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service]], mscorlib",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "NotSet",
+                        "PhotoCount": 1
+                    }
+                ]
+            },
+            "Topics": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service]], System.Core",
+                "$values": [
+                ]
+            },
+            "Event": null,
+            "Location": null,
+            "Id": 57
+        },
+        {
+            "$type": "Fotosteam.Service.Repository.Poco.Photo, Fotosteam.Service",
+            "MemberId": 3,
+            "Name": "SriLanka2014-0276",
+            "OriginalName": "SriLanka2014-0276",
+            "Folder": "c5yowjhx.mf5",
+            "Title": "Steamy Volcano",
+            "EventId": null,
+            "LocationId": 41,
+            "Width": 1225,
+            "Height": 817,
+            "AspectRation": 1.4993880048959609,
+            "Orientation": "landscape",
+            "CaptureDate": "2013-03-10T17:13:08",
+            "PublishDate": "2015-02-24T11:10:04.793",
+            "CommentCount": 0,
+            "AverageRating": 0.0,
+            "IsPrivate": false,
+            "License": 0,
+            "AllowFullSizeDownload": false,
+            "ExifUrl": "https://dl.dropboxusercontent.com/s/x8cymgh1ri38auw/meta.json",
+            "Comments": null,
+            "Ratings": null,
+            "Exif": {
+                "$type": "Fotosteam.Service.Repository.Poco.ExifData, Fotosteam.Service",
+                "PhotoId": 58,
+                "Make": "Canon",
+                "Model": "Canon EOS 60D",
+                "CaptureDate": "2013-03-10T17:13:08",
+                "Description": null,
+                "Software": "Adobe Photoshop Lightroom 5.7 (Windows)",
+                "Artist": "Robert Bakos",
+                "Copyright": "(c) All rights reserved",
+                "FocalLength": 200.0,
+                "FNumber": 5.6,
+                "ApertureValue": 4.970854,
+                "MaxApertureValue": 3.0,
+                "ExposureTime": 0.001,
+                "ExposureBiasValue": -0.66666666666666663,
+                "ExposureProgram": 2,
+                "ExposureMode": 2,
+                "ISOSpeedRatings": 100,
+                "MeteringMode": 5,
+                "XResolution": 96.0,
+                "YResolution": 96.0,
+                "ResolutionUnit": 2,
+                "Width": 1225,
+                "Height": 817,
+                "AspectRatio": 1.4993880048959609,
+                "Orientation": "landscape",
+                "Latitude": -39.119138883333335,
+                "Longitude": 175.64014443333335
+            },
+            "DirectLinks": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 58,
+                        "Size": 0,
+                        "Url": "https://dl.dropboxusercontent.com/s/egrg3ord71we1p9/full.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 58,
+                        "Size": 100,
+                        "Url": "https://dl.dropboxusercontent.com/s/1t87gnjk4uu4z5t/100.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 58,
+                        "Size": 200,
+                        "Url": "https://dl.dropboxusercontent.com/s/a03b7ll4i5vad50/200.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 58,
+                        "Size": 400,
+                        "Url": "https://dl.dropboxusercontent.com/s/rm9n20q3lmd823a/400.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 58,
+                        "Size": 480,
+                        "Url": "https://dl.dropboxusercontent.com/s/xymt079a9jfd3ls/480.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 58,
+                        "Size": 640,
+                        "Url": "https://dl.dropboxusercontent.com/s/b8jj73mx0fu0xb5/640.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 58,
+                        "Size": 1024,
+                        "Url": "https://dl.dropboxusercontent.com/s/76fov6eu68h5vjx/1024.jpg"
+                    }
+                ]
+            },
+            "Category": 0,
+            "Categories": {
+                "$type": "System.Collections.Generic.List`1[[Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service]], mscorlib",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "NotSet",
+                        "PhotoCount": 1
+                    }
+                ]
+            },
+            "Topics": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service]], System.Core",
+                "$values": [
+                ]
+            },
+            "Event": null,
+            "Location": {
+                "$type": "Fotosteam.Service.Repository.Poco.Location, Fotosteam.Service",
+                "MemberId": 3,
+                "Name": "Tongariro National Park,Manawatu-Wanganui,New Zealand",
+                "CountryIsoCode": "NZL",
+                "Country": "New Zealand",
+                "Street": "Tongariro Alpine Crossing",
+                "City": "Tongariro National Park",
+                "State": "Manawatu-Wanganui",
+                "County": null,
+                "Longitude": 0,
+                "Latitude": 0,
+                "PhotoCount": 0,
+                "Id": 41
+            },
+            "Id": 58
+        },
+        {
+            "$type": "Fotosteam.Service.Repository.Poco.Photo, Fotosteam.Service",
+            "MemberId": 3,
+            "Name": "SriLanka2014-2616",
+            "OriginalName": "SriLanka2014-2616",
+            "Folder": "kt3zlpip.eht",
+            "Title": "I object!",
+            "EventId": 5,
+            "LocationId": 42,
+            "Width": 4430,
+            "Height": 2953,
+            "AspectRation": 1.5001693193362682,
+            "Orientation": "landscape",
+            "CaptureDate": "2014-12-09T13:29:16",
+            "PublishDate": "2015-02-24T11:10:29.237",
+            "CommentCount": 0,
+            "AverageRating": 0.0,
+            "IsPrivate": false,
+            "License": 0,
+            "AllowFullSizeDownload": false,
+            "ExifUrl": "https://dl.dropboxusercontent.com/s/e5yizg80jnc9tlw/meta.json",
+            "Comments": null,
+            "Ratings": null,
+            "Exif": {
+                "$type": "Fotosteam.Service.Repository.Poco.ExifData, Fotosteam.Service",
+                "PhotoId": 59,
+                "Make": "Canon",
+                "Model": "Canon EOS 6D",
+                "CaptureDate": "2014-12-09T13:29:16",
+                "Description": null,
+                "Software": "Adobe Photoshop Lightroom 5.7 (Windows)",
+                "Artist": null,
+                "Copyright": null,
+                "FocalLength": 200.0,
+                "FNumber": 2.8,
+                "ApertureValue": 2.970854,
+                "MaxApertureValue": 3.0,
+                "ExposureTime": 0.033333333333333333,
+                "ExposureBiasValue": 0.0,
+                "ExposureProgram": 2,
+                "ExposureMode": 0,
+                "ISOSpeedRatings": 100,
+                "MeteringMode": 5,
+                "XResolution": 96.0,
+                "YResolution": 96.0,
+                "ResolutionUnit": 2,
+                "Width": 4430,
+                "Height": 2953,
+                "AspectRatio": 1.5001693193362682,
+                "Orientation": "landscape",
+                "Latitude": 6.4641083333333329,
+                "Longitude": 80.900561666666661
+            },
+            "DirectLinks": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 59,
+                        "Size": 0,
+                        "Url": "https://dl.dropboxusercontent.com/s/0fn6mwmq4qxcxa8/full.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 59,
+                        "Size": 100,
+                        "Url": "https://dl.dropboxusercontent.com/s/2wf1bdavwwcht68/100.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 59,
+                        "Size": 200,
+                        "Url": "https://dl.dropboxusercontent.com/s/ty76nwhvqz2ywdc/200.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 59,
+                        "Size": 400,
+                        "Url": "https://dl.dropboxusercontent.com/s/87r1xy6xja8550o/400.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 59,
+                        "Size": 480,
+                        "Url": "https://dl.dropboxusercontent.com/s/s3gfn8ny9544fcm/480.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 59,
+                        "Size": 640,
+                        "Url": "https://dl.dropboxusercontent.com/s/uocix38nj64afhk/640.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 59,
+                        "Size": 1024,
+                        "Url": "https://dl.dropboxusercontent.com/s/z8x9yt2udtj293g/1024.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 59,
+                        "Size": 1440,
+                        "Url": "https://dl.dropboxusercontent.com/s/3vces0iugjawhjh/1440.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 59,
+                        "Size": 1920,
+                        "Url": "https://dl.dropboxusercontent.com/s/s9tqc5z4kw5acka/1920.jpg"
+                    }
+                ]
+            },
+            "Category": 0,
+            "Categories": {
+                "$type": "System.Collections.Generic.List`1[[Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service]], mscorlib",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "NotSet",
+                        "PhotoCount": 1
+                    }
+                ]
+            },
+            "Topics": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service]], System.Core",
+                "$values": [
+                ]
+            },
+            "Event": {
+                "$type": "Fotosteam.Service.Repository.Poco.Event, Fotosteam.Service",
+                "MemberId": 3,
+                "Name": "Sri Lanka 2014",
+                "Date": "2014-12-05T00:00:00",
+                "DateTo": "2015-12-15T00:00:00",
+                "Description": "",
+                "Location": null,
+                "PhotoCount": 0,
+                "Id": 5
+            },
+            "Location": {
+                "$type": "Fotosteam.Service.Repository.Poco.Location, Fotosteam.Service",
+                "MemberId": 3,
+                "Name": "Uva Province,Sri Lanka",
+                "CountryIsoCode": "LKA",
+                "Country": "Sri Lanka",
+                "Street": "Unnamed Road",
+                "City": null,
+                "State": "Uva Province",
+                "County": "Moneragala",
+                "Longitude": 0,
+                "Latitude": 0,
+                "PhotoCount": 0,
+                "Id": 42
+            },
+            "Id": 59
+        },
+        {
+            "$type": "Fotosteam.Service.Repository.Poco.Photo, Fotosteam.Service",
+            "MemberId": 3,
+            "Name": "SriLanka2014-2762",
+            "OriginalName": "SriLanka2014-2762",
+            "Folder": "s5wxxhhj.o1k",
+            "Title": "Sunrise @Haputale",
+            "EventId": 5,
+            "LocationId": 43,
+            "Width": 1920,
+            "Height": 1280,
+            "AspectRation": 1.5,
+            "Orientation": "landscape",
+            "CaptureDate": "2014-12-11T02:46:08",
+            "PublishDate": "2015-02-24T11:10:48.843",
+            "CommentCount": 0,
+            "AverageRating": 0.0,
+            "IsPrivate": false,
+            "License": 0,
+            "AllowFullSizeDownload": false,
+            "ExifUrl": "https://dl.dropboxusercontent.com/s/h6nzs44aoh5y8ug/meta.json",
+            "Comments": null,
+            "Ratings": null,
+            "Exif": {
+                "$type": "Fotosteam.Service.Repository.Poco.ExifData, Fotosteam.Service",
+                "PhotoId": 60,
+                "Make": "Canon",
+                "Model": "Canon EOS 6D",
+                "CaptureDate": "2014-12-11T02:46:08",
+                "Description": null,
+                "Software": "Adobe Photoshop Lightroom 5.7 (Windows)",
+                "Artist": null,
+                "Copyright": null,
+                "FocalLength": 24.0,
+                "FNumber": 18.0,
+                "ApertureValue": 8.33985,
+                "MaxApertureValue": 4.0,
+                "ExposureTime": 0.033333333333333333,
+                "ExposureBiasValue": 0.33333333333333331,
+                "ExposureProgram": 3,
+                "ExposureMode": 0,
+                "ISOSpeedRatings": 100,
+                "MeteringMode": 5,
+                "XResolution": 96.0,
+                "YResolution": 96.0,
+                "ResolutionUnit": 2,
+                "Width": 1920,
+                "Height": 1280,
+                "AspectRatio": 1.5,
+                "Orientation": "landscape",
+                "Latitude": 6.7655027666666667,
+                "Longitude": 80.946772216666673
+            },
+            "DirectLinks": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 60,
+                        "Size": 0,
+                        "Url": "https://dl.dropboxusercontent.com/s/wypgtgpde9knzu1/full.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 60,
+                        "Size": 100,
+                        "Url": "https://dl.dropboxusercontent.com/s/68ywiw2f6oaw11w/100.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 60,
+                        "Size": 200,
+                        "Url": "https://dl.dropboxusercontent.com/s/ocnx4cve5ncfnk6/200.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 60,
+                        "Size": 400,
+                        "Url": "https://dl.dropboxusercontent.com/s/lypwymx6o3ggd6a/400.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 60,
+                        "Size": 480,
+                        "Url": "https://dl.dropboxusercontent.com/s/arihqebzdkz7dx9/480.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 60,
+                        "Size": 640,
+                        "Url": "https://dl.dropboxusercontent.com/s/phm2dvxjuv2ojwd/640.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 60,
+                        "Size": 1024,
+                        "Url": "https://dl.dropboxusercontent.com/s/m4dvidxe10tzy1p/1024.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 60,
+                        "Size": 1440,
+                        "Url": "https://dl.dropboxusercontent.com/s/noyzdif5dpn98do/1440.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 60,
+                        "Size": 1920,
+                        "Url": "https://dl.dropboxusercontent.com/s/eae20otudmk2eik/1920.jpg"
+                    }
+                ]
+            },
+            "Category": 16,
+            "Categories": {
+                "$type": "System.Collections.Generic.List`1[[Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service]], mscorlib",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "NotSet",
+                        "PhotoCount": 1
+                    }
+                ]
+            },
+            "Topics": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service]], System.Core",
+                "$values": [
+                ]
+            },
+            "Event": {
+                "$type": "Fotosteam.Service.Repository.Poco.Event, Fotosteam.Service",
+                "MemberId": 3,
+                "Name": "Sri Lanka 2014",
+                "Date": "2014-12-05T00:00:00",
+                "DateTo": "2015-12-15T00:00:00",
+                "Description": "",
+                "Location": null,
+                "PhotoCount": 0,
+                "Id": 5
+            },
+            "Location": {
+                "$type": "Fotosteam.Service.Repository.Poco.Location, Fotosteam.Service",
+                "MemberId": 3,
+                "Name": "Haputale,Uva Province,Sri Lanka",
+                "CountryIsoCode": "LKA",
+                "Country": "Sri Lanka",
+                "Street": "Monamaya Scheme Road",
+                "City": "Haputale",
+                "State": "Uva Province",
+                "County": "Badulla",
+                "Longitude": 80.9666667,
+                "Latitude": 6.7666667,
+                "PhotoCount": 0,
+                "Id": 43
+            },
+            "Id": 60
+        },
+        {
+            "$type": "Fotosteam.Service.Repository.Poco.Photo, Fotosteam.Service",
+            "MemberId": 3,
+            "Name": "SriLanka2014-2989",
+            "OriginalName": "SriLanka2014-2989",
+            "Folder": "3tpffwom.o22",
+            "Title": "Friendship",
+            "EventId": 5,
+            "LocationId": 44,
+            "Width": 4210,
+            "Height": 2805,
+            "AspectRation": 1.500891265597148,
+            "Orientation": "landscape",
+            "CaptureDate": "2014-12-12T08:13:23",
+            "PublishDate": "2015-02-24T11:11:18.237",
+            "CommentCount": 0,
+            "AverageRating": 0.0,
+            "IsPrivate": false,
+            "License": 0,
+            "AllowFullSizeDownload": false,
+            "ExifUrl": "https://dl.dropboxusercontent.com/s/nr06mq3ngyv9hks/meta.json",
+            "Comments": null,
+            "Ratings": null,
+            "Exif": {
+                "$type": "Fotosteam.Service.Repository.Poco.ExifData, Fotosteam.Service",
+                "PhotoId": 61,
+                "Make": "Canon",
+                "Model": "Canon EOS 6D",
+                "CaptureDate": "2014-12-12T08:13:23",
+                "Description": null,
+                "Software": "Adobe Photoshop Lightroom 5.7 (Windows)",
+                "Artist": null,
+                "Copyright": null,
+                "FocalLength": 67.0,
+                "FNumber": 5.6,
+                "ApertureValue": 4.970854,
+                "MaxApertureValue": 4.0,
+                "ExposureTime": 0.008,
+                "ExposureBiasValue": 0.0,
+                "ExposureProgram": 2,
+                "ExposureMode": 0,
+                "ISOSpeedRatings": 100,
+                "MeteringMode": 5,
+                "XResolution": 96.0,
+                "YResolution": 96.0,
+                "ResolutionUnit": 2,
+                "Width": 4210,
+                "Height": 2805,
+                "AspectRatio": 1.500891265597148,
+                "Orientation": "landscape",
+                "Latitude": 6.870795,
+                "Longitude": 81.044845
+            },
+            "DirectLinks": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 61,
+                        "Size": 0,
+                        "Url": "https://dl.dropboxusercontent.com/s/gdwa3ttsnw3g3in/full.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 61,
+                        "Size": 100,
+                        "Url": "https://dl.dropboxusercontent.com/s/ocq00vy6gilekp4/100.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 61,
+                        "Size": 200,
+                        "Url": "https://dl.dropboxusercontent.com/s/mhh8xzmlkkusmqx/200.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 61,
+                        "Size": 400,
+                        "Url": "https://dl.dropboxusercontent.com/s/l8ss81ss55gskoa/400.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 61,
+                        "Size": 480,
+                        "Url": "https://dl.dropboxusercontent.com/s/tui9ue3ezxpv5ny/480.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 61,
+                        "Size": 640,
+                        "Url": "https://dl.dropboxusercontent.com/s/xamdurtsn8a7jdb/640.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 61,
+                        "Size": 1024,
+                        "Url": "https://dl.dropboxusercontent.com/s/h552twbm92xz1l3/1024.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 61,
+                        "Size": 1440,
+                        "Url": "https://dl.dropboxusercontent.com/s/jt3u3usf4o0j9dq/1440.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 61,
+                        "Size": 1920,
+                        "Url": "https://dl.dropboxusercontent.com/s/qh6b2v800sc0r72/1920.jpg"
+                    }
+                ]
+            },
+            "Category": 16,
+            "Categories": {
+                "$type": "System.Collections.Generic.List`1[[Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service]], mscorlib",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "NotSet",
+                        "PhotoCount": 1
+                    }
+                ]
+            },
+            "Topics": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service]], System.Core",
+                "$values": [
+                ]
+            },
+            "Event": {
+                "$type": "Fotosteam.Service.Repository.Poco.Event, Fotosteam.Service",
+                "MemberId": 3,
+                "Name": "Sri Lanka 2014",
+                "Date": "2014-12-05T00:00:00",
+                "DateTo": "2015-12-15T00:00:00",
+                "Description": "",
+                "Location": null,
+                "PhotoCount": 0,
+                "Id": 5
+            },
+            "Location": {
+                "$type": "Fotosteam.Service.Repository.Poco.Location, Fotosteam.Service",
+                "MemberId": 3,
+                "Name": "Ella,Uva Province,Sri Lanka",
+                "CountryIsoCode": "LKA",
+                "Country": "Sri Lanka",
+                "Street": "Waterfall Road",
+                "City": "Ella",
+                "State": "Uva Province",
+                "County": "Badulla",
+                "Longitude": 81.05,
+                "Latitude": 6.9833333,
+                "PhotoCount": 0,
+                "Id": 44
+            },
+            "Id": 61
+        },
+        {
+            "$type": "Fotosteam.Service.Repository.Poco.Photo, Fotosteam.Service",
+            "MemberId": 3,
+            "Name": "SriLanka2014-3294",
+            "OriginalName": "SriLanka2014-3294",
+            "Folder": "4zuakudp.5dy",
+            "Title": "On collision?",
+            "EventId": 5,
+            "LocationId": 45,
+            "Width": 2718,
+            "Height": 4077,
+            "AspectRation": 0.66666666666666663,
+            "Orientation": "portrait",
+            "CaptureDate": "2014-12-14T08:06:36",
+            "PublishDate": "2015-02-24T11:11:46.567",
+            "CommentCount": 0,
+            "AverageRating": 0.0,
+            "IsPrivate": false,
+            "License": 0,
+            "AllowFullSizeDownload": false,
+            "ExifUrl": "https://dl.dropboxusercontent.com/s/uefhh0l857rx3pe/meta.json",
+            "Comments": null,
+            "Ratings": null,
+            "Exif": {
+                "$type": "Fotosteam.Service.Repository.Poco.ExifData, Fotosteam.Service",
+                "PhotoId": 62,
+                "Make": "Canon",
+                "Model": "Canon EOS 6D",
+                "CaptureDate": "2014-12-14T08:06:36",
+                "Description": null,
+                "Software": "Adobe Photoshop Lightroom 5.7 (Windows)",
+                "Artist": null,
+                "Copyright": null,
+                "FocalLength": 105.0,
+                "FNumber": 5.6,
+                "ApertureValue": 4.970854,
+                "MaxApertureValue": 4.0,
+                "ExposureTime": 0.005,
+                "ExposureBiasValue": 0.0,
+                "ExposureProgram": 2,
+                "ExposureMode": 0,
+                "ISOSpeedRatings": 100,
+                "MeteringMode": 5,
+                "XResolution": 96.0,
+                "YResolution": 96.0,
+                "ResolutionUnit": 2,
+                "Width": 2718,
+                "Height": 4077,
+                "AspectRatio": 0.66666666666666663,
+                "Orientation": "portrait",
+                "Latitude": 7.2877316666666667,
+                "Longitude": 80.46949
+            },
+            "DirectLinks": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 62,
+                        "Size": 0,
+                        "Url": "https://dl.dropboxusercontent.com/s/mfp59s0afqx6qpz/full.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 62,
+                        "Size": 100,
+                        "Url": "https://dl.dropboxusercontent.com/s/mtpp3jzy3u7s8cw/100.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 62,
+                        "Size": 200,
+                        "Url": "https://dl.dropboxusercontent.com/s/x7nekz9d4f9xz3v/200.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 62,
+                        "Size": 400,
+                        "Url": "https://dl.dropboxusercontent.com/s/gud27pxuv4im44d/400.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 62,
+                        "Size": 480,
+                        "Url": "https://dl.dropboxusercontent.com/s/iqhy1vp4kj2ssmx/480.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 62,
+                        "Size": 640,
+                        "Url": "https://dl.dropboxusercontent.com/s/mtwfcxxerhxg0as/640.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 62,
+                        "Size": 1024,
+                        "Url": "https://dl.dropboxusercontent.com/s/qg1zvxn6kp7ide3/1024.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 62,
+                        "Size": 1440,
+                        "Url": "https://dl.dropboxusercontent.com/s/cquglik640pofb4/1440.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 62,
+                        "Size": 1920,
+                        "Url": "https://dl.dropboxusercontent.com/s/znmhr1sgdhv0dyd/1920.jpg"
+                    }
+                ]
+            },
+            "Category": 2,
+            "Categories": {
+                "$type": "System.Collections.Generic.List`1[[Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service]], mscorlib",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "NotSet",
+                        "PhotoCount": 1
+                    }
+                ]
+            },
+            "Topics": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service",
+                        "Name": "Travel",
+                        "Description": "Reisebilder",
+                        "PhotoCount": 0,
+                        "MemberId": 3,
+                        "Member": null,
+                        "Id": 14
+                    }
+                ]
+            },
+            "Event": {
+                "$type": "Fotosteam.Service.Repository.Poco.Event, Fotosteam.Service",
+                "MemberId": 3,
+                "Name": "Sri Lanka 2014",
+                "Date": "2014-12-05T00:00:00",
+                "DateTo": "2015-12-15T00:00:00",
+                "Description": "",
+                "Location": null,
+                "PhotoCount": 0,
+                "Id": 5
+            },
+            "Location": {
+                "$type": "Fotosteam.Service.Repository.Poco.Location, Fotosteam.Service",
+                "MemberId": 3,
+                "Name": "Makehelwala,Sabaragamuwa Province,Sri Lanka",
+                "CountryIsoCode": "LKA",
+                "Country": "Sri Lanka",
+                "Street": "Ihalakotte Railway Station Road",
+                "City": "Makehelwala",
+                "State": "Sabaragamuwa Province",
+                "County": "Kegalle",
+                "Longitude": 0,
+                "Latitude": 0,
+                "PhotoCount": 0,
+                "Id": 45
+            },
+            "Id": 62
+        },
+        {
+            "$type": "Fotosteam.Service.Repository.Poco.Photo, Fotosteam.Service",
+            "MemberId": 3,
+            "Name": "SriLanka2014-3314",
+            "OriginalName": "SriLanka2014-3314",
+            "Folder": "nfmp1fiz.ufo",
+            "Title": "Old times",
+            "EventId": 5,
+            "LocationId": 46,
+            "Width": 5463,
+            "Height": 2185,
+            "AspectRation": 2.5002288329519451,
+            "Orientation": "landscape",
+            "CaptureDate": "2014-12-14T08:49:34",
+            "PublishDate": "2015-02-24T11:12:14.827",
+            "CommentCount": 0,
+            "AverageRating": 0.0,
+            "IsPrivate": true,
+            "License": 0,
+            "AllowFullSizeDownload": false,
+            "ExifUrl": "https://dl.dropboxusercontent.com/s/3jcechnxxzvfff1/meta.json",
+            "Comments": null,
+            "Ratings": null,
+            "Exif": {
+                "$type": "Fotosteam.Service.Repository.Poco.ExifData, Fotosteam.Service",
+                "PhotoId": 63,
+                "Make": "Canon",
+                "Model": "Canon EOS 6D",
+                "CaptureDate": "2014-12-14T08:49:34",
+                "Description": null,
+                "Software": "Adobe Photoshop Lightroom 5.7 (Windows)",
+                "Artist": null,
+                "Copyright": null,
+                "FocalLength": 28.0,
+                "FNumber": 9.0,
+                "ApertureValue": 6.33985,
+                "MaxApertureValue": 4.0,
+                "ExposureTime": 0.005,
+                "ExposureBiasValue": 0.0,
+                "ExposureProgram": 2,
+                "ExposureMode": 0,
+                "ISOSpeedRatings": 100,
+                "MeteringMode": 5,
+                "XResolution": 96.0,
+                "YResolution": 96.0,
+                "ResolutionUnit": 2,
+                "Width": 5463,
+                "Height": 2185,
+                "AspectRatio": 2.5002288329519451,
+                "Orientation": "landscape",
+                "Latitude": 7.3284666666666665,
+                "Longitude": 80.40811166666667
+            },
+            "DirectLinks": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 63,
+                        "Size": 0,
+                        "Url": "https://dl.dropboxusercontent.com/s/3z887pfq4blr06f/full.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 63,
+                        "Size": 100,
+                        "Url": "https://dl.dropboxusercontent.com/s/exmz5r2eoq8501n/100.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 63,
+                        "Size": 200,
+                        "Url": "https://dl.dropboxusercontent.com/s/w5t2z2bhk44du07/200.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 63,
+                        "Size": 400,
+                        "Url": "https://dl.dropboxusercontent.com/s/gwokpdblsyvly22/400.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 63,
+                        "Size": 480,
+                        "Url": "https://dl.dropboxusercontent.com/s/6gnkkg6u9i9pw4t/480.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 63,
+                        "Size": 640,
+                        "Url": "https://dl.dropboxusercontent.com/s/7zvv02nkjyoo4ap/640.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 63,
+                        "Size": 1024,
+                        "Url": "https://dl.dropboxusercontent.com/s/542gz0i8h6dhplr/1024.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 63,
+                        "Size": 1440,
+                        "Url": "https://dl.dropboxusercontent.com/s/pdk46rvpu1wyvqh/1440.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 63,
+                        "Size": 1920,
+                        "Url": "https://dl.dropboxusercontent.com/s/wybbth5r83fdlva/1920.jpg"
+                    }
+                ]
+            },
+            "Category": 2,
+            "Categories": {
+                "$type": "System.Collections.Generic.List`1[[Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service]], mscorlib",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "NotSet",
+                        "PhotoCount": 1
+                    }
+                ]
+            },
+            "Topics": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service]], System.Core",
+                "$values": [
+                ]
+            },
+            "Event": {
+                "$type": "Fotosteam.Service.Repository.Poco.Event, Fotosteam.Service",
+                "MemberId": 3,
+                "Name": "Sri Lanka 2014",
+                "Date": "2014-12-05T00:00:00",
+                "DateTo": "2015-12-15T00:00:00",
+                "Description": "",
+                "Location": null,
+                "PhotoCount": 0,
+                "Id": 5
+            },
+            "Location": {
+                "$type": "Fotosteam.Service.Repository.Poco.Location, Fotosteam.Service",
+                "MemberId": 3,
+                "Name": "Rambukkana,Sabaragamuwa Province,Sri Lanka",
+                "CountryIsoCode": "LKA",
+                "Country": "Sri Lanka",
+                "Street": "Rambukkana - Mawathagama Road",
+                "City": "Rambukkana",
+                "State": "Sabaragamuwa Province",
+                "County": "Kegalle",
+                "Longitude": 0,
+                "Latitude": 0,
+                "PhotoCount": 0,
+                "Id": 46
+            },
+            "Id": 63
+        },
+        {
+            "$type": "Fotosteam.Service.Repository.Poco.Photo, Fotosteam.Service",
+            "MemberId": 3,
+            "Name": "NZ2013_20130301_0193-Edit",
+            "OriginalName": "NZ2013_20130301_0193-Edit",
+            "Folder": "snf0z4st.3cm",
+            "Title": "Lake Tekapo",
+            "EventId": null,
+            "LocationId": 47,
+            "Width": 8504,
+            "Height": 2834,
+            "AspectRation": 3.0007057163020465,
+            "Orientation": "landscape",
+            "CaptureDate": "2013-03-01T10:44:48",
+            "PublishDate": "2015-02-24T12:58:51.007",
+            "CommentCount": 0,
+            "AverageRating": 0.0,
+            "IsPrivate": true,
+            "License": 0,
+            "AllowFullSizeDownload": false,
+            "ExifUrl": "https://dl.dropboxusercontent.com/s/c3zimulttvwdudu/meta.json",
+            "Comments": null,
+            "Ratings": null,
+            "Exif": {
+                "$type": "Fotosteam.Service.Repository.Poco.ExifData, Fotosteam.Service",
+                "PhotoId": 64,
+                "Make": "Canon",
+                "Model": "Canon EOS 60D",
+                "CaptureDate": "2013-03-01T10:44:48",
+                "Description": null,
+                "Software": "Adobe Photoshop Lightroom 5.7 (Windows)",
+                "Artist": "Robert Bakos",
+                "Copyright": "(c) All rights reserved",
+                "FocalLength": 17.0,
+                "FNumber": 14.0,
+                "ApertureValue": 7.61471,
+                "MaxApertureValue": 4.0,
+                "ExposureTime": 0.0025,
+                "ExposureBiasValue": 0.0,
+                "ExposureProgram": 2,
+                "ExposureMode": 0,
+                "ISOSpeedRatings": 125,
+                "MeteringMode": 3,
+                "XResolution": 240.0,
+                "YResolution": 240.0,
+                "ResolutionUnit": 2,
+                "Width": 8504,
+                "Height": 2834,
+                "AspectRatio": 3.0007057163020465,
+                "Orientation": "landscape",
+                "Latitude": -43.99577776666667,
+                "Longitude": 170.42129443333334
+            },
+            "DirectLinks": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 64,
+                        "Size": 0,
+                        "Url": "https://dl.dropboxusercontent.com/s/imrlos7ncd4040z/full.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 64,
+                        "Size": 100,
+                        "Url": "https://dl.dropboxusercontent.com/s/p4ksgou3l2wmgic/100.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 64,
+                        "Size": 200,
+                        "Url": "https://dl.dropboxusercontent.com/s/3nuoao59zx8r18a/200.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 64,
+                        "Size": 400,
+                        "Url": "https://dl.dropboxusercontent.com/s/tv0emn2ot4g6har/400.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 64,
+                        "Size": 480,
+                        "Url": "https://dl.dropboxusercontent.com/s/z7snhs29vha9a4k/480.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 64,
+                        "Size": 640,
+                        "Url": "https://dl.dropboxusercontent.com/s/vcrp0yr12j1kpmv/640.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 64,
+                        "Size": 1024,
+                        "Url": "https://dl.dropboxusercontent.com/s/65yoz1kne1m7tgl/1024.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 64,
+                        "Size": 1440,
+                        "Url": "https://dl.dropboxusercontent.com/s/2nuq2m34j5ku93a/1440.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 64,
+                        "Size": 1920,
+                        "Url": "https://dl.dropboxusercontent.com/s/tdyx15xgtfebxhr/1920.jpg"
+                    }
+                ]
+            },
+            "Category": 8,
+            "Categories": {
+                "$type": "System.Collections.Generic.List`1[[Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service]], mscorlib",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "NotSet",
+                        "PhotoCount": 1
+                    }
+                ]
+            },
+            "Topics": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service]], System.Core",
+                "$values": [
+                ]
+            },
+            "Event": null,
+            "Location": {
+                "$type": "Fotosteam.Service.Repository.Poco.Location, Fotosteam.Service",
+                "MemberId": 3,
+                "Name": "Tekapo,Canterbury,New Zealand",
+                "CountryIsoCode": "NZL",
+                "Country": "New Zealand",
+                "Street": "Tekapo-Twizel Road",
+                "City": "Tekapo",
+                "State": "Canterbury",
+                "County": null,
+                "Longitude": 0,
+                "Latitude": 0,
+                "PhotoCount": 0,
+                "Id": 47
+            },
+            "Id": 64
+        },
+        {
+            "$type": "Fotosteam.Service.Repository.Poco.Photo, Fotosteam.Service",
+            "MemberId": 3,
+            "Name": "full",
+            "OriginalName": "full",
+            "Folder": "ydd5vusz.2jh",
+            "Title": "Untitled",
+            "EventId": null,
+            "LocationId": 48,
+            "Width": 4660,
+            "Height": 3107,
+            "AspectRation": 1.4998390730608304,
+            "Orientation": "landscape",
+            "CaptureDate": "2013-03-04T10:49:16",
+            "PublishDate": "2015-02-24T13:24:44.477",
+            "CommentCount": 0,
+            "AverageRating": 0.0,
+            "IsPrivate": true,
+            "License": 0,
+            "AllowFullSizeDownload": false,
+            "ExifUrl": "https://dl.dropboxusercontent.com/s/ti9hqau30unw0n2/meta.json",
+            "Comments": null,
+            "Ratings": null,
+            "Exif": {
+                "$type": "Fotosteam.Service.Repository.Poco.ExifData, Fotosteam.Service",
+                "PhotoId": 66,
+                "Make": "Canon",
+                "Model": "Canon EOS 60D",
+                "CaptureDate": "2013-03-04T10:49:16",
+                "Description": null,
+                "Software": "Adobe Photoshop Lightroom 5.7 (Windows)",
+                "Artist": "Robert Bakos",
+                "Copyright": "(c) All rights reserved",
+                "FocalLength": 70.0,
+                "FNumber": 5.6,
+                "ApertureValue": 4.970854,
+                "MaxApertureValue": 3.0,
+                "ExposureTime": 0.0025,
+                "ExposureBiasValue": 0.0,
+                "ExposureProgram": 2,
+                "ExposureMode": 0,
+                "ISOSpeedRatings": 125,
+                "MeteringMode": 3,
+                "XResolution": 96.0,
+                "YResolution": 96.0,
+                "ResolutionUnit": 2,
+                "Width": 4660,
+                "Height": 3107,
+                "AspectRatio": 1.4998390730608304,
+                "Orientation": "landscape",
+                "Latitude": -46.386608333333335,
+                "Longitude": 169.78185555
+            },
+            "DirectLinks": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 66,
+                        "Size": 0,
+                        "Url": "https://dl.dropboxusercontent.com/s/ixzagu691m2nstf/full.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 66,
+                        "Size": 100,
+                        "Url": "https://dl.dropboxusercontent.com/s/1g131ix62bhbe0o/100.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 66,
+                        "Size": 200,
+                        "Url": "https://dl.dropboxusercontent.com/s/724xy0395v8vb3t/200.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 66,
+                        "Size": 400,
+                        "Url": "https://dl.dropboxusercontent.com/s/5iq0hrmqi2kfivc/400.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 66,
+                        "Size": 480,
+                        "Url": "https://dl.dropboxusercontent.com/s/mccdd3t9bxobd0k/480.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 66,
+                        "Size": 640,
+                        "Url": "https://dl.dropboxusercontent.com/s/vp3rpptb60kk21w/640.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 66,
+                        "Size": 1024,
+                        "Url": "https://dl.dropboxusercontent.com/s/rfrqxf90bo754ml/1024.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 66,
+                        "Size": 1440,
+                        "Url": "https://dl.dropboxusercontent.com/s/c7pdytaf6ph0fa6/1440.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 66,
+                        "Size": 1920,
+                        "Url": "https://dl.dropboxusercontent.com/s/aolnyuqxahrvywj/1920.jpg"
+                    }
+                ]
+            },
+            "Category": 2,
+            "Categories": {
+                "$type": "System.Collections.Generic.List`1[[Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service]], mscorlib",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "NotSet",
+                        "PhotoCount": 1
+                    }
+                ]
+            },
+            "Topics": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service",
+                        "Name": "Travel",
+                        "Description": "Reisebilder",
+                        "PhotoCount": 0,
+                        "MemberId": 3,
+                        "Member": null,
+                        "Id": 14
+                    }
+                ]
+            },
+            "Event": null,
+            "Location": {
+                "$type": "Fotosteam.Service.Repository.Poco.Location, Fotosteam.Service",
+                "MemberId": 3,
+                "Name": "Kaka Point,Otago,New Zealand",
+                "CountryIsoCode": "NZL",
+                "Country": "New Zealand",
+                "Street": "Moana Street",
+                "City": "Kaka Point",
+                "State": "Otago",
+                "County": null,
+                "Longitude": 0,
+                "Latitude": 0,
+                "PhotoCount": 0,
+                "Id": 48
+            },
+            "Id": 66,
+            "AllowCommenting":  true
+        },
+        {
+            "$type": "Fotosteam.Service.Repository.Poco.Photo, Fotosteam.Service",
+            "MemberId": 3,
+            "Name": "SriLanka2014-3314",
+            "OriginalName": "SriLanka2014-3314",
+            "Folder": "nfmp1fiz.ufo",
+            "Title": "Old times",
+            "EventId": 5,
+            "LocationId": 46,
+            "Width": 5463,
+            "Height": 2185,
+            "AspectRation": 2.5002288329519451,
+            "Orientation": "landscape",
+            "CaptureDate": "2014-12-14T08:49:34",
+            "PublishDate": "2015-02-24T11:12:14.827",
+            "CommentCount": 0,
+            "AverageRating": 0.0,
+            "IsPrivate": false,
+            "License": 0,
+            "AllowFullSizeDownload": false,
+            "ExifUrl": "https://dl.dropboxusercontent.com/s/3jcechnxxzvfff1/meta.json",
+            "Comments": null,
+            "Ratings": null,
+            "Exif": {
+                "$type": "Fotosteam.Service.Repository.Poco.ExifData, Fotosteam.Service",
+                "PhotoId": 63,
+                "Make": "Canon",
+                "Model": "Canon EOS 6D",
+                "CaptureDate": "2014-12-14T08:49:34",
+                "Description": null,
+                "Software": "Adobe Photoshop Lightroom 5.7 (Windows)",
+                "Artist": null,
+                "Copyright": null,
+                "FocalLength": 28.0,
+                "FNumber": 9.0,
+                "ApertureValue": 6.33985,
+                "MaxApertureValue": 4.0,
+                "ExposureTime": 0.005,
+                "ExposureBiasValue": 0.0,
+                "ExposureProgram": 2,
+                "ExposureMode": 0,
+                "ISOSpeedRatings": 100,
+                "MeteringMode": 5,
+                "XResolution": 96.0,
+                "YResolution": 96.0,
+                "ResolutionUnit": 2,
+                "Width": 5463,
+                "Height": 2185,
+                "AspectRatio": 2.5002288329519451,
+                "Orientation": "landscape",
+                "Latitude": 7.3284666666666665,
+                "Longitude": 80.40811166666667
+            },
+            "DirectLinks": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 63,
+                        "Size": 0,
+                        "Url": "https://dl.dropboxusercontent.com/s/3z887pfq4blr06f/full.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 63,
+                        "Size": 100,
+                        "Url": "https://dl.dropboxusercontent.com/s/fwka5p9j0h5hpsh/100.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 63,
+                        "Size": 200,
+                        "Url": "https://dl.dropboxusercontent.com/s/w5t2z2bhk44du07/200.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 63,
+                        "Size": 400,
+                        "Url": "https://dl.dropboxusercontent.com/s/gwokpdblsyvly22/400.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 63,
+                        "Size": 480,
+                        "Url": "https://dl.dropboxusercontent.com/s/6gnkkg6u9i9pw4t/480.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 63,
+                        "Size": 640,
+                        "Url": "https://dl.dropboxusercontent.com/s/7zvv02nkjyoo4ap/640.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 63,
+                        "Size": 1024,
+                        "Url": "https://dl.dropboxusercontent.com/s/542gz0i8h6dhplr/1024.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 63,
+                        "Size": 1440,
+                        "Url": "https://dl.dropboxusercontent.com/s/pdk46rvpu1wyvqh/1440.jpg"
+                    },
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.DirectLink, Fotosteam.Service",
+                        "PhotoId": 63,
+                        "Size": 1920,
+                        "Url": "https://dl.dropboxusercontent.com/s/wybbth5r83fdlva/1920.jpg"
+                    }
+                ]
+            },
+            "Category": 2,
+            "Categories": {
+                "$type": "System.Collections.Generic.List`1[[Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service]], mscorlib",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Category, Fotosteam.Service",
+                        "Type": "NotSet",
+                        "PhotoCount": 1
+                    }
+                ]
+            },
+            "Topics": {
+                "$type": "System.Collections.Generic.HashSet`1[[Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service]], System.Core",
+                "$values": [
+                    {
+                        "$type": "Fotosteam.Service.Repository.Poco.Topic, Fotosteam.Service",
+                        "Name": "Travel",
+                        "Description": "Reisebilder",
+                        "PhotoCount": 0,
+                        "MemberId": 3,
+                        "Member": null,
+                        "Id": 14
+                    }
+                ]
+            },
+            "Event": {
+                "$type": "Fotosteam.Service.Repository.Poco.Event, Fotosteam.Service",
+                "MemberId": 3,
+                "Name": "Sri Lanka 2014",
+                "Date": "2014-12-05T00:00:00",
+                "DateTo": "2015-12-15T00:00:00",
+                "Description": "",
+                "Location": null,
+                "PhotoCount": 0,
+                "Id": 5
+            },
+            "Location": {
+                "$type": "Fotosteam.Service.Repository.Poco.Location, Fotosteam.Service",
+                "MemberId": 3,
+                "Name": "Rambukkana,Sabaragamuwa Province,Sri Lanka",
+                "CountryIsoCode": "LKA",
+                "Country": "Sri Lanka",
+                "Street": "Rambukkana - Mawathagama Road",
+                "City": "Rambukkana",
+                "State": "Sabaragamuwa Province",
+                "County": "Kegalle",
+                "Longitude": 0,
+                "Latitude": 0,
+                "PhotoCount": 0,
+                "Id": 46
+            },
+            "Id": 67
+        }
+    ]
+}

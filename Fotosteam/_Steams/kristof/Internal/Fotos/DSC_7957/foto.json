@@ -1,0 +1,105 @@
+﻿{
+    "Id": "31";
+    "Name": "DSC_7957",
+    "Title": "Belgian Beer",
+    "CaptureDate": "2014-09-28T17:14:21",
+    "PublishDate": "2014-11-09T15:33:00",
+    "IsPrivate": false,
+    "CommentCount": 0,
+    "AverageRating": 0,
+    "Categories": [
+        {
+            "Type": "urban",
+            "PhotoCount": 6
+        }
+    ],
+    "Topics": [ ],
+    "Location": {
+        "Name": "Brügge",
+        "CountryIsoCode": "BEL",
+        "Latitude": 51.208958,
+        "Longitude": 3.224651,
+        "PhotoCount": 5
+    },
+    "Event": null,
+    "Stories": [
+        {
+            "Name": "Brügge Foto-Tour",
+            "HeaderFoto": "DSC_7487-Bearbeitet",
+            "ChapterCount": 1,
+            "PhotoCount": 6
+        },
+        {
+            "Name": "Belgien sehen und sterben",
+            "HeaderFoto": "DSC_7849",
+            "ChapterCount": 2,
+            "PhotoCount": 6
+        }
+    ],
+    "Width": 2740,
+    "Height": 4084,
+    "AspectRatio": 0.67091087169441721,
+    "Orientation": "portrait",
+    "DirectLinks": [
+        {
+            "Size": 0,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7957/full.jpg"
+        },
+        {
+            "Size": 100,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7957/100.jpg"
+        },
+        {
+            "Size": 200,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7957/200.jpg"
+        },
+        {
+            "Size": 400,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7957/400.jpg"
+        },
+        {
+            "Size": 640,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7957/640.jpg"
+        },
+        {
+            "Size": 1024,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7957/1024.jpg"
+        },
+        {
+            "Size": 1440,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7957/1440.jpg"
+        },
+        {
+            "Size": 1920,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7957/1920.jpg"
+        }
+    ],
+    "Comments": [ ],
+    "Ratings": [ ],
+    "License": 12,
+    "AllowFullsizeDownload": true,
+    "Exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D90",
+        "CaptureDate": "2014-09-28T17:14:21",
+        "Description": null,
+        "Software": "Adobe Photoshop Lightroom 5.6 (Windows)",
+        "Artist": "Kristof Zerbe",
+        "Copyright": null,
+        "FocalLength": 98.0,
+        "FNumber": 5.6,
+        "ApertureValue": 4.970854,
+        "MaxApertureValue": 5.0,
+        "ExposureTime": 0.033333333333333333,
+        "ExposureBiasValue": 0.0,
+        "ExposureProgram": 2,
+        "ExposureMode": 0,
+        "ISOSpeedRatings": 200,
+        "MeteringMode": 5,
+        "XResolution": 240.0,
+        "YResolution": 240.0,
+        "ResolutionUnit": 2,
+        "Latitude": 51.225808333333333,
+        "Longitude": 4.400025
+    }
+}

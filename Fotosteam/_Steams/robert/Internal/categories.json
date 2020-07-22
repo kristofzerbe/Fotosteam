@@ -1,0 +1,46 @@
+﻿[
+    {
+        "Type": "People",
+        "PhotoCount": 1
+    },
+    {
+        "Type": "Architecture",
+        "PhotoCount": 1
+    },
+    {
+        "Type": "Urban",
+        "PhotoCount": 0
+    },
+    {
+        "Type": "Landscape",
+        "PhotoCount": 0
+    },
+    {
+        "Type": "Nature",
+        "PhotoCount": 0
+    },
+    {
+        "Type": "Still",
+        "PhotoCount": 0
+    },
+    {
+        "Type": "Night",
+        "PhotoCount": 0
+    },
+    {
+        "Type": "Abstract",
+        "PhotoCount": 0
+    },
+    {
+        "Type": "Nude",
+        "PhotoCount": 0
+    },
+    {
+        "Type": "Animals",
+        "PhotoCount": 0
+    },
+    {
+        "Type": "Sports",
+        "PhotoCount": 0
+    }
+]

@@ -1,0 +1,102 @@
+{
+    "Name": "ejo4zkxy",
+    "Title": "",
+    "CaptureDate": "2014-10-19T01:59:21",
+    "PublishDate": "2014-11-09T15:33:00",
+    "IsPrivate": false,
+    "CommentCount": 0,
+    "AverageRating": 0,
+    "Categories": [ 
+        {
+            "Type": "people",
+            "PhotoCount": 1
+        }
+    ],
+    "Topics": null,
+    "Location": {
+        "Name": "Berlin",
+        "CountryIsoCode": "DEU",
+        "Latitude": 52.519451,
+        "Longitude": 13.383594,
+        "PhotoCount": 2
+    },
+    "Event": {
+        "Name": "Test-Event",
+        "Date": "",
+        "Location": {
+            "Name": "Berlin",
+            "CountryIsoCode": "DEU",
+            "Latitude": 52.519451,
+            "Longitude": 13.383594,
+            "PhotoCount": 2
+        },
+        "Description": "Dies ist ein Test-Event ohne jegliche Bedeutung",
+        "PhotoCount": 1
+    },
+    "Width":1920,
+    "Height":1280,
+    "AspectRatio":1.5,
+    "Orientation":"landscape",
+    "DirectLinks": [
+        {
+            "Size": 0,
+            "Url": "/_Steams/robert/Internal/Fotos/ejo4zkxy/full.jpg"
+        },
+        {
+            "Size": 100,
+            "Url": "/_Steams/robert/Internal/Fotos/ejo4zkxy/100.jpg"
+        },
+        {
+            "Size": 200,
+            "Url": "/_Steams/robert/Internal/Fotos/ejo4zkxy/200.jpg"
+        },
+        {
+            "Size": 400,
+            "Url": "/_Steams/robert/Internal/Fotos/ejo4zkxy/400.jpg"
+        },
+        {
+            "Size": 640,
+            "Url": "/_Steams/robert/Internal/Fotos/ejo4zkxy/640.jpg"
+        },
+        {
+            "Size": 1024,
+            "Url": "/_Steams/robert/Internal/Fotos/ejo4zkxy/1024.jpg"
+        },
+        {
+            "Size": 1440,
+            "Url": "/_Steams/robert/Internal/Fotos/ejo4zkxy/1440.jpg"
+        },
+        {
+            "Size": 1920,
+            "Url": "/_Steams/robert/Internal/Fotos/ejo4zkxy/1920.jpg"
+        }
+    ],
+    "Comments": [ ],
+    "Ratings": [ ],
+    "License": 12,
+    "AllowFullsizeDownload": true,
+    "Exif": {
+        "Make":"Canon",
+        "Model":"Canon EOS 6D",
+        "CaptureDate":"2014-10-19T01:59:21",
+        "Description":null,
+        "Software":"Adobe Photoshop Lightroom 5.6 (Windows)",
+        "Artist":null,
+        "Copyright":null,
+        "FocalLength":105.0,
+        "FNumber":4.0,
+        "ApertureValue":4.0,
+        "MaxApertureValue":4.0,
+        "ExposureTime":0.01,
+        "ExposureBiasValue":0.0,
+        "ExposureProgram":4,
+        "ExposureMode":0,
+        "ISOSpeedRatings":25600,
+        "MeteringMode":5,
+        "XResolution":240.0,
+        "YResolution":240.0,
+        "ResolutionUnit":2,
+        "Latitude":0.0,
+        "Longitude":0.0
+    }
+}

@@ -1,0 +1,26 @@
+﻿/*  min-width 1441px, xlarge screens 
+    
+*/
+@media only screen and (min-width: 90.063em) {    
+
+    /* TEST */ #logomenu #tile-12.tile:before { content: "XL"; }
+  
+    .cubicle { width: calc(100%/6); }
+    #multieditor-selection .cubicle { width: calc(100%/5); }
+
+    .content-box p { margin: 0 12%; }
+
+    .box-collection .collection-wrapper .cubicle { width: 16.666%; }
+    .box-collection .collection-wrapper.collection-small .cubicle { width: 12.5%; }
+      
+    #overview.offset {margin-top: 50px;}
+
+} 
+
+/* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { 
+} 
+
+/* min-width 1921px, xxlarge screens */
+@media only screen and (min-width: 120.063em) { 
+} 

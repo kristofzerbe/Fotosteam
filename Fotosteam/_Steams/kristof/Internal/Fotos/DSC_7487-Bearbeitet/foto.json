@@ -1,0 +1,114 @@
+﻿{
+    "Id": "33";
+    "Name": "DSC_7487-Bearbeitet",
+    "Title": "Bruges Lights I",
+    "CaptureDate": "2014-09-26T20:53:52",
+    "PublishDate": "2014-11-09T15:33:00",
+    "IsPrivate": false,
+    "CommentCount": 0,
+    "AverageRating": 0,
+    "Categories": [
+        {
+            "Type": "urban",
+            "PhotoCount": 6
+        },
+        {
+            "Type": "night",
+            "PhotoCount": 5
+        }
+    ],
+    "Topics": [
+        {
+            "Name": "Best of...",
+            "Description": "Meine besten Bilder",
+            "PhotoCount": 4
+        }
+    ],
+    "Location": {
+        "Name": "Brügge",
+        "CountryIsoCode": "BEL",
+        "Latitude": 51.208958,
+        "Longitude": 3.224651,
+        "PhotoCount": 5
+    },
+    "Event": null,
+    "Stories": [
+        {
+            "Name": "Brügge Foto-Tour",
+            "ChapterCount": 1,
+            "PhotoCount": 6
+        },
+        {
+            "Name": "Belgien sehen und sterben",
+            "HeaderFoto": "DSC_7849",
+            "ChapterCount": 2,
+            "PhotoCount": 6
+        }
+    ],
+    "Width": 4181,
+    "Height": 2766,
+    "AspectRatio": 1.5115690527838033,
+    "Orientation": "landscape",
+    "DirectLinks": [
+        {
+            "Size": 0,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7487-Bearbeitet/full.jpg"
+        },
+        {
+            "Size": 100,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7487-Bearbeitet/100.jpg"
+        },
+        {
+            "Size": 200,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7487-Bearbeitet/200.jpg"
+        },
+        {
+            "Size": 400,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7487-Bearbeitet/400.jpg"
+        },
+        {
+            "Size": 640,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7487-Bearbeitet/640.jpg"
+        },
+        {
+            "Size": 1024,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7487-Bearbeitet/1024.jpg"
+        },
+        {
+            "Size": 1440,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7487-Bearbeitet/1440.jpg"
+        },
+        {
+            "Size": 1920,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7487-Bearbeitet/1920.jpg"
+        }
+    ],
+    "Comments": [ ],
+    "Ratings": [ ],
+    "License": 12,
+    "AllowFullsizeDownload": true,
+    "Exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D90",
+        "CaptureDate": "2014-09-26T20:53:52",
+        "Description": null,
+        "Software": "Adobe Photoshop Lightroom 5.6 (Windows)",
+        "Artist": "Kristof Zerbe",
+        "Copyright": null,
+        "FocalLength": 18.0,
+        "FNumber": 3.5,
+        "ApertureValue": 3.61471,
+        "MaxApertureValue": 3.6,
+        "ExposureTime": 0.5,
+        "ExposureBiasValue": 0.0,
+        "ExposureProgram": 2,
+        "ExposureMode": 0,
+        "ISOSpeedRatings": 200,
+        "MeteringMode": 5,
+        "XResolution": 240.0,
+        "YResolution": 240.0,
+        "ResolutionUnit": 2,
+        "Latitude": 51.215486666666663,
+        "Longitude": 3.2238
+    }
+}

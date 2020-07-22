@@ -1,0 +1,20 @@
+[
+    {
+        "Id": 2,
+        "MemberId": 3,
+        "Name": "DemoEvent",
+        "Date": null,
+        "Description": null,
+        "Location": null,
+        "PhotoCount": 0
+    },
+    {
+        "Id": 4,
+        "MemberId": 2,
+        "Name": "Rommelmarkt in Brügge",
+        "Date": null,
+        "Description": "September Rommelmarkt in Brügge",
+        "Location": {"Id":7,"MemberId": 2,"Name":"Brügge","CountryIsoCode":"BEL","Country":null,"Street":null,"City":null,"State":null,"County":null,"Longitude":3.224651000,"Latitude":51.208958000,"PhotoCount":0},
+        "PhotoCount": 0
+    }
+]

@@ -1,0 +1,8 @@
+<strong>##userAlias##</strong> hat dein Foto 
+<a href="https://www.fotosteam.com/##alias##/foto/##photoname##">##phototitle##</a> 
+kommentiert:
+<br />
+<pre>##comment##</pre>
+<br />
+<br />
+<img src="##photourl##" width="400" />

@@ -1,0 +1,100 @@
+﻿<div class="details-panel panel-exif">
+    <h3 data-i18n="exif-data">EXIF-Daten der Kamera</h3>
+    <div class="flex-table">
+        
+        <div class="flex-cell">
+            <strong data-i18n="capture-date">Aufnahmedatum</strong>
+            <span>{{Foto.Exif.CaptureDate}}</span>
+        </div>
+        <div class="flex-cell">
+            <strong data-i18n="manufacturer">Hersteller</strong>
+            <span>{{Foto.Exif.Make}}</span>
+        </div>
+        <div class="flex-cell">
+            <strong data-i18n="model">Modell</strong>
+            <span>{{Foto.Exif.Model}}</span>
+        </div>
+        <div class="flex-cell">
+            <strong data-i18n="focal-length">Brennweite</strong>
+            <span>{{Foto.Exif.FocalLength}}</span>
+        </div>
+        <div class="flex-cell">
+            <strong data-i18n="aperture">Blende</strong>
+            <span>{{Foto.Exif.Aperture}}</span>
+        </div>
+        <div class="flex-cell">
+            <strong data-i18n="exposure-time">Belichtungszeit</strong>
+            <span>{{Foto.Exif.ExposureTime}}</span>
+        </div>
+        <div class="flex-cell">
+            <strong data-i18n="exposure-bias">Belichtungskorrektur</strong>
+            <span>{{Foto.Exif.ExposureBiasValue}}</span>
+        </div>
+        <div class="flex-cell">
+            <strong data-i18n="exposure-program">Belichtungsprogramm</strong>
+            <span>{{Foto.Exif.ExposureProgram}}</span>
+        </div>
+        <div class="flex-cell">
+            <strong data-i18n="exposure-mode">Belichtungsmodus</strong>
+            <span>{{Foto.Exif.ExposureMode}}</span>
+        </div>
+        <div class="flex-cell">
+            <strong data-i18n="iso-speed-rating">ISO-Lichtempfindlichkeit</strong>
+            <span>{{Foto.Exif.ISOSpeedRatings}}</span>
+        </div>
+        <div class="flex-cell">
+            <strong data-i18n="metering-mode">Messmethode</strong>
+            <span>{{Foto.Exif.MeteringMode}}</span>
+        </div>
+        <div id="ExifExtendedDetailsButtons" onclick="showExtendedExif(); return false;" class="flex-cell icon icon-dot-3" style="cursor: pointer;">
+        </div>        
+        <div id="ExifExtendedDetails" style ="display: none;">
+            <div class="flex-cell" style ="display: none;"></div>
+            <div class="flex-cell">
+                <strong data-i18n="artist">Autor</strong>
+                <span>{{Foto.Exif.Artist}}</span>
+            </div>
+            <div class="flex-cell">
+                <strong data-i18n="file-name">Dateiname</strong>
+                <span>{{Foto.Name}}</span>
+            </div>
+            <div class="flex-cell">
+                <strong data-i18n="copyright">Copyright</strong>
+                <span>{{Foto.Exif.Copyright}}</span>
+            </div>
+            <div class="flex-cell">
+                <strong data-i18n="description">Beschreibung</strong>
+                <span>{{Foto.Exif.Description}}</span>
+            </div>
+            <div class="flex-cell">
+                <strong data-i18n="software">Software</strong>
+                <span>{{Foto.Exif.Software}}</span>
+            </div>
+            <div class="flex-cell">
+                <strong data-i18n="resolution">Bildauflösung</strong>
+                <span>{{Foto.Exif.Resolution}}</span>
+            </div>
+            <div class="flex-cell">
+                <strong data-i18n="resolution-unit">Auflösungseinheit</strong>
+                <span>{{Foto.Exif.ResolutionUnit}}</span>
+            </div>
+            <div class="flex-cell">
+                <strong data-i18n="orientation">Bildformat</strong>
+                <span>{{Foto.OrientationLocale}}</span>
+            </div>
+            <div class="flex-cell">
+                <strong data-i18n="aspect-ratio">Bildseitenverhältnis</strong>
+                <span>{{Foto.AspectRatio}}</span>
+            </div>
+            <div class="flex-cell">
+                <strong data-i18n="longitude">GPS-Längengrad</strong>
+                <span>{{{Foto.Exif.LongitudeDeg}}}</span>
+            </div>
+            <div class="flex-cell">
+                <strong data-i18n="latitude">GPS-Breitengrad</strong>
+                <span>{{{Foto.Exif.LatitudeDeg}}}</span>
+            </div>
+        </div>
+    </div>
+    <div class="exif-map"></div>
+</div>

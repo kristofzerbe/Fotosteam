@@ -1,0 +1,22 @@
+﻿<div id="rating-popout-{{Foto.fId}}" class="popout rating-popout">
+    <div class="popout-wrapper">
+        <div class="popout-content" style="width: 360px">
+            <h3 data-i18n="rating-photo">Bewerte dieses Bild:</h3>
+
+            {{#if AuthMember}}
+            <div class="rating-wrapper">
+                <a class="icon icon-star rating-3" href="#" onclick="rateFoto(this, '{{Foto.fId}}', {{Foto.Id}}, 3); return false;"><span data-i18n="rating-3">Fantastisch!</span></a>
+                <a class="icon icon-star rating-2" href="#" onclick="rateFoto(this, '{{Foto.fId}}', {{Foto.Id}}, 2); return false;"><span data-i18n="rating-2">Klasse</span></a>
+                <a class="icon icon-star rating-1" href="#" onclick="rateFoto(this, '{{Foto.fId}}', {{Foto.Id}}, 1); return false;"><span data-i18n="rating-1">Interessant</span></a>
+            </div>
+            {{else}}
+            <div class="rating-wrapper">
+                <a class="icon icon-star rating-3" href="#" onclick="openSidebarBay('login'); return false;"><span data-i18n="rating-3">Fantastisch!</span></a>
+                <a class="icon icon-star rating-2" href="#" onclick="openSidebarBay('login'); return false;"><span data-i18n="rating-2">Klasse</span></a>
+                <a class="icon icon-star rating-1" href="#" onclick="openSidebarBay('login'); return false;"><span data-i18n="rating-1">Interessant</span></a>
+            </div>
+            <p data-i18n="rating-login-info" style="margin-top:20px;"></p>
+            {{/if}}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+﻿<h3 style="margin-top: 30px;">
+    <span data-i18n="your-comment">Dein Kommentar</span>, {{AuthMember.PlainName}}
+</h3>
+
+{{#if AuthMember}}
+<div class="new-comment">
+    <div class="new-comment-text" contenteditable="true" role="textbox"><br /></div>
+    <div class="new-comment-cmds">
+        <button class="new-comment-send button small" onclick="sendComment(this, {{Foto.Id}});">
+            <i class="icon icon-mail"></i>
+            <span data-i18n="send">Senden</span>
+        </button>
+        <button class="new-comment-send button small" onclick="cancelAddComment(this);">
+            <i class="icon icon-cancel"></i>
+            <span data-i18n="cancel">Abbrechen</span>
+        </button>
+    </div>
+</div>
+{{else}}
+    <p data-i18n="your-comment-login-info"></p>
+{{/if}}

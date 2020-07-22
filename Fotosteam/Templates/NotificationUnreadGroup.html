@@ -1,0 +1,26 @@
+﻿<li class="group">
+    <a class="dismiss icon icon-cancel-thin"></a>
+    <div href="#" class="toggle">
+        {{#if PhotoUrl}}
+        <img src="{{PhotoUrl}}" />
+        {{/if}}
+        <div>
+            <span>{{TypeCaption}}</span>
+            <div class="items">
+                {{#Notifications}}
+                <div class="item">
+                    {{#unless PhotoUrl}}
+                    {{#if TypeImageUrl}}
+                    <img src="{{TypeImageUrl}}" />
+                    {{/if}}
+                    {{/unless}}
+                    <a class="go" data-id="{{Id}}" data-url="{{TypeUrl}}" href="#">
+                        <small>{{Date}}</small>
+                        <span>{{TypeCaption}}</span>
+                    </a>
+                </div>
+                {{/Notifications}}
+            </div>
+        </div>
+    </div>
+</li>

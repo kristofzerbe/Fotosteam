@@ -1,0 +1,916 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Api Demo</title>
+    <link rel="shortcut icon" href="../Content/Icons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="../Content/Icons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../Content/Icons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../Content/Icons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../Content/Icons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../Content/Icons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../Content/Icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../Content/Icons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../Content/Icons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="../Content/Icons/apple-touch-icon-57x57.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../Content/Icons/favicon-192x192.png">
+    <link rel="icon" type="image/png" sizes="160x160" href="../Content/Icons/favicon-160x160.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../Content/Icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../Content/Icons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../Content/Icons/favicon-32x32.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/Content/Icons/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Content/Icons/browserconfig.xml">
+
+    <link href="/Content/Fonts/google-fonts/roboto-condensed.css" rel="stylesheet" />
+    <link href="/Content/Fonts/google-fonts/qwigley.css" rel="stylesheet" />
+    <link href="/Content/Fonts/google-fonts/teko.css" rel="stylesheet" />
+    <link href="/Content/Fonts/fontello/css/fotosteam.css" rel="stylesheet" />
+
+    <link href="/Content/CSS/normalize.css" rel="stylesheet" />
+    <link href="/Content/CSS/jquery.mCustomScrollbar.css" rel="stylesheet" />
+    <link href="/Content/CSS/owl.carousel.css" rel="stylesheet" />
+    <link href="/Content/CSS/owl.theme.css" rel="stylesheet" />
+    <link href="/Content/CSS/toasty.css" rel="stylesheet" />
+
+    <link href="/Content/CSS/app.css" rel="stylesheet" />
+    <link href="/Content/CSS/styles.css" rel="stylesheet" />
+    <link href="/Content/CSS/styles-mobile.css" rel="stylesheet" />
+    <link href="/Content/CSS/styles-medium.css" rel="stylesheet" />
+    <link href="/Content/CSS/styles-large.css" rel="stylesheet" />
+    <link href="/Content/CSS/styles-xlarge.css" rel="stylesheet" />
+    <link href="../Scripts/jquery.imgareaselect-0.9.10/css/imgareaselect-animated.css" rel="stylesheet" />
+
+    <script src="../Scripts/modernizr-2.8.3.js"></script>
+    <script src="../Scripts/jquery-2.1.3.js"></script>
+    <script src="../Scripts/jquery.cookie.js"></script>
+    <script src="../Scripts/jquery.scrollTo.js"></script>
+    <script src="../Scripts/jquery.mousewheel.js"></script>
+    <script src="../Scripts/jquery.mCustomScrollbar.js"></script>
+    <script src="../Scripts/moment-with-locales.js"></script>
+    <script src="../Scripts/linq.js"></script>
+    <script src="../Scripts/mousetrap.js"></script>
+    <script src="//maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="../Scripts/jquery.imgareaselect-0.9.10/scripts/jquery.imgareaselect.pack.js"></script>
+    <script src="../Scripts/jquery.signalR-2.2.0.js"></script>
+    <script src="../signalr/hubs"></script>
+    <style>
+        .collapsibleList {
+            font-size: 24px;
+        }
+
+            .collapsibleList li {
+                font-size: 16px;
+                list-style-type: none;
+            }
+
+                .collapsibleList li > input + * {
+                    display: none;
+                }
+
+                .collapsibleList li > input:checked + * {
+                    display: block;
+                }
+
+                .collapsibleList li > input {
+                    display: none;
+                }
+
+            .collapsibleList label {
+                cursor: pointer;
+            }
+
+        .displayItem {
+            margin-bottom: 10px;
+            background-color: rgb(50,50,50);
+            max-height: 80%;
+            margin-right: 20px;
+            overflow: auto;
+        }
+
+        ::-webkit-scrollbar {
+            width: 12px;
+            height: 7px;
+            background-color: transparent;
+        }
+
+        ::-webkit-scrollbar-button {
+            height: 0;
+            width: 0;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-image: -webkit-linear-gradient(top, #4d90fe, #939497,#4d90fe);
+            border-radius: 75% 0 0 75%;
+        }
+
+            ::-webkit-scrollbar-thumb:hover {
+                box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+            }
+
+            ::-webkit-scrollbar-thumb:active {
+                box-shadow: inset 0 1px 3px rgba(0, 0, 0, 1);
+            }
+
+        ::-webkit-scrollbar-track {
+            box-shadow: none;
+            background-color: transparent;
+        }
+
+        select {
+            min-width: 250px;
+            height: 52px;
+        }
+    </style>
+
+    <script type="text/javascript">
+
+        var fotosteam = fotosteam || {};
+        fotosteam.StatusCode =
+        {
+            Success: 0,
+            Failure: 1,
+            Timeout: 2,
+            UnknownAction: 3,
+            InternalException: 4,
+            NoStorageAccessDefined: 5,
+            NotAuthorized: 6,
+            NoData: 7,
+            CannotDeserializer: 8,
+            NotValidEntity: 9
+        }
+
+        String.prototype.endsWith = function (suffix) {
+            return this.indexOf(suffix, this.length - suffix.length) !== -1;
+        };
+
+        function executeRequest(resource) {
+            executeRequestWithType(resource, "GET");
+        }
+
+        function executeRequestWithType(resource, reqType) {
+
+            $.ajax({
+                type: reqType,
+                url: resource,
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (result) {
+                    if (result.Status.Code !== fotosteam.StatusCode.Success) {
+                        alert(result.Status.Messsage);
+                    }
+                    displayResult(resource, result.Data);
+                    if (result.Data.Url640) {
+                        {
+                            $("#toThumb").attr("src", result.Data.Url640);
+                        }
+                    }
+                },
+                "error": function (result) {
+                    var response = result.responseText;
+                    alert('Error loading: ' + response);
+                }
+            });
+        }
+        function refreshUserContent() {
+
+            var http = new XMLHttpRequest();
+            var lastIndex = 0;
+            http.open('get', '/api/account/RefreshUserContent');
+            http.onprogress = function () {
+                var text = http.responseText.substring(lastIndex);
+                lastIndex = http.responseText.length;
+                console.log(lastIndex + "\n");
+                console.log(text + "\n");
+                try {
+                    var obj = jQuery.parseJSON(text);
+                    displayResult("Synchronisieren", obj.Data);
+                } catch (e) {
+                    console.log(e);
+                }
+            };
+            http.onloadend = function () { alert("Synch ist fertig!") }
+            http.send(null);
+
+        }
+        function executeRequestForMember(resource) {
+            if (resource.indexOf("colorreset") > 0) {
+                $.ajax({
+                    type: "put",
+                    url: resource,
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    data: $("#memberText").val(),
+                    success: function (result) {
+                        if (result.Status.Code !== fotosteam.StatusCode.Success) {
+                            alert(result.Status.Messsage);
+                        }
+                        displayResult(resource, result.Data);
+                    },
+                    "error": function (result) {
+                        var response = result.responseText;
+                        alert('Error loading: ' + response);
+                    }
+                });
+                return;
+            }
+            executeRequest(resource.replace("#m#", $("#memberText").val()));
+        }
+
+        function executeRequestForMemberWithCritria(resource) {
+            var uri = resource.replace("#m#", $("#memberText1").val());
+            uri = uri.replace("#c#", $("#criteriaText").val());
+
+            executeRequest(uri);
+        }
+
+        function displayResult(resource, data) {
+            $("#actionResult").empty();
+            $("#actionResult").append("<div><h3 style='color:white;'>" + resource + "</h3></div>");
+            var id = 1;
+            if ($.isArray(data)) {
+                $.each(data, function (index, element) {
+                    var elementHtml = "<div class='displayItem'><ul class='collapsibleList'><li><label for='" + id + "'>" + element.Id + "</label><input type='checkbox' id='" + id + "' /><ul>";
+                    elementHtml += displayElement(element, 0);
+                    $("#actionResult").append(elementHtml);
+                    $("#actionResult").append("<ul></li></ul></div>");
+                    id++;
+                });
+            } else {
+                var elementHtml = "<div class='displayItem'><ul class='collapsibleList'>";
+                elementHtml += displayElement(data, 0);
+                $("#actionResult").append(elementHtml);
+                $("#actionResult").append("</ul></div>");
+                id++;
+            }
+        }
+
+        function displayElement(element, indent) {
+            var elementHtml = "";
+            $.each(element, function (key, value) {
+                if (key !== "$id" && key !== "$type") {
+                    if (value !== null && typeof (value) === "object") {
+                        if (key !== "$values")
+                            elementHtml += "<li  class='collapsibleList' style='padding-left:20px;'>" + key + "</li>";
+                        elementHtml += displayElement(value, 40);
+                        indent = 0;
+                    } else {
+                        var item = value + "";
+                        if ((item.length > 0) && (item.endsWith(".jpg") || item.endsWith("?dl=1") || item.endsWith("=download") || item.indexOf("authkey") > 0)) {
+                            item = "<img src='" + value + "' alt='" + value + "' title='" + value + "' style='max-wdith:100px;max-height:100px;'/>";
+                        }
+                        var html = [
+                            "<li  class='collapsibleList'  style=';padding-left:" + indent + "px;'><div style='display:inline-block;clear:both;width:100%'><div style='display:inline-block;'>", key,
+                            "</div><div style='float:right;margin-right:20px;'>", item, "</div></div></li>"
+                        ].join("\n");
+                        elementHtml += html;
+                    }
+                }
+            });
+            return elementHtml;
+        }
+
+        var windowToClose;
+
+        function AuthorizeDropbox() {
+            var url = window.location.origin;
+            var apiUrl = "/api/authorize/DropboxAuthorisationUrl";
+            Authorize(apiUrl, url);
+        }
+
+        var authorizeGoogleDrive;
+        var authroizeRedirectUrl = "https://www.fotosteamdebug.com:44300/api/authorize/authorizedrive/";
+        function AuthorizeGoogleDrive() {
+            var apiUrl = "/api/authorize/GetDriveAuthorizationUrl";
+            authorizeGoogleDrive = true;
+            Authorize(apiUrl, authroizeRedirectUrl);
+        }
+
+        var authorizeOneDrive;
+        function AuthorizeOneDrive() {
+            var apiUrl = "/api/authorize/GetOneDriveAuthorizationUrl";
+            authorizeOneDrive = true;
+            Authorize(apiUrl, "https://www.fotosteamdebug.com:44300/api/authorize/authorizeonedrive/");
+        }
+
+        function Authorize(apiUrl, redirectUrl) {
+            $.ajax({
+                type: "Post",
+                url: apiUrl,
+                contentType: "application/json; charset=utf-8",
+                data: JSON.stringify(redirectUrl),
+                dataType: "json",
+                success: function (result) {
+                    if ($.isArray(result.Data)) {
+                        token = result.Data[1];
+                        windowToClose = window.open(result.Data[0], "popupWindow", "width=600,height=600,scrollbars=yes");
+                    } else {
+                        if (result.Data == null) {
+                            alert("Benutzer ist schon authoriziert");
+                            return;
+                        }
+                        windowToClose = window.open(result.Data, "popupWindow", "width=600,height=600,scrollbars=yes");
+                    }
+                },
+                "error": function (result) {
+                    var response = result.responseText;
+                    alert('Error loading: ' + response);
+                }
+            });
+        }
+        function CompleteRegistration(member) {
+            isRegistering = false;
+            var model =
+            {
+                "UserName": $("#plainNameText").val(),
+                "Alias": $("#aliasText").val(),
+                "Email": $("#emailText").val(),
+                "Provider": $("#registerProvider").val(),
+                "ExternalAccessToken": member.ProviderKey,
+                "InvitationCode": $("#invitationcodeText").val(),
+                "Language": $("#userLanguage").val()
+            };
+
+            var resource = "/api/authorize/RegisterExternal";
+            $.ajax({
+                type: "Post",
+                url: resource,
+                contentType: "application/json; charset=utf-8",
+                data: JSON.stringify(model),
+                dataType: "json",
+                success: function (result) {
+                    displayResult(resource, result.Data);
+                },
+                "error": function (result) {
+                    var response = result.responseText;
+                    alert('Error loading: ' + response);
+                }
+            });
+        }
+
+        function CheckForResult(id, url) {
+
+            $.ajax({
+                type: "Get",
+                url: url + id,
+                contentType: "application/json; charset=utf-8",
+                data: "{}",
+                dataType: "json",
+                success: function (result) {
+                    displayResult(url, result.Data);
+
+                    if (windowToClose != null)
+                        windowToClose.close();
+                    isAuthenticating = false;
+
+                    if (isRegistering) {
+                        CompleteRegistration(result.Data);
+                    }
+                },
+                "error": function (result) {
+                    var response = result.responseText;
+                    alert('Error loading: ' + response);
+                }
+            });
+        }
+
+        var isRegistering;
+        var currentProvider;
+
+        function register(provider) {
+            currentProvider = provider;
+            isRegistering = true;
+            ///Es muss erst authentifiziert werden
+            authenticate(provider);
+        }
+
+        // ------------------------------------------
+        var token;
+        var isAuthenticating;
+        var currentProvider;
+
+        function authenticate(provider) {
+
+            var url = window.location.origin;
+            token = createGuid();
+            isAuthenticating = true;
+            currentProvider = provider;
+            var externalProviderUrl =
+                url + "/api/authorize/login?provider=" + provider
+                    + "&token=" + token
+                    + "&redirect_uri=" + url + "/AuthenticationReady.html";
+
+
+            windowToClose = window.open(externalProviderUrl, "Authenticate Account", "location=0,status=0,width=600,height=750");
+
+        }
+        function authorize(provider) {
+            if (provider === "Dropbox")
+                AuthorizeDropbox();
+            if (provider === "GoogleDrive")
+                AuthorizeGoogleDrive();
+            if (provider === "OneDrive")
+                AuthorizeOneDrive();
+        }
+
+        function SignOut() {
+            var resource = "/api/authorize/SignOut";
+            $.ajax({
+                type: "GET",
+                url: resource,
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (result) {
+                    displayResult(resource, result.Data);
+                },
+                "error": function (result) {
+                    var response = result.responseText;
+                    alert('Error loading: ' + response);
+                }
+            });
+        }
+
+        function closeAuthWindow() {
+
+            windowToClose.close();
+            windowToClose = null;
+
+            if (authorizeGoogleDrive === true) {
+                authorizeGoogleDrive = false;
+                return;
+            }
+            if (authorizeOneDrive === true) {
+                authorizeOneDrive = false;
+                return;
+            }
+
+            var url = "/api/authorize/VerifyLogin/";
+            if (!isAuthenticating)
+                url = "/api/authorize/DropBoxVerify/";
+            else {
+                // Declare a proxy to reference the hub.
+                var chat = $.connection.notificationHub;
+                // Create a function that the hub can call to broadcast messages.
+                chat.client.showNotification = function (message) {
+                    displayResult("Notification", message);
+                };
+
+                // Start the connection.
+                $.connection.hub.start();
+            }
+
+            CheckForResult(token, url);
+        }
+
+        function SendMessage() {
+            var chat = $.connection.notificationHub;
+            chat.server.sendDummyMessage($("#message").val(), $("#messageType").val());
+        }
+
+        function createGuid() {
+            return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+                var r = Math.random() * 16 | 0, v = c === 'x' ? r : (r & 0x3 | 0x8);
+                return v.toString(16);
+            });
+        }
+
+        // ------------------------------------------
+
+        var tokenKey = 'accessToken';
+
+
+        // Grab the files and set them to our variable
+        function Upload() {
+
+            var file = $("#UploadAvatar")[0].files[0];
+            var url = "/api/account/AvatarImage";
+            var fd = new FormData();
+            fd.append("avatar", file);
+
+            $.ajax({
+                type: "POST",
+                url: url,
+                contentType: false,
+                processData: false,
+                data: fd,
+                dataType: "json",
+                success: function (result) {
+                    displayResult(url, result.Data);
+                },
+                "error": function (result) {
+                    var response = result.responseText;
+                    alert('Error loading: ' + response);
+                }
+            });
+        }
+
+
+        // Grab the files and set them to our variable
+        function UploadPhoto() {
+
+            var file = $("#UploadPhoto")[0].files[0];
+            var url = "/api/data/photo/DSC_3670-HDRJPG";
+
+            var fd = new FormData();
+            fd.append("photo", file);
+
+            $.ajax({
+                type: "POST",
+                url: url,
+                contentType: false,
+                processData: false,
+                data: fd,
+                dataType: "json",
+                success: function (result) {
+                    displayResult(url, result.Data);
+                },
+                "error": function (result) {
+                    var response = result.responseText;
+                    alert('Error loading: ' + response);
+                }
+            });
+        }
+
+        function UpdatePhoto() {
+
+            var file = $("#UpdatePhoto")[0].files[0];
+            var url = "/api/data/updatephoto/" + $("#photoId").val();
+
+            var fd = new FormData();
+            fd.append("photo", file);
+
+            $.ajax({
+                type: "POST",
+                url: url,
+                contentType: false,
+                processData: false,
+                data: fd,
+                dataType: "json",
+                success: function (result) {
+                    displayResult(url, result.Data);
+                },
+                "error": function (result) {
+                    var response = result.responseText;
+                    alert('Error loading: ' + response);
+                }
+            });
+        }
+        function UpdateOriginalPhoto() {
+
+            var file = $("#UpdateOriginalPhoto")[0].files[0];
+            var url = "/api/data/updateoriginalphoto/" + $("#originalPhotoId").val();
+
+            var fd = new FormData();
+            fd.append("photo", file);
+
+            $.ajax({
+                type: "POST",
+                url: url,
+                contentType: false,
+                processData: false,
+                data: fd,
+                dataType: "json",
+                success: function (result) {
+                    displayResult(url, result.Data);
+                },
+                "error": function (result) {
+                    var response = result.responseText;
+                    alert('Error loading: ' + response);
+                }
+            });
+        }
+        
+        function LoadPhotoById() {
+            var id = $("#photoIdForThumb").val();
+            var resource = "/api/data/" + id + "/photos";
+
+            $.ajax({
+                type: "GET",
+                url: resource,
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (result) {
+                    if (result.Status.Code !== fotosteam.StatusCode.Success) {
+                        alert(result.Status.Messsage);
+                    }
+                    displayResult(resource, result.Data);
+                    if (result.Data.Url640) {
+                        {
+                            var img = new Image();
+                            $("#toThumb").attr("src", result.Data.Url640);
+
+                            img.onload = function () { showSelector(); }
+                            img.src = result.Data.Url640;
+                        }
+                    }
+                },
+                "error": function (result) {
+                    var response = result.responseText;
+                    alert('Error loading: ' + response);
+                }
+            });
+        }
+
+        function ChangeThumb() {
+            var selection = ias.getSelection();
+
+            var id = $("#photoIdForThumb").val();
+            var resource = "/api/data/thumbs";
+
+            var imageHeight = $("#toThumb").height();
+            var imageWidth = $("#toThumb").width();
+
+            var x = selection.x1 / imageWidth;
+            var y = selection.y1 / imageHeight;
+
+            var model = 
+                {
+                PhotoId : id,
+                XPercentage : x,
+                YPercentage : y
+            };
+            
+            
+
+            $.ajax({
+                type: "PUT",
+                url: resource,
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                data:  JSON.stringify(model),
+                success: function (result) {
+                    if (result.Status.Code !== fotosteam.StatusCode.Success) {
+                        alert(result.Status.Messsage);
+                    }
+                    displayResult(resource, result.Data);
+                },
+                "error": function (result) {
+                    var response = result.responseText;
+                    alert('Error loading: ' + response);
+                }
+            });
+        }
+
+
+        var ias;
+        function showSelector() {
+            ias = null;
+
+            // Start with a tiny area in the center
+            var selLength = 0;
+            var x1;
+            var y1;
+            var x2;
+            var y2;
+
+            var imageHeight = $("#toThumb").height();
+            var imageWidth = $("#toThumb").width();
+
+            if (imageWidth > imageHeight) {
+                selLength = imageHeight;
+                x1 = (imageWidth - selLength) / 2;
+                x2 = x1 + selLength;
+                y1 = 0;
+                y2 = imageHeight;
+            } else {
+                selLength = imageWidth;
+                x1 = 0;
+                x2 = selLength;
+                y1 = (imageHeight - selLength) / 2;;
+                y2 = y1 + selLength;
+            }
+
+            if (ias) {
+                ias.Remove();
+            }
+
+            ias = $('img#toThumb').imgAreaSelect({
+                fadeSpeed: 200,
+                handles: false,
+                instance: true,
+                AspectRatio: "1:1"
+            });
+
+            ias.cancelSelection();
+            ias.setOptions({ resizable: false, show: true, movable: true, minHeight: selLength, minWidth: selLength });
+            ias.setSelection(x1, y1, x2, y2);
+            ias.update();
+        }
+
+    </script>
+
+</head>
+<body style="overflow-x: visible;">
+    <p>Das ist nur ein kleines Demo, wie die Api aufgerufen wird.</p>
+    <div class="owl-carousel owl-theme" style="display: block;">
+        <div class="owl-wrapper-outer">
+            <div class="owl-wrapper" style="width: 100%; display: block;">
+                <div class="owl-item" style="width: 50%;">
+                    <div class="details-panel foto-meta panel-scroll mCustomScrollbar _mCS_5">
+                        <div id="mCSB_5" class="mCustomScrollBox mCS-dark-thick mCSB_vertical mCSB_inside" tabindex="0">
+                            <div id="mCSB_5_container" class="mCSB_container" style="position: relative; top: 0; left: 0;" dir="ltr">
+                                <div class="foto-meta-sub">
+                                    <fieldset>
+                                        <legend>Anmelden</legend>
+                                        <select name="loginProvider" id="loginProvider" class="button">
+                                            <option value="Google">Mit Google</option>
+                                            <option value="Facebook">Mit Facebook</option>
+                                            <option value="Microsoft">Mit Live</option>
+                                            <option value="Twitter">Mit Twitter</option>
+                                        </select>
+                                        <button onclick=" authenticate($('#loginProvider').val()); ">anmelden</button>
+
+                                        <div>
+                                            <label class="label">Provider:</label>
+                                            <select name="cloudProvider" id="cloudProvider" class="button">
+                                                <option value="Dropbox">Dropbbox</option>
+                                                <option value="GoogleDrive">GoogleDrive</option>
+                                                <option value="OneDrive">OneDrive</option>
+                                            </select>
+                                            <button onclick=" authorize($('#cloudProvider').val()); ">authorisieren</button>
+                                        </div>
+                                        <div>
+                                            <input type="text" id="messageType" name="messageType" style="width: 50px" /><input type="text" id="message" name="message" /><button onclick="SendMessage()">Nachricht senden</button>
+                                        </div>
+                                        <div>
+                                            <button onclick="refreshUserContent()">Synchronisieren</button>
+                                        </div>
+                                        <div>
+                                            <button onclick="SignOut() ">Abmelden</button>
+                                        </div>
+                                        <div>
+                                            <button onclick=" executeRequestWithType('/api/authorize/remove', 'DELETE'); ">Konto löschen</button>
+                                        </div>
+                                        <div>
+                                            <button onclick=" executeRequestWithType('/api/synch/Notify', 'POST'); ">Löschen in Dropbox testen</button>
+                                        </div>
+
+                                    </fieldset>
+                                    <fieldset>
+                                        <legend>Registrieren</legend>
+                                        <div>
+                                            <label class="label">Plain name:</label>
+                                            <input type="text" id="plainNameText" name="plainNameText" />
+                                        </div>
+                                        <div>
+                                            <label class="label">Alias:</label>
+                                            <input type="text" id="aliasText" name="aliasText" />
+                                        </div>
+                                        <div>
+                                            <label class="label">Email:</label>
+                                            <input type="text" id="emailText" name="emailText" />
+                                        </div>
+                                        <div>
+                                            <label class="label">Einladungscode:</label>
+                                            <input type="text" id="invitationcodeText" name="invitationcodeText" value="a14944ad-ade6-4a53-8505-25689c0d2378" />
+                                        </div>
+                                        <div>
+                                            <select name="userLanguage" id="userLanguage" class="button">
+                                                <option value="0">Deutsch</option>
+                                                <option value="1">English</option>
+                                            </select>
+                                        </div>
+
+                                        <div>
+                                            <select name="loginProvider" id="registerProvider" class="button">
+                                                <option value="Google">Mit Google</option>
+                                                <option value="Facebook">Mit Facebook</option>
+                                                <option value="Microsoft">Mit Live</option>
+                                                <option value="Twitter">Mit Twitter</option>
+                                            </select>
+                                            <button onclick=" register($('#registerProvider').val()) ">registrieren</button>
+                                        </div>
+                                        <div id="RegisterUserInfo">
+                                            <ul></ul>
+                                        </div>
+                                    </fieldset>
+                                    <fieldset>
+                                        <legend>Aktionen</legend>
+                                        <select name="loginProvider" id="selectedAction" class="button">
+                                            <option value="/api/account/members">Lade alle Benutzer</option>
+                                            <option value="/api/account/memberInfo">Lade Benutzerinformationen</option>
+                                            <option value="/api/account/RefreshUserContent">Cloud abgeleichen</option>
+                                            <option value="/api/data/NewPhotos">Neu Bilder des Benutzers anzeigen</option>
+                                            <option value="/api/data/all/NewPhotos/0/10">10 Neue Bilder anzeigen</option>
+                                            <option value="/api/data/all/topratedphotos/0/10">10 bestbewerteten Bilder anzeigen</option>
+                                            <option value="/api/data/all/mytopratedphotos/0/10">10 von mir am besten bewerteten Bilder anzeigen</option>
+                                            <option value="/api/data/all/newcomments/0/10">10 Neue Kommentare anzeigen</option>
+                                            <option value="/api/data/all/allnotifications/0/10">10 Benachrichtungen anzeigen</option>
+                                        </select>
+                                        <button onclick=" executeRequest($('#selectedAction').val()) ">ausführen</button>
+                                        <br />
+
+                                        <select name="loginProvider" id="selectedUsersensitiveAction" class="button" style="float: left;">
+                                            <option value="/api/data/#m#/photos">Lade Fotos für </option>
+                                            <option value="/api/data/#m#/categories">Lade Kategorien für </option>
+                                            <option value="/api/data/#m#/topics">Lade Themen für </option>
+                                            <option value="/api/data/#m#/locations">Lade Orte für </option>
+                                            <option value="/api/data/#m#/stories">Lade Geschichten für </option>
+                                            <option value="/api/data/#m#/events">Lade Ereignisse für </option>
+                                            <option value="/api/data/#m#/topratedphotos/0/10">10 bestbewerteten Bilder von</option>
+                                            <option value="/api/data/commentsforphoto/#m#//0/10">10 Kommentare für Bild mit Id</option>
+                                            <option value="/api/data/ratingsforphoto/#m#//0/10">10 Bewertungen für Bild mit Ud</option>
+                                            <option value="/api/data/find/#m#/0/10">Suche nach</option>
+                                            <option value="/api/account/member/#m#">Lade Benutzerdaten für </option>
+                                            <option value="/api/account/membersrandom/#m#">Lade zufällige Benutzerdaten für </option>
+                                            <option value="/api/account/buddies/#m#">Lade Buddies Benutzerdaten für </option>
+                                            <option value="/api/data/newcommentsforphoto/#m#/0/10">10 Neue Kommentare für Foto mit Id</option>
+                                            <option value="/api/data/#m#/latestphotosforuser/0/10">10 neue Foto für allias</option>
+                                            <option value="/api/data/#m#/randomphotos/10">10 zufällige Fotos für allias</option>
+                                            <option value="/api/data/colorreset/#m#">Farbe Foto mit ID zurücksetzen </option>
+                                            <option value="/api/data/colorresetheader/">Farbe für Header zurücksetzen</option>
+                                            <option value="/api/data/colorresetavatar/">Farbe für Avatar zurücksetzen</option>
+                                        </select>
+                                        <input style="width: 100px; float: left; height: 45px; margin: 0 10px 0 10px;" type="text" id="memberText" name="memberText" value="kristof" />
+                                        <button onclick=" executeRequestForMember($('#selectedUsersensitiveAction').val()) ">ausführen</button>
+
+                                        <br style="clear: both" />
+                                        <select name="loginProvider" id="selectedUsersensitiveActionWithParameters" class="button" style="float: left;">
+                                            <option value="/api/data/#m#/category/#c#">Lade Fotos nach Kategorie für </option>
+                                            <option value="/api/data/#m#/topic/#c#">Lade Fotos nach Thema für </option>
+                                            <option value="/api/data/#m#/location/#c#">Lade Fotos nach Ort </option>
+                                            <option value="/api/data/#m#/event/#c#">Lade Fotos nach Ereignisse für </option>
+                                        </select>
+                                        <input style="width: 100px; float: left; height: 45px; margin: 0 10px 0 10px;" type="text" id="memberText1" name="memberText1" value="kristof" />
+                                        <span style="float: left;"> mit Kriterium </span>
+                                        <input style="width: 100px; float: left; height: 45px; margin: 0 10px 0 10px;" type="text" id="criteriaText" name="criteriaText" value="" />
+                                        <button onclick="executeRequestForMemberWithCritria($('#selectedUsersensitiveActionWithParameters').val()) ">ausführen</button>
+                                    </fieldset>
+                                    <fieldset>
+                                        <legend>Avatar hochlanden:</legend>
+                                        <div>
+                                            <input type="file" id="UploadAvatar" name="UploadAvatar"
+                                                   accept="image/jpg,image/jpeg"
+                                                   onchange=" Upload(); " />
+                                        </div>
+                                    </fieldset>
+                                    <fieldset>
+                                        <legend>Foto hochladen:</legend>
+                                        <div>
+                                            <input type="file" id="UploadPhoto" name="UploadPhoto"
+                                                   accept="image/jpg,image/jpeg"
+                                                   onchange="UploadPhoto();" />
+                                        </div>
+                                    </fieldset>
+                                    <fieldset>
+                                        <legend>Foto aktualisieren:</legend>
+                                        <div>
+                                            <label class="label">ID:</label>
+                                            <input style="width: 50px;" type="text" id="photoId" name="photoId" value="" />
+
+                                            <input type="file" id="UpdatePhoto" name="UpdatePhoto"
+                                                   accept="image/jpg,image/jpeg"
+                                                   onchange="UpdatePhoto();" />
+                                        </div>
+                                    </fieldset>
+
+                                    <fieldset>
+                                        <legend>Orginal aktualisieren:</legend>
+                                        <div>
+                                            <label class="label">ID:</label>
+                                            <input style="width: 50px;" type="text" id="originalPhotoId" name="originalPhotoId" value="" />
+
+                                            <input type="file" id="UpdateOriginalPhoto" name="UpdateOriginalPhoto"
+                                                   accept="image/jpg,image/jpeg"
+                                                   onchange="UpdateOriginalPhoto();"/>
+                                        </div>
+                                    </fieldset>
+
+                                    <fieldset>
+                                        <legend>Ausschnitt anpassen</legend>
+                                        <div>
+                                            <label class="label">ID:</label>
+                                            <input style="width: 50px;" type="text" id="photoIdForThumb" name="photoIdForThumb" value="" />
+                                            <button onclick="LoadPhotoById()">Laden</button>
+                                        </div>
+
+                                        <img id="toThumb" alt="Thumb anpassen" src="" style="max-width: 100%;max-height:100%" />
+
+                                        <br />
+                                        <button id="changeThumb" onclick="ChangeThumb();">Anpassen</button>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="owl-item" style="width: 50%;height:100%">
+                    <div class="details-panel foto-meta panel-scroll mCustomScrollbar _mCS_5">
+                        <div id="mCSB_51" class="mCustomScrollBox mCS-dark-thick mCSB_vertical mCSB_inside" tabindex="0">
+                            <div id="mCSB_51_container" class="mCSB_container" style="position: relative; top: 0; left: 0;" dir="ltr">
+                                <div class="foto-meta-sub">
+                                    <fieldset>
+                                        <legend>Ergebnis</legend>
+                                        <div id="actionResult" style="height: 85vh; overflow: auto;">&nbsp;</div>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

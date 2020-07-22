@@ -1,0 +1,537 @@
+﻿[
+    //Placeholder
+    {
+        "url": "",
+        "req": "",
+        "desc": ""
+    },
+    //AuthorizeController
+    {
+        "url": "/api/authorize/DropboxAuthorisationUrl",
+        "req": "POST",
+        "desc": "Liefert die Anmelde URL für die Authorizierung der Dropbox"
+    },
+    {
+        "url": "/api/authorize/DropBoxVerify/TOKEN",
+        "req": "Get",
+        "desc": "Wird aufgerufen, um die Authorisierung abzuschließen, es muss der Token überbgeben werden"
+    },
+    {
+        "url": "api/authorize/GetDriveAuthorizationUrl",
+        "req": "Get",
+        "desc": "Liefert die Anmelde URL für die Authorizierung für Google-Drive"
+    },
+    {
+        "url": "api/authorize/AuthorizeDrive",
+        "req": "Get",
+        "desc": "Führt die Authorisierung für Google-Drive durch. Wird von Google aufgerufen"
+    },
+    {
+        "url": "api/authorize/AuthorizeOneDrive",
+        "req": "Get",
+        "desc": "Führt die Authorisierung für OneDrive durch. Wird von Microsoft aufgerufen"
+    },
+    {
+        "url": "api/authorize/GetOneDriveAuthorizationUrl",
+        "req": "POST",
+        "desc": "Liefert die Anmelde URL für die Authorizierung für OneDrive"
+    },
+    {
+        "url": "/api/authorize/RegisterExternal",
+        "req": "POST",
+        "desc": "Registriert einen neues Mitglied mit dem entsprechenden Provider. Vorher muss der Benutzer sich aber authentifiziert haben (s. GetExternalLogin)"
+    },
+    {
+        "url": "/api/authorize/login?provider=PROVIDER&token=TOKEN&redirect_uri=URI",
+        "req": "GET",
+        "desc": "Authentifiziert den Benutzer über OAuth mit Google, Facebook, Twitter"
+    },
+    {
+        "url": "/api/authorize/VerifyLogin/TOKEN",
+        "req": "GET",
+        "desc": "Member-Objekt des eben authentifizierten Benutzers. Kann nur einmal aufgerufen werden-"
+    },
+    {
+        "url": "/api/authorize/signout",
+        "req": "GET",
+        "desc": "Beendet die Session für den aktuellen Benutzer"
+    },
+    //AccountController
+
+    {
+        "url": "/api/account/member/ALIAS",
+        "req": "GET",
+        "desc": "Ein Mitglied entsprechend des Alias"
+    },
+    {
+        "url": "/api/account/memberbyid/ID",
+        "req": "GET",
+        "desc": "Ein Mitglied entsprechend der ID"
+    },
+    {
+        "url": "/api/account/members",
+        "req": "GET",
+        "desc": "Liste aller Mitglieder"
+    },
+    {
+        "url": "/api/account/membersrandom?count=ANZAHL",
+        "req": "GET",
+        "desc": "Zufallsliste von X Mitgliedern"
+    },
+    {
+        "url": "/api/account/MemberInfo",
+        "req": "GET",
+        "desc": "Liefert die Memberdaten mit HomeLocation,SocialMedias und NotUsedInviteCodes für den authentifzierten Benutzer. Falls der Benutzer nicht authentifiziert ist, werder Status.Code = 6 zurückgeliefert "
+    },
+
+    {
+        "url": "/api/account/RefreshUserContent",
+        "req": "GET",
+        "desc": "Aktualisiert die Fotos und liefert SynchProgress zurück. Der Benutzer muss authorisiert sein."
+    },
+    {
+        "url": "/api/account/member/ALIAS",
+        "req": "PUT",
+        "desc": "Ein Mitglied entsprechend des Alias"
+    },
+    {
+        "url": "/api/account/avatarimage",
+        "req": "POST",
+        "desc": "Aktualisiert das Avatarbild mit dem über POST gesendeten Bild"
+    },
+    {
+        "url": "/api/account/header",
+        "req": "POST",
+        "desc": "Aktualisiert das Hintergrundbild mit dem über POST gesendeten Bild oder der ID eines existierenden Fotos"
+    },
+    {
+        "url": "/api/account/IsAliasAvailable",
+        "req": "POST",
+        "desc": "Überprüft ob der Alias noch NICHT vorhanden ist. Alias wird als Body übergeben. Ergbnis wird NUR als Boolean zurückgegeben"
+    },
+    {
+        "url": "/api/account/InviteCodeAvailable",
+        "req": "POST",
+        "desc": "Überprüft ob der Code noch nicht genutzt und vorhanden ist. Code wird als Body übergeben. Ergbnis wird NUR als Boolean zurückgegeben"
+    },
+    //DataController
+    {
+        "url": "/api/data/ALIAS/journal/SKIP/TAKE",
+        "req": "GET",
+        "desc": "Liefert für das Mitglied mit dem Alias =ALIAS eine Liste von Fotos zurück. Dabei werden SKIP Bilder übersprungen und TAKE zurückgeliefert"
+    },
+    {
+        "url": "/api/data/commentsForPhoto/PHOTOID/SKIP/TAKE",
+        "req": "GET",
+        "desc": "Liefert Liste von Kommentaren für ein Photo mit der ID==PHOTOID zurück. Dabei werden SKIP Kommentare übersprungen und TAKE zurückgeliefert"
+    },
+
+    {
+        "url": "/api/data/alias/topic/TOPIC",
+        "req": "GET",
+        "desc": "Liefert alle Bilder zu einem Topic für ein Mitglied zurück"
+    },
+    {
+        "url": "/api/data/alias/location/LOCATION",
+        "req": "GET",
+        "desc": "Liefert alle Bilder zu einen Ort (Name) für ein Mitglied zurück"
+    },
+    {
+        "url": "/api/data/alias/city/CITY",
+        "req": "GET",
+        "desc": "Liefert alle Bilder zu einr Stadt für ein Mitglied zurück"
+    },
+    {
+        "url": "/api/data/alias/country/LOCATION",
+        "req": "GET",
+        "desc": "Liefert alle Bilder zu einen Land für ein Mitglied zurück"
+    },
+    {
+        "url": "/api/data/ALIAS/locationgroups/Country",
+        "req": "GET",
+        "desc": "Liefert alle Orte für ein Mitglied nach Land gruppiert zurück"
+    },
+    {
+        "url": "/api/data/ALIAS/locationgroups/County",
+        "req": "GET",
+        "desc": "Liefert alle Orte für ein Mitglied nach Bundesland gruppiert zurück"
+    },
+    {
+        "url": "/api/data/ALIAS/locationgroups/City",
+        "req": "GET",
+        "desc": "Liefert alle Orte für ein Mitglied nach Stadt gruppiert zurück"
+    },
+    {
+        "url": "/api/data/alias/event/EVENT",
+        "req": "GET",
+        "desc": "Liefert alle Bilder zu einer Veranstaltung für ein Mitglied zurück"
+    },
+    {
+        "url": "/api/data/alias/category/CATEGORY",
+        "req": "GET",
+        "desc": "Liefert alle Bilder zu einer Kategorie für ein Mitglied zurück"
+    },
+    {
+        "url": "/api/data/ALIAS/categories",
+        "req": "GET",
+        "desc": "Liste aller Kategorien eines Members"
+    },
+    {
+        "url": "/api/data/ALIAS/topics",
+        "req": "GET",
+        "desc": "Liste aller Themen eines Members"
+    },
+    {
+        "url": "/api/data/ALIAS/locations",
+        "req": "GET",
+        "desc": "Liste aller Orte eines Members"
+    },
+    {
+        "url": "/api/data/ALIAS/events",
+        "req": "GET",
+        "desc": "Liste aller Veranstaltungen eines Members"
+    },
+    {
+        "url": "/api/data/ALIAS/stories",
+        "req": "GET",
+        "desc": "Liste aller Geschichten eines Members"
+    },
+    {
+        "url": "/api/data/ALIAS/photos",
+        "req": "GET",
+        "desc": "Liste aller Fotos eines Members"
+    },
+    {
+        "url": "/api/data/ALIAS/topratedphotos/SKIP/TAKE",
+        "req": "GET",
+        "desc": "Liefert die am besten bewerteten Bilder des Mitglieds mit dem ALIAS"
+    },
+    {
+        "url": "/api/data/NewPhotos",
+        "req": "GET",
+        "desc": "Liste aller neuen Fotos eines Members. Funktioniert nur, wenn der Benutzer sich angemeldet hat. "
+    },
+    {
+        "url": "/api/data/all/newphotos/SKIP/TAKE",
+        "req": "GET",
+        "desc": "Liefert die neusten Bilder von allen Mitgliedern"
+    },
+    {
+        "url": "/api/data/ALIAS/latestphotosforuser/SKIP/TAKE",
+        "req": "GET",
+        "desc": "Liefert die neusten Bilder vom Mitglied mit dem Alias"
+    },
+    {
+        "url": "/api/data/all/topratedphotos/SKIP/TAKE",
+        "req": "GET",
+        "desc": "Liefert die am besten bewerteten Bilder von allen Mitgliedern"
+    },
+    {
+        "url": "/api/data/ALIAS/topratedphotos/SKIP/TAKE",
+        "req": "GET",
+        "desc": "Liefert die am besten bewerteten Bilder von einem Mitglied zurück"
+    },
+    {
+        "url": "/api/data/all/mytopratedphotos/SKIP/TAKE",
+        "req": "GET",
+        "desc": "Liefert die vom aktuellen Benutzer am besten bewerteten Bilder anderer Mitgliedern. NICHT SEINE EIGENEN BILDER!"
+    },
+    {
+        "url": "/api/data/ALIAS/cc0/SKIP/TAKE",
+        "req": "GET",
+        "desc": "Liefert alle freien Bildern von dem Benutzer mit dem ALIAS zurück. Es kann statt ALIAS all verwendet werden, um Fotos für alle Benutzer zurückzugeben. "
+    },
+    {
+        "url": "/api/data/ALIAS/cc0/SKIP/TAKE?CRITERIA",
+        "req": "GET",
+        "desc": "Liefert alle freien Bildern von dem Benutzer mit dem ALIAS die dem Wert CRIERIA haben.Criteria z.B. category=1|4&location=Deutschland. Es kann statt ALIAS all verwendet werden, um Fotos für alle Benutzer zurückzugeben. "
+    },
+
+    {
+        "url": "/api/data/newcommentsforphoto/PHTOTOID/SKIP/TAKE",
+        "req": "GET",
+        "desc": "Liefert die neusten Kommentare zu dem Foto mit der ID PHTOTOID"
+    },
+    {
+        "url": "/api/data/all/newcomments/SKIP/TAKE",
+        "req": "GET",
+        "desc": "Liefert die neusten Kommentare von allen Mitgliedern"
+    },
+    {
+        "url": "/api/data/all/unreadnotifications/SKIP/TAKE",
+        "req": "GET",
+        "desc": "Liefert die ungelesenen Benachrichtungen für den angemeldenten Benutzer"
+    },
+    {
+        "url": "/api/data/all/allnotifications/SKIP/TAKE",
+        "req": "GET",
+        "desc": "Liefert die Benachrichtungen für den angemeldenten Benutzer"
+    },
+    {
+        "url": "/api/data/ALIAS/randomphotos/TAKE",
+        "req": "GET",
+        "desc": "Liefert TAKE Fotos für ALIAS"
+    },
+    {
+        "url": "/api/data/find/CRITERIA/SKIP/TAKE",
+        "req": "GET",
+        "desc": "Sucht Fotos mit dem CRITERIA in Location, Category, Event, Topic und liefert nach Objekttyp gruppierte Ergebnisse. Paging kann verwendet werden"
+    },
+    {
+        "url": "/api/data/ratings/PHOTOID/SKIP/TAKE",
+        "req": "GET",
+        "desc": "Liefert alle Bewertungen zu einem Foto zurück."
+    },
+    //POST
+    {
+        "url": "/api/communication/addComment",
+        "req": "POST",
+        "desc": "Fügt einem Foto einen Kommentar hinzu. Der Kommentar muss als Comment-Poco übergeben werden. "
+    },
+    {
+        "url": "/api/communication/addRating",
+        "req": "POST",
+        "desc": "Fügt zu einem Foto eine Bewertung hinzu. Die Bewertung muss als Rating-Poco übergebenwerden."
+    },
+    {
+        "url": "/api/communication/trello",
+        "req": "POST",
+        "desc": "Im Body muss ein Message-Objekt übergeben, dann wird eine Email an den in der Web.Config hinterlegten Trello-Empfänger geschickt ",
+    },
+    {
+        "url": "/api/communication/contact",
+        "req": "POST",
+        "desc": "Im Body muss ein Message-Objekt übergeben, dann wird eine Email an den in der Web.Config hinterlegten Fotosteaminfo-Adresse geschickt ",
+    },
+    {
+        "url": "/api/data/mergelocations",
+        "req": "POST",
+        "desc": "Überführt einen Ort in einen anderen. Im Body muss NewId für die Id des neuen Ortes und OldId für den bisherigen Ort übergeben werden. ACHTUNG CASE SENSITIVE ",
+    },
+    {
+        "url": "/api/data/phototopic",
+        "req": "POST",
+        "desc": "Aktualisiert ein Topic für ein Foto. Im Body muss PhotoId für die Id des Photos, TopicId für die Id des Topics und Action als 'add','remove' übergeben werden. ACHTUNG CASE SENSITIVE ",
+    },
+    //POST NUR ALS AUTHORISIERTER BENUTZER
+    {
+        "url": "/api/data/brick",
+        "req": "POST",
+        "desc": "Fügt einen Brick hinzu, der notwendige Legde muss über die ID spezifiert sein"
+    },
+    {
+        "url": "/api/data/ledge",
+        "req": "POST",
+        "desc": "Fügt einen Ledge hinzu, das notwendige Kapitel muss über die ID spezifiert sein"
+    },
+    {
+        "url": "/api/data/chapter",
+        "req": "POST",
+        "desc": "Fügt ein Kapitel hinzu, die notwendige Geschichte muss über die ID spezifiert sein"
+    },
+    {
+        "url": "/api/data/story",
+        "req": "POST",
+        "desc": "Fügt eine neue Geschichte hinzu, der zugehörige Benutzer muss über die ID spezifiziert sein"
+    },
+    {
+        "url": "/api/data/topic",
+        "req": "POST",
+        "desc": "Fügt ein neues Thema hinzu, der zugehörige Benutzer muss über die ID spezifiziert sein"
+    },
+    {
+        "url": "/api/data/event",
+        "req": "POST",
+        "desc": "Fügt ein neues Ereignis hinzu, der zugehörige Benutzer muss über die ID spezifiziert sein"
+    },
+    {
+        "url": "/api/data/location",
+        "req": "POST",
+        "desc": "Fügt einen neuen Ort hinzu, der zugehörige Benutzer muss über die ID spezifiziert sein"
+    },
+    {
+        "url": "/api/data/exif",
+        "req": "POST",
+        "desc": "Fügt Exifdaten zu einem Photo hinzu, das über die ID spezifiziert sein muss."
+    },
+    {
+        "url": "/api/data/photo",
+        "req": "POST",
+        "desc": "Lädt ein Foto zu dem Provider hoch"
+    },
+    {
+        "url": "/api/data/update",
+        "req": "POST",
+        "desc": "Aktualisiert nur einen Wert für ein Objekt. Es muss ein UpdateModel im Body übergeben werden"
+    },
+    {
+        "url": "/api/data/addbuddy",
+        "req": "POST",
+        "desc": "Fügt dem aktuellen Benutzer ein Buddy hinzu. Im Body muss {\"BuddyMemberId\":\"ID\"} übergeben werden "
+    },
+    {
+        "url": "/api/data/confirmbuddy",
+        "req": "POST",
+        "desc": "Der aktuelle Benutzer bestätigt eine Buddy-Anfrage. Im Body muss {\"BuddyMemberId\":\"ID\"} übergeben werden "
+    },
+    {
+        "url": "/api/data/updatephoto",
+        "req": "POST",
+        "desc": "Aktualisiert ein bestehendes Foto"
+    },
+    {
+        "url": "/api/data/updateoriginalphoto",
+        "req": "POST",
+        "desc": "Aktualisiert bzw. lädt das Orinalfoto mit 640px hoch"
+    },
+    //PUT NUR FÜR AUTHORISIERTE BENUTZER
+    {
+        "url": "/api/data/brick",
+        "req": "PUT",
+        "desc": "Aktualisiert einen Brick, der notwendige Legde muss über die ID spezifiert sein und die ID des Elements gesetzt sein. Das Gild für alle Arten von Bricks. Dabei muss der Typ gesetzt sein"
+    },
+    {
+        "url": "/api/data/ledge",
+        "req": "PUT",
+        "desc": "Aktualisiert einen Ledge, das notwendige Kapitel muss über die ID spezifiert sein und die ID des Elements gesetzt sein"
+    },
+    {
+        "url": "/api/data/chapter",
+        "req": "PUT",
+        "desc": "Aktualisiert ein Kapitel, die notwendige Geschichte muss über die ID spezifiert sein und die ID des Elements gesetzt sein"
+    },
+    {
+        "url": "/api/data/story",
+        "req": "PUT",
+        "desc": "Aktualisiert eine Geschichte, der zugehörige Benutzer muss über die ID spezifiziert sein und die ID des Elements gesetzt sein"
+    },
+    {
+        "url": "/api/data/photo",
+        "req": "PUT",
+        "desc": "Aktualisiert ein Photo, der zugehörige Benutzer muss über die ID spezifiziert sein und die ID des Elements gesetzt sein"
+    },
+    {
+        "url": "/api/data/topic",
+        "req": "PUT",
+        "desc": "Aktualisiert ein Thema, der zugehörige Benutzer muss über die ID spezifiziert sein und die ID des Elements gesetzt sein"
+    },
+    {
+        "url": "/api/data/event",
+        "req": "PUT",
+        "desc": "Aktualisiert ein Ereignis, der zugehörige Benutzer muss über die ID spezifiziert sein und die ID des Elements gesetzt sein"
+    },
+    {
+        "url": "/api/data/location",
+        "req": "PUT",
+        "desc": "Aktualisiert einen Ort, der zugehörige Benutzer muss über die ID spezifiziert sein und die ID des Elements gesetzt sein"
+    },
+    {
+        "url": "/api/data/exif",
+        "req": "PUT",
+        "desc": "Aktualisiert Exifdaten eines Photos, das über die ID spezifiziert sein muss."
+    },
+    {
+        "url": "/api/data/thumbs",
+        "req": "PUT",
+        "desc": "Aktualisiert das Bild, um einen bestimmten Auschnitt festzulegen"
+    },
+    {
+        "url": "/api/data/colorreset",
+        "req": "PUT",
+        "desc": "Aktualisiert die Hauptfarbe des Fotos anhand der Analyse des Fotos. Die ID des Fotos muss im Body übergeben werden"
+    },
+    {
+        "url": "/api/data/colorresetheader",
+        "req": "PUT",
+        "desc": "Aktualisiert die Hauptfarbe des Kopfbildes anhand der Analyse des Fotos."
+    },
+    {
+        "url": "/api/data/colorresetavatar",
+        "req": "PUT",
+        "desc": "Aktualisiert die Hauptfarbe des Avatarbildes anhand der Analyse des Fotos."
+    },
+    {
+        "url": "/api/data/multiupdate",
+        "req": "PUT",
+        "desc": "Aktualisiert mehrere Fotos anhand des übergebenen MultiUpdateModel"
+    },
+    //DELETE NUR FÜR AUTHROISIERTE BENUTZER
+    {
+        "url": "/api/data/textbrick/ID",
+        "req": "DELETE",
+        "desc": "Löscht einen Textbrick mit der Id == ID"
+    },
+    {
+        "url": "/api/data/photobrick/ID",
+        "req": "DELETE",
+        "desc": "Löscht einen Photobrick mit der Id == ID"
+    },
+    {
+        "url": "/api/data/mapbrick/ID",
+        "req": "DELETE",
+        "desc": "Löscht einen Mapbrick mit der Id == ID"
+    },
+    {
+        "url": "/api/data/ledge/ID",
+        "req": "DELETE",
+        "desc": "Löscht einen Ledge mit der Id == ID"
+    },
+    {
+        "url": "/api/data/chapter/ID",
+        "req": "DELETE",
+        "desc": "Löscht ein Kapitel mit der Id == ID"
+    },
+    {
+        "url": "/api/data/story/ID",
+        "req": "DELETE",
+        "desc": "Löscht eine Geschichte mit der Id == ID"
+    },
+    {
+        "url": "/api/data/topic/ID",
+        "req": "DELETE",
+        "desc": "Löscht ein Thema mit der Id == ID"
+    },
+    {
+        "url": "/api/data/event/ID",
+        "req": "DELETE",
+        "desc": "Löscht ein Ereignis mit der Id == ID"
+    },
+    {
+        "url": "/api/data/location/ID",
+        "req": "DELETE",
+        "desc": "Löscht einen Ort mit der Id == ID"
+    },
+    {
+        "url": "/api/data/photo/ID",
+        "req": "DELETE",
+        "desc": "Löscht eine Photo mit der Id == ID"
+    },
+    {
+        "url": "/api/authorize/Remove",
+        "req": "DELETE",
+        "desc": "Löscht das Konto des aktuellen Benutzers ohne die Daten in der Cloud zu löschen"
+    },
+    {
+        "url": "/api/data/exif/ID",
+        "req": "DELETE",
+        "desc": "Löscht Exifdaten eines Photos mit der Id == ID. ACHTUNG ES IST DIE ID des PHOTOS!"
+    },
+    {
+        "url": "/api/data/buddy/ID",
+        "req": "DELETE",
+        "desc": "Löscht einen Buddy, wenn die Verbindung von dem angemeldeten Benutzer angelegt wurden. Ansonsten wird das mutual auf false gesetzt. ",
+    },
+    {
+        "url": "/api/data/comment/ID",
+        "req": "DELETE",
+        "desc": "Löscht einen Kommentar mit der CommentId = ID",
+    }
+    //RoKrController
+    //Post
+    {
+        "url": "/api/rokr/CreateInviteCodes",
+        "req": "POST",
+        "desc": "Erzeugt neue Invitecodes für ein Mitglied: memberid und count müssen im Body übergeben werden "
+    }
+
+]

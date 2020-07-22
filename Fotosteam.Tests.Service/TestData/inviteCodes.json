@@ -1,0 +1,52 @@
+[
+    {
+        "Code": "a14944ad-ade6-4a53-8505-25689c0d2378",
+        "MemberId": 3,
+        "Used": true
+    },
+    {
+        "Code": "e74ebf6b-ab5f-4de4-a95c-29424e34b989",
+        "MemberId": 3,
+        "Used": true
+    },
+    {
+        "Code": "14978d02-512c-4c58-9358-2c93963deae4",
+        "MemberId": 2,
+        "Used": true
+    },
+    {
+        "Code": "48e71766-ec0c-47f0-95d1-2fa990367af1",
+        "MemberId": 3,
+        "Used": false
+    },
+    {
+        "Code": "c2e38766-33b1-4d28-9736-493e928da8f7",
+        "MemberId": 2,
+        "Used": false
+    },
+    {
+        "Code": "f9553b69-992d-417b-a620-5453090e2881",
+        "MemberId": 3,
+        "Used": false
+    },
+    {
+        "Code": "2635df12-a36b-443b-8ba2-660c6d93d9a5",
+        "MemberId": 3,
+        "Used": false
+    },
+    {
+        "Code": "1993ef4d-1c62-4a6d-a652-b5a734a46627",
+        "MemberId": 3,
+        "Used": false
+    },
+    {
+        "Code": "2c27f1a9-ff79-4b66-8581-cba42950a122",
+        "MemberId": 3,
+        "Used": true
+    },
+    {
+        "Code": "e5ea688d-d638-42db-9d34-e1a4c3d56f3e",
+        "MemberId": 2,
+        "Used": false
+    }
+]

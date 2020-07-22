@@ -1,0 +1,14 @@
+﻿{
+    "salutation": "Hallo %1",
+    "complimentary-close-1": "Cheers",
+    "complimentary-close-2": "Fotosteam",
+    "disclaimer": "If you prefer not to receive any emails from Fotosteam please adjust your email settings.",
+    "beta-disclaimer": "Fotosteam is still in beta mode.",
+    "rating-title": "New photo rating",
+	"rating-value-star": "1 star",
+	"rating-value-stars": "%1 stars",
+	"comment-title": "New photo comment",
+    "buddy-add-title": "New buddy request",
+    "buddy-confirmation-title": "Confirmation of buddy request",
+    "new-foto-title": "New photo by %1"
+}

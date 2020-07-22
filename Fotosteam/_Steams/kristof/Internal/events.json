@@ -1,0 +1,28 @@
+﻿[
+    {
+        "Name": "Vildan & Thomas 99er",
+        "Date": "",
+        "Location": {
+            "Name": "Wiesbaden",
+            "CountryIsoCode": "DEU",
+            "Latitude": 50.084655,
+            "Longitude": 8.244405,
+            "PhotoCount": 0
+        },
+        "Description": "Gemeinsame Geburtstagsfeier von Vildan und Thomas in der Hubertushütte",
+        "PhotoCount": 0
+    },
+    {
+        "Name": "Rommelmarkt in Brügge",
+        "Date": "",
+        "Location": {
+            "Name": "Brügge",
+            "CountryIsoCode": "BEL",
+            "Latitude": 51.208958,
+            "Longitude": 3.224651,
+            "PhotoCount": 6
+        },
+        "Description": "September Rommelmarkt in Brügge",
+        "PhotoCount": 2
+    }
+]

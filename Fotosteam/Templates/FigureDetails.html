@@ -1,0 +1,165 @@
+﻿<div class="details-panel foto-meta panel-scroll">    
+    <a class="foto-meta-pic {{Foto.Orientation}}" href="{{Foto.Url}}">
+        <img src="{{Foto.Url640}}" />
+    </a>
+    <div class="foto-meta-sub">
+
+        <h3 data-i18n="title">Titel</h3>
+        <span class="info">{{Foto.Caption}}</span>
+
+        <h3 data-i18n="publication">Veröffentlichung</h3>
+        <span class="info">{{Foto.PublishDate_Formatted}}</span>
+
+        <h3 data-i18n="license">Lizenz</h3>
+        <span class="info info-license"><span></span>{{Foto.License}}<br /><em>{{Foto.LicenseName}}</em></span>
+
+        {{#Foto.AllowFullSizeDownload}}
+        <h3 data-i18n="download-original">Download der Originaldatei</h3>
+        <a class="icon icon-download download"
+           href="{{UrlDownload}}"
+           download="{{Foto.Name}}">{{Foto.Name}}.jpg&nbsp;&nbsp;&nbsp;{{Foto.Width}}x{{Foto.Height}}px</a>
+        {{/Foto.AllowFullSizeDownload}}
+
+        {{#if Foto.CategoryList.length}}
+        <h3 data-i18n="categories">Kategorien</h3>
+        {{#Foto.CategoryList}}
+        <a class="collection-item collection-category"
+           data-type="{{CategoryType}}"
+           href="{{CategoryUrl}}">{{CategoryName}}<i>{{CategoryPhotoCount}}</i></a>
+        {{/Foto.CategoryList}}
+        {{/if}}
+
+        {{#if Foto.TopicList.length}}
+        <h3 data-i18n="topics">Themen</h3>
+        {{#Foto.TopicList}}
+        <a class="collection-item collection-topic"
+           href="{{TopicUrl}}">{{TopicName}}<i>{{TopicPhotoCount}}</i></a>
+        {{/Foto.TopicList}}
+        {{/if}}
+
+        {{#Foto.Location}}
+        <h3 data-i18n="location">Ort</h3>
+        <a class="collection-item collection-location"
+           data-iso-code="{{LocationCountryIsoCode}}"
+           data-latitude="{{LocationLatitude}}"
+           data-longitude="{{LocationLongitude}}"
+           href="{{LocationUrl}}">{{LocationName}}<i>{{LocationPhotoCount}}</i></a>
+        {{/Foto.Location}}
+
+        {{#Foto.Event}}
+        <h3 data-i18n="event">Veranstaltung</h3>
+        <a class="collection-item collection-event"
+           data-date="{{EventDate}}"
+           data-description="{{EventDescription}}"
+           href="{{EventUrl}}">{{EventName}}<i>{{EventPhotoCount}}</i></a>
+        {{/Foto.Event}}
+
+        {{#if Foto.StoryList.length}}
+        <h3 data-i18n="stories">Geschichten</h3>
+        {{#Foto.StoryList}}
+        <a class="collection-item collection-story"
+           href="{{StoryUrl}}">{{StoryName}}<i>{{StoryPhotoCount}}</i></a>
+        {{/Foto.StoryList}}
+        {{/if}}
+
+    </div>
+
+</div>
+
+<div class="details-panel panel-exif panel-scroll">
+    <h3 data-i18n="exif-data">EXIF-Daten der Kamera</h3>
+    <div class="flex-table">
+        <div class="flex-cell">
+            <strong data-i18n="file-name">Dateiname</strong>
+            <span>{{Foto.Name}}</span>
+        </div>
+        <div class="flex-cell">
+            <strong data-i18n="capture-date">Aufnahmedatum</strong>
+            <span>{{Foto.Exif.CaptureDate}}</span>
+        </div>
+        <div class="flex-cell">
+            <strong data-i18n="artist">Autor</strong>
+            <span>{{Foto.Exif.Artist}}</span>
+        </div>
+        <div class="flex-cell">
+            <strong data-i18n="copyright">Copyright</strong>
+            <span>{{Foto.Exif.Copyright}}</span>
+        </div>
+        <div class="flex-cell">
+            <strong data-i18n="description">Beschreibung</strong>
+            <span>{{Foto.Exif.Description}}</span>
+        </div>
+        <div class="flex-cell">
+            <strong data-i18n="manufacturer">Hersteller</strong>
+            <span>{{Foto.Exif.Make}}</span>
+        </div>
+        <div class="flex-cell">
+            <strong data-i18n="model">Modell</strong>
+            <span>{{Foto.Exif.Model}}</span>
+        </div>
+        <div class="flex-cell">
+            <strong data-i18n="software">Software</strong>
+            <span>{{Foto.Exif.Software}}</span>
+        </div>
+        <div class="flex-cell">
+            <strong data-i18n="focal-length">Brennweite</strong>
+            <span>{{Foto.Exif.FocalLength}}</span>
+        </div>
+        <div class="flex-cell">
+            <strong data-i18n="aperture">Blende</strong>
+            <span>{{Foto.Exif.FNumber}} ({{Foto.Exif.ApertureValue}})</span>
+        </div>
+        <div class="flex-cell">
+            <strong data-i18n="exposure-time">Belichtungszeit</strong>
+            <span>{{Foto.Exif.ExposureTime}}</span>
+        </div>
+        <div class="flex-cell">
+            <strong data-i18n="exposure-bias">Belichtungskorrektur</strong>
+            <span>{{Foto.Exif.ExposureBiasValue}}</span>
+        </div>
+        <div class="flex-cell">
+            <strong data-i18n="exposure-program">Belichtungsprogramm</strong>
+            <span>{{Foto.Exif.ExposureProgram}}</span>
+        </div>
+        <div class="flex-cell">
+            <strong data-i18n="exposure-mode">Belichtungsmodus</strong>
+            <span>{{Foto.Exif.ExposureMode}}</span>
+        </div>
+        <div class="flex-cell">
+            <strong data-i18n="iso-speed-rating">ISO-Lichtempfindlichkeit</strong>
+            <span>{{Foto.Exif.ISOSpeedRatings}}</span>
+        </div>
+        <div class="flex-cell">
+            <strong data-i18n="metering-mode">Messmethode</strong>
+            <span>{{Foto.Exif.MeteringMode}}</span>
+        </div>
+        <div class="flex-cell">
+            <strong data-i18n="resolution">Bildauflösung</strong>
+            <span>{{Foto.Exif.XResolution}} x {{Foto.Exif.YResolution}}</span>
+        </div>
+        <div class="flex-cell">
+            <strong data-i18n="resolution-unit">Auflösungseinheit</strong>
+            <span>{{Foto.Exif.ResolutionUnit}}</span>
+        </div>
+        <div class="flex-cell">
+            <strong data-i18n="orientation">Bildformat</strong>
+            <span>{{Foto.OrientationLocale}}</span>
+        </div>
+        <div class="flex-cell">
+            <strong data-i18n="aspect-ratio">Bildseitenverhältnis</strong>
+            <span>{{Foto.AspectRatio}}</span>
+        </div>
+        <div class="flex-cell">
+            <strong data-i18n="longitude">GPS-Längengrad</strong>
+            <span>{{{Foto.Exif.LongitudeDeg}}}</span>
+        </div>
+        <div class="flex-cell">
+            <strong data-i18n="latitude">GPS-Breitengrad</strong>
+            <span>{{{Foto.Exif.LatitudeDeg}}}</span>
+        </div>
+    </div>
+
+    <div class="exif-map"></div>
+</div>
+
+<div class="details-panel foto-comments"></div>

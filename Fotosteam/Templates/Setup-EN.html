@@ -1,0 +1,113 @@
+﻿<div id="setup-intro" class="page-details">
+
+    <div class="details-commands">
+        <a href="#" onclick="global_auth_member.deleteAccount(); return false;"
+           data-i18n="delete-account"><i class="icon icon-trash"></i>Delete Account</a>
+    </div>
+
+    <div class="details-panel">
+
+        <h1>Welcome to FOTOSTEAM</h1>
+        <p>
+            Your registration was the first step to your photo portfolio on
+            FOTOSTEAM.
+        </p>
+        <p>
+            The next one is linking your account to your cloud provider,
+            where alle your photo will be stored, to access them easily. Please choose...
+        </p>
+        <div id="setup-intro-provider">
+            {{> SetupProvider}}
+        </div>
+
+        <div id="setup-intro-info">
+
+            <div id="setup-intro-info-provider-0" class="setup-intro-info-provider">
+                <p>
+                    FOTOSTEAM interacts with
+                    <a href="http://www.dropbox.com/" target="_blank"><strong>Dropbox</strong></a>
+                    as a so-called Dropbox-App, i.e. we have our own folder named
+                    <span class="folder">Fotosteam</span> under the folder
+                    <span class="folder">Apps</span>, where we will store
+                    your optimized photos. We have only access to this folder.
+                </p>
+                <img class="screenshot" src="/Content/Images/Screen-Windows-ToPublish-Dropbox.png" />
+                <p>
+                    Most easiest way to get your photos on your FOTOSTEAM page is, if you copy them to
+                    your local folder <span class="folder wrap">.../Dropbox/App/Fotosteam/ToPublish</span>,
+                    wait until your Dropbox client has uploaded all files and then click on the button
+                    <strong>Synchronize</strong> on your dashboard.
+                </p>
+                <p>
+                    With Dropbox you have furthermore the possibility to enable automatic synchronization
+                    of your <span class="folder">ToPublish</span>folder. Thereby Dropbox is notifying our
+                    server, if a new file is present and we will process it automatically. For that you find
+                    a switch in your dashboard options.
+                </p>
+                <hr />
+                <p>
+                    <strong>Important</strong>:<br />
+                    For linking correctly to your provider, please beware of your browsers popup windows
+                    and allow them for this site!<br />
+                    In case it went wrong, delete your account and create a new one.
+                </p>
+            </div>
+
+            <div id="setup-intro-info-provider-1" class="setup-intro-info-provider">
+                <p>
+                    At <a href="http://drive.google.com/drive" target="_blank"><strong>Google Drive</strong></a>
+                    we create a new folder named <span class="folder">Fotosteam</span>, where we
+                    will store your optimized photos.
+                </p>
+                <p>
+                    Theoretically, we have access to all of your files on Google Drive, because they
+                    have no concept for apps, but we know our bounds and will never touch any files
+                    accept your FOTOSTEAM data!
+                </p>
+                <img class="screenshot" src="/Content/Images/Screen-Windows-ToPublish-GoogleDrive.png" />
+                <p>
+                    Most easiest way to get your photos on your FOTOSTEAM page is, if you copy them to
+                    your local folder <span class="folder wrap">.../GoogleDrive/Fotosteam/ToPublish</span>,
+                    wait until your GoogleDrive client has uploaded all files and then click on the button
+                    <strong>Synchronize</strong> on your dashboard.
+                </p>
+                <hr />
+                <p>
+                    <strong>Important</strong>:<br />
+                    For linking correctly to your provider, please beware of your browsers popup windows
+                    and allow them for this site!<br />
+                    In case it went wrong, delete your account and create a new one.
+                </p>
+            </div>
+
+            <div id="setup-intro-info-provider-2" class="setup-intro-info-provider">
+                <p>
+                    <a href="http://onedrive.live.com/" target="_blank"><strong>Microsoft OneDrive</strong></a>
+                    creates, while linking with your FOTOSTEAM account, a new folder named
+                    <span class="folder">Fotosteam</span> below the folder
+                    <span class="folder">Anwendungen</span>, where we will store
+                    your optimized photos. We have only access to this folder.
+                </p>
+                <img class="screenshot" src="/Content/Images/Screen-Windows-ToPublish-OneDrive.png" />
+                <p>
+                    Most easiest way to get your photos on your FOTOSTEAM page is, if you copy them to
+                    your local folder <span class="folder wrap">.../OneDrive/Anwendungen/Fotosteam/ToPublish</span>,
+                    wait until your OneDrive client has uploaded all files and then click on the button
+                    <strong>Synchronize</strong> on your dashboard.
+                </p>
+                <hr />
+                <p>
+                    <strong>Important</strong>:<br />
+                    For linking correctly to your provider, please beware of your browsers popup windows
+                    and allow them for this site!<br />
+                    In case it went wrong, delete your account and create a new one.
+                </p>
+            </div>
+
+        </div>
+
+        <button id="setup-intro-command" class="expand" disabled="disabled">(Please choose your cloud provider)</button>
+
+    </div>
+
+</div>

@@ -1,0 +1,28 @@
+﻿<a class="tile tile-menu tooltip-menu" id="tile-11" onclick="toggleSidebar();" data-i18n-title="menu">
+    <span></span><span></span><span></span><span></span>
+</a>
+<div class="tile" id="tile-12"></div>
+{{#if AuthMember}}
+    {{#if AuthMember.IsRegistered}}    
+    <a class="tile tile-dashboard tooltip-menu" id="tile-13" href="/dashboard" data-i18n-title="dashboard">
+    <i class="icon icon-sliders"></i>
+</a>
+    {{else}}
+    <a class="tile tile-dashboard tooltip-menu" id="tile-13" href="/dashboard" data-i18n-title="register-info">
+    <i class="icon icon icon-user-add"></i>
+</a>
+    {{/if}}
+{{else}}
+<div class="tile" id="tile-13"></div>
+{{/if}}
+<div class="tile" id="tile-21"></div>
+<div class="tile" id="tile-22"></div>
+<div class="tile" id="tile-23"></div>
+<div class="tile" id="tile-31"></div>
+<div class="tile" id="tile-32"></div>
+<div class="tile" id="tile-33"></div>
+<a class="tile tile-moveup tooltip-menu" id="tile-41" onclick="scrollUp();" data-i18n-title="scroll-up">
+    <i class="icon icon-angle-double-up" style="display:none;"></i>
+</a>
+<div class="tile" id="tile-42"></div>
+<div class="tile" id="tile-43"></div>

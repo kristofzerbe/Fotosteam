@@ -1,0 +1,40 @@
+﻿<div id="sidebar-bay-contact" class="sidebar-bay">
+    <div class="bay-wrapper">
+        <a class="bay-close icon icon-angle-left" onclick="closeSidebarBays();"
+           data-i18n="contact">Kontakt</a>
+        
+        <p data-i18n="contact-info"></p>
+        
+        <form id="contact-form">
+            <div class="field input dark">
+                <input id="Subject" name="Subject" type="text"
+                       data-i18n-placeholder="contact-subject" />
+                <label for="Subject" data-i18n="contact-subject">Betreff</label>
+                <span id="errorSubject" class='help-block'></span>
+            </div>
+            <div class="field input dark">
+                <input id="SenderName" name="SenderName" type="text"
+                       data-i18n-placeholder="your-name" value="{{AuthMember.PlainName}}" />
+                <label for="SenderName" data-i18n="your-name">SenderName</label>
+                <span id="errorSenderName" class='help-block'></span>
+            </div>
+            <div class="field input dark">
+                <input id="SenderMail" name="SenderMail" type="email"
+                       data-i18n-placeholder="your-mail-address" value="{{AuthMember.Email}}" />
+                <label for="SenderMail" data-i18n="your-mail-address">EMail</label>
+                <span id="errorSenderMail" class='help-block'></span>
+            </div>
+            <div class="field input dark">
+                <textarea id="Message" name="Message" data-i18n-placeholder="contact-message"></textarea>
+                <label for="Message" data-i18n="contact-message">Nachricht</label>
+                <span id="errorMessage" class='help-block'></span>
+            </div>
+
+            <button class="button expand icon icon-mail" data-i18n="contact-send" onclick="sendContact('mail'); return false;"></button>
+            <button class="button expand icon icon-trello" data-i18n="contact-trello" onclick="sendContact('trello'); return false;"></button>
+        </form>        
+        
+        <p data-i18n="contact-trello-info"></p>
+
+    </div>
+</div>

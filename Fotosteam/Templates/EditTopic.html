@@ -1,0 +1,19 @@
+﻿<form id="topic-edit-form">
+    <div class="field input">
+        <input id="TopicName" name="TopicName" type="text"
+               data-i18n-placeholder="topic-name" value="{{TopicName}}" />
+        <label for="TopicName" data-i18n="topic-name">Name</label>
+        <span id="errorTopicName" class='help-block'></span>
+        <small class="edit-note" data-i18n="topic-name-edit-note"></small>
+    </div>
+    <div class="field input">
+        <input id="TopicUrl" name="TopicUrl" type="text" disabled="disabled"
+               data-i18n-placeholder="topic-url" value="{{TopicUrl}}" />
+        <label for="TopicUrl" data-i18n="topic-url">Url</label>        
+    </div>
+    <div class="field input">
+        <textarea id="TopicDescription" data-i18n-placeholder="topic-description">{{TopicDescription}}</textarea>
+        <label for="TopicDescription" data-i18n="topic-description">Description</label>
+    </div>
+    <button class="small ghost" style="float:right;" data-i18n="topic-delete"></button>
+</form>

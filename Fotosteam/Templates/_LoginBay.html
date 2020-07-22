@@ -1,0 +1,23 @@
+﻿<div id="sidebar-bay-login" class="sidebar-bay">
+    <div class="bay-wrapper">
+        <a class="bay-close icon icon-angle-left" onclick="closeSidebarBays();"
+           data-i18n="login">Login</a>
+
+        <p data-i18n="login-info"></p>
+        
+        <p data-i18n="popup-info" style="font-weight: bold">Bitte Popup-Fenster dieser Website zulassen!</p>
+        
+        <p data-i18n="login-with"></p>
+        <button class="button expand brand gplus" onclick="return authenticate(loginProvider.Google);"><i class="icon icon-gplus"></i>... Google+</button>
+        <button class="button expand brand twitter" onclick="return authenticate(loginProvider.Twitter);"><i class="icon icon-twitter"></i>... Twitter</button>
+        <button class="button expand brand facebook" onclick="return authenticate(loginProvider.Facebook);"><i class="icon icon-facebook"></i>... Facebook</button>
+        <button class="button expand brand windows" onclick="return authenticate(loginProvider.Microsoft);"><i class="icon icon-windows"></i>... Microsoft</button>
+
+        <p data-i18n="login-info-register"></p>
+
+        <button class="button expand" onclick="showSidebarBay('register'); return false;"
+                data-i18n="register">
+            Registrieren
+        </button>
+    </div>
+</div>

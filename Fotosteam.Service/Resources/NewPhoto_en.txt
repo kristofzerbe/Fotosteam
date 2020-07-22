@@ -1,0 +1,5 @@
+<strong>##userAlias##</strong> uploaded a new photo 
+<a href="https://www.fotosteam.com/##userAlias##/foto/##photoname##">##phototitle##</a>. 
+<br />
+<br />
+<img src="##photourl##" width="400" />

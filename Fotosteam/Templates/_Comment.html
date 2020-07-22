@@ -1,0 +1,15 @@
+﻿<div class="comment" id="comment-{{CommentId}}">
+    <img src="{{UserAvatarLink}}">
+    <div>
+        {{#if UserUrl}}
+            <a href="{{UserUrl}}">{{UserName}}</a>
+        {{else}}
+            <span>{{UserName}}</span>        
+        {{/if}}
+        {{#if OwnedByAuthMember}}
+        <button class="comment-delete mini shine" data-id="{{CommentId}}" data-i18n="comment-delete"></button>
+        {{/if}}
+        <small>{{Date}}</small>
+        <div class="comment-text">{{{Text}}}</div>
+    </div>
+</div>

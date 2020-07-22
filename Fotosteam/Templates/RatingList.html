@@ -1,0 +1,8 @@
+﻿<h3 data-i18n="rating">Bewertungen</h3>
+<div class="rating-wrapper">
+    {{#each Ratings}}
+    <a class="rater" title="{{UserName}}"
+       style="background-image: url('{{UserAvatarLink}}');"
+       href="{{UserUrl}}/about"></a>
+    {{/each}}
+</div>

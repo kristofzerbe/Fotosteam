@@ -1,0 +1,60 @@
+[
+    {
+        "Name": "Black and white",
+        "Description": "A colloection of picture in black and white",
+        "PhotoCount": 0,
+        "Id": 1,
+        "Member": null
+    },
+    {
+        "Name": "New Zealand",
+        "Description": "Photos of New Zealand",
+        "PhotoCount": 0,
+        "Id": 2,
+        "Member": null
+    },
+    {
+        "Name": "People",
+        "Description": "Photos of People",
+        "PhotoCount": 0,
+        "Id": 3,
+        "Member": null
+    },
+    {
+        "Name": "Abstract",
+        "Description": "Abstact photos",
+        "PhotoCount": 0,
+        "Id": 4,
+        "Member": null
+    },
+    {
+        "Name": "Best of...",
+        "Description": "Meine besten Bilder",
+        "PhotoCount": 0,
+        "Id": 6,
+        "Member": null
+    },
+    {
+        "Name": "Doors & Windows",
+        "Description": "Bildersammlung von allem wo man rausgehen oder rausschauen kann",
+        "PhotoCount": 0,
+        "Id": 7,
+        "Member": null
+    },
+    {
+        "Name": "Walls",
+        "Description": "Bildersammlung von Mauern und Wänden",
+        "PhotoCount": 0,
+        "Id": 13,
+        "Member": null
+    },
+    {
+        "Name": "Travel",
+        "Description": "Reisebilder",
+        "PhotoCount": 0,
+        "MemberId": 3,
+        "Member": null,
+        "Id": 14
+    }
+
+]

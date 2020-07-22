@@ -1,0 +1,186 @@
+﻿/*  min-width 1025px, large screens 
+
+    block-size = 40
+*/
+@media only screen and (min-width: 64.063em) { 
+    
+    /* TEST */ #logomenu #tile-12.tile:before { content: "L"; }
+
+    #attention-bar { height: 40px; line-height: 42px; font-size: 1.6rem; }
+    #attention-bar ~ .sidebar,
+    #attention-bar ~ #logomenu,
+    #attention-bar ~ #container { top: 40px; }
+
+    #logomenu { height: 160px; width: 120px; }
+    #logomenu .tile, #logomenu .tile i:before { height: 40px; width: 40px; } 
+    #logomenu .tile.tile-moveup i:before { font-size: 2.8rem; margin-top: 7px; }
+    #logomenu .tile.tile-dashboard i:before { font-size: 1.75rem; margin-top: 7px; }
+    .tooltipster-menu.tooltipster-base { left: 120px !important; }
+    .sidebar-open .tooltipster-menu.tooltipster-base { left: 420px !important; }
+
+    #logomenu .tile.tile-menu span { width: 28px; height: 4px; left: 7px; }
+    #logomenu .tile.tile-menu span:nth-child(1) { top: 10px; }
+    #logomenu .tile.tile-menu span:nth-child(2) { top: 18px; } 
+    #logomenu .tile.tile-menu span:nth-child(3) { top: 18px;}
+    #logomenu .tile.tile-menu span:nth-child(4) { top: 26px; }
+    #logomenu .tile.tile-menu.open span:nth-child(2),
+    #logomenu .tile.tile-menu.open span:nth-child(3) { top: 18px; }
+
+    body.common header { height: 100px; }
+    body.common header .title { font-size: 5em;  right: 25px; top: 25px; line-height: 50px; }
+    body.common i.err { font-size: 10em; }
+    body.common .box { padding: 10px 30px; margin: 60px 0 60px 160px }
+
+    body.steam header .title { font-size: 6em; bottom: -10px;  line-height: 50px; padding-right: 25px; }
+    body.steam header .title > small { font-size: 1.8rem; top: -60px; }
+    body.steam header .title > div.title-commands { right: 10px; top: -65px; }
+    body.steam header .title > div.title-commands a { font-size: 1.6rem; }
+    body.steam header .title > div.title-commands a i.icon-left-dir,
+    body.steam header .title > div.title-commands a i.icon-right-dir { font-size: 2rem; }
+
+    body.steam header .avatar {
+        height: 100px; 
+        width: 100px; 
+        background-size: 84px 84px; /* > border-width */
+        border-width: 8px;
+    }
+    body.steam header:not(.headerbar) .avatar:hover {
+        background-size: 100px 100px;
+        background-position: -8px -8px; /* > border */
+    }
+    body.steam header .member {
+        font-size: 3.9em;
+        line-height: 43px;
+        right: 125px;
+        top: 20px;    
+    }        
+    body.steam header.headerbar { height: 40px; left: 120px; width: calc(100% - 120px) }
+    body.steam header.headerbar .avatar {
+        height: 40px; width: 40px;
+        background-size: 40px;
+    }
+    body.steam header.headerbar .title { bottom: -6px; margin-right: 25px; }    
+    body.steam header.headerbar .title.icon:before { font-size: 20px; left: -30px; top: 0; }
+
+    figure { padding-top: 40px; }
+    #overview { padding-top: 50px; }
+    figcaption { font-size: 2em; top: -3px; right: 8px; }
+    figcaption .info-icons i.icon { padding: 7px 10px 0 0; }
+    figcaption .info-icons i.icon-lock { font-size: 1.5rem; }
+    figcaption .info-icons i.icon-feather { font-size: 1.2rem; padding-top: 10px; }
+    figcaption a {
+        height: 24px;
+        width: 24px;    
+        font-size: 22px;
+        line-height: 22px;
+    }
+    figcaption a.leftwing { margin: 12px 5px 0 0; }
+    figcaption a.rightwing { margin: 12px 0 0 5px; }
+    .figure-details{ padding: 40px 40px 35px 25px; }
+    .page-details { padding: 0 0 5px 40px; }
+    .page-details .details-panel { padding: 30px 20px 30px 40px; margin: 40px 0 20px; }
+    .page-details .details-commands a,
+    .page-commands a { font-size: 28px; padding: 20px; }   
+    .figure-details .panel-exif .flex-cell strong {
+        -ms-flex: 0 1 40%; 
+        -webkit-box-flex: 0 1 40%; 
+        flex: 0 1 40%;
+    }
+    .figure-details .panel-exif .flex-cell span {
+        -ms-flex: 0 1 60%; 
+        -webkit-box-flex: 0 1 60%; 
+        flex: 0 1 60%;
+    }
+    .foto-details .panel-exif .flex-cell strong {
+        -ms-flex: 0 1 25%; 
+        -webkit-box-flex: 0 1 25%; 
+        flex: 0 1 25%;
+    }
+    .foto-details .panel-exif .flex-cell span {
+        -ms-flex: 0 1 75%; 
+        -webkit-box-flex: 0 1 75%; 
+        flex: 0 1 75%;
+    }
+
+    figure.open .figure-details { top: 40px; }
+    figure .figure-bar {
+        height: calc(100% - 40px);
+        width: 60px;
+        padding-top: 4px;
+        padding-left: 15px;
+        box-shadow: -60px 0 20px -15px rgba(0, 0, 0, 0.15) inset;
+    }
+    figure .figure-btn { min-height: 45px; }            
+    figure .figure-btn.icon:before,
+    .foto-meta a.foto-btn.icon:before { font-size: 30px;  }
+     
+    figure .figure-btn.icon-fullscreen { padding-top: 10px; }
+    figure .figure-btn.icon-picture { padding-top: 10px; }
+    figure .figure-btn.icon-camera { padding-top: 10px; } 
+    figure .figure-btn.icon-chat { padding-top: 15px; }
+    figure .figure-btn.icon-star { padding-top: 12px; }
+    figure .figure-btn.icon-share { padding-top: 10px; }    
+
+    .foto-ratings .rating-wrapper a.rater {
+        width: 80px; height: 80px;
+        background-size: 80px 80px;
+    }
+
+    #overview-list li.list-item a span.item-name,
+    #overview-list li.list-header a.item-name { width: 400px; }
+    #overview-list li.list-item a span.item-date,
+    #overview-list li.list-header a.item-date { width: 150px; }
+
+    #about-meta-collections {
+        width: 40%; 
+        margin: -75px -20px 0 0;
+    }
+    #about-meta-collections > a { font-size: 24px; height: 55px; width: 50px; }
+    #about-meta-buddy { top: 15px; left: 40px; }
+
+    #setup-intro-info .setup-intro-info-provider img.screenshot {
+        float: right;
+        width: 33%;
+        margin: 0 0 10px 20px;    
+    }
+
+    a.feature {  width: 25%; margin: 0; }
+
+    .chapter { padding: 40px 0 0; }
+    .brick, .brick.portrait, .brick .content-box { min-height: 400px; }
+    .ledge-template-S .brick { min-height: 700px; }
+    
+    .content-box p { margin: 0 6%; }
+
+    .box-collection .collection-container { margin: 0 -30px -10px; }
+    .box-collection .collection-wrapper .cubicle { width: 20%; }
+    .box-collection .collection-wrapper.collection-small .cubicle { width: 12.5%; }
+    .collection-wrapper .cubicle:hover .title { font-size: 1.4em; }
+    .collection-wrapper.collection-small .cubicle:hover .title { font-size: 1.2em; }    
+    .cubicle { width: calc(100%/5); }
+    #multieditor-selection .cubicle { width: calc(100%/4); }
+    .cubicle .title,
+    .collection-container.selector .cubicle.selected .title { font-size: 1.6rem; }
+
+    #start-howto-text a.brand.logo { padding: 10px; }
+    #start-howto-text a.brand.logo img { width: 100px; }
+    #setup-intro-provider a.brand.logo { padding: 0 10px; } 
+    #setup-intro-provider a.brand.logo img { width: 180px; } 
+
+    #team { margin: 0 -30px -10px; }
+    #team .team-person img { width: 250px; }
+    #team .team-person-info h2 { font-size: 2.4rem;font-stretch: expanded; }
+    #team .team-person-info p { font-size: 1.1rem; }
+
+    footer #appinfo p br { display: inline; }
+
+    .edit.small {
+        width: 150px;
+    }
+    
+    #overview.offset {margin-top: 50px;}
+}
+
+/* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+} 

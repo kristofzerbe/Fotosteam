@@ -1,0 +1,166 @@
+﻿<div class="sidebar-wrapper">
+    
+    <div class="head">        
+        <a href="/start"><h2>Fotosteam</h2></a>
+        <small class="head-by">by</small>
+        <a class="head-steam" href="/{{Member.Steam}}/about">{{Member.PlainName}}</a>
+    </div>
+
+    <div id="sidebar-bay-categories" class="sidebar-bay">
+        <div id="bay-categories" class="bay-wrapper">
+            <a class="bay-close icon icon-angle-left" onclick="closeSidebarBays();"
+               data-i18n="categories">Kategorien</a>            
+            <ul>
+                {{#Member.Categories}}
+                <li>
+                    <a class="icon icon-pin" href="{{CategoryUrl}}">
+                        {{CategoryName}}<i>{{CategoryPhotoCount}}</i>
+                    </a>
+                </li>
+                {{/Member.Categories}}
+            </ul>
+        </div>
+    </div>
+    <div id="sidebar-bay-topics" class="sidebar-bay">
+        <div id="bay-topics" class="bay-wrapper">
+            <a class="bay-close icon icon-angle-left" onclick="closeSidebarBays();"
+               data-i18n="topics">Themen</a>
+            {{#if Member.Topics.length}}
+            <ul>
+                {{#Member.TopicsUsed}}
+                <li>
+                    <a class="icon icon-bullseye" href="{{TopicUrl}}">
+                        {{TopicName}}<i>{{TopicPhotoCount}}</i>
+                    </a>
+                </li>
+                {{/Member.TopicsUsed}}
+            </ul>
+            {{else}}
+            <p data-i18n="not-available-yet">Noch keine vorhanden</p>
+            {{/if}}
+        </div>
+    </div>
+    <div id="sidebar-bay-locations" class="sidebar-bay">
+        <div id="bay-locations" class="bay-wrapper">
+            <a class="bay-close icon icon-angle-left" onclick="closeSidebarBays();"
+               data-i18n="locations">Orte</a>
+            {{#if Member.LocationGroups.length}}            
+            <ul>
+                {{#Member.LocationGroups}}
+                <li>
+                    <a class="icon icon-location" href="{{LocationUrl}}">
+                        {{LocationName}}<i>{{LocationPhotoCount}}</i>
+                    </a>
+                </li>
+                {{/Member.LocationGroups}}
+            </ul>
+            {{else}}            
+            <p data-i18n="not-available-yet">Noch keine vorhanden</p>
+            {{/if}}            
+        </div>
+    </div>
+    <div id="sidebar-bay-events" class="sidebar-bay">
+        <div id="bay-events" class="bay-wrapper">
+            <a class="bay-close icon icon-angle-left" onclick="closeSidebarBays();"
+               data-i18n="events">Veranstaltungen</a>
+            {{#if Member.Events.length}}
+            <ul>
+                {{#Member.EventsUsed}}
+                <li>
+                    <a class="icon icon-rocket" href="{{EventUrl}}">
+                        {{EventCaption}}<i>{{EventPhotoCount}}</i>
+                    </a>
+                </li>
+                {{/Member.EventsUsed}}
+            </ul>
+            {{else}}
+            <p data-i18n="not-available-yet">Noch keine vorhanden</p>
+            {{/if}}
+        </div>
+    </div>
+    <div id="sidebar-bay-stories" class="sidebar-bay">
+        <div id="bay-stories" class="bay-wrapper">
+            <a class="bay-close icon icon-angle-left" onclick="closeSidebarBays();"
+               data-i18n="stories">Geschichten</a>
+            {{#if Member.Stories.length}}
+            <ul>
+                {{#Member.Stories}}
+                <li>
+                    <a class="icon icon-feather" href="{{StoryUrl}}">
+                        {{StoryName}}<i>{{StoryPhotoCount}}</i>
+                    </a>
+                </li>
+                {{/Member.Stories}}
+            </ul>
+            {{else}}
+            <p data-i18n="not-available-yet">Noch keine vorhanden</p>
+            {{/if}}
+        </div>
+    </div>
+    
+    {{#unless AuthMember}}
+        {{> LoginBay}}
+    {{/unless}}
+
+    {{#unless Registered}}
+        {{> RegisterBay}}
+    {{else}}
+        {{> NotificationBay}}
+    {{/unless}}    
+    
+    {{> ContactBay}}
+
+    {{> KeyboardBay}}
+    
+    <ul class="sidebar-commands">
+        <li>
+            <a class="cmd-journal" href="/{{Member.Steam}}/journal">
+                <i class="icon icon-history"></i>
+                <span data-i18n="journal">Journal</span>
+            </a>
+        </li>
+        <li>
+            <a class="cmd-overview" href="/{{Member.Steam}}/overview">
+                <i class="icon icon-grid-large" style="font-size: 0.6em;"></i>
+                <span data-i18n="overview">Übersicht</span>
+            </a>
+        </li>
+        <li>
+            <a class="cmd-categories cmd-bay" href="#" data-bay="categories">
+                <i class="icon icon-pin"></i>
+                <span data-i18n="categories">Kategorien</span>
+            </a>
+        </li>
+        <li>
+            <a class="cmd-topics cmd-bay" href="#" data-bay="topics">
+                <i class="icon icon-bullseye"></i>
+                <span data-i18n="topics">Themen</span>
+            </a>
+        </li>
+        <li>
+            <a class="cmd-locations cmd-bay" href="#" data-bay="locations">
+                <i class="icon icon-location"></i>
+                <span data-i18n="locations">Orte</span>
+            </a>
+        </li>
+        <li>
+            <a class="cmd-events cmd-bay" href="#" data-bay="events">
+                <i class="icon icon-rocket"></i>
+                <span data-i18n="events">Veranstaltungen</span>
+            </a>
+        </li>
+        <li>
+            <a class="cmd-stories cmd-bay" href="#" data-bay="stories">
+                <i class="icon icon-feather"></i>
+                <span data-i18n="stories">Geschichten</span>
+            </a>
+        </li>
+        
+        <li class="line"></li>
+
+        {{> SidebarCommonCommands}}        
+
+    </ul>
+
+
+</div>

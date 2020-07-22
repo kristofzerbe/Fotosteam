@@ -1,0 +1,145 @@
+﻿{{#unless AuthMember}}
+<li>
+    <a class="cmd-bay" href="#" data-bay="login">
+        <i class="icon icon-key"></i>
+        <span data-i18n="login">Login</span>
+    </a>
+</li>
+<li>
+    <a class="cmd-bay" href="#" data-bay="register">
+        <i class="icon icon-user-add"></i>
+        <span data-i18n="register">Registrieren</span>
+    </a>
+</li>
+{{else}}
+{{#unless Registered}}
+<li>
+    <a class="cmd-bay" href="#" data-bay="register"
+       data-i18n-title="loggedin-info"
+       data-i18n-title-args="{{AuthMember.ProviderUserMail}}|{{AuthMember.ProviderName}}">
+        <i class="icon icon-user-add"></i>
+        <span data-i18n="register">Registrieren</span>
+    </a>
+</li>
+{{/unless}}
+{{/unless}}
+
+{{#if AuthMember.IsRegistered}}
+{{#if ShowMy}}
+<li class="gap">
+    <a class="" href="/{{AuthMember.Steam}}/about">
+        <i class="icon icon-user"></i>
+        <span data-i18n="my-fotosteam">Mein Fotosteam</span>
+    </a>
+</li>
+<li>
+    <a class="cmd-notifications cmd-bay" href="#" data-bay="notifications">
+        <i class="icon icon-bell"></i>
+        <span data-i18n="notifications">Mitteilungen</span>
+    </a>
+</li>
+<li>
+    <a class="" href="/dashboard">
+        <i class="icon icon-sliders"></i>
+        <span data-i18n="dashboard">Dashboard</span>
+    </a>
+</li>
+{{else}}
+<li class="gap">
+    <a class="cmd-notifications cmd-bay" href="#" data-bay="notifications">
+        <i class="icon icon-bell"></i>
+        <span data-i18n="notifications">Mitteilungen</span>
+    </a>
+</li>
+<li>
+    <a class="" href="/dashboard">
+        <i class="icon icon-sliders"></i>
+        <span data-i18n="dashboard">Dashboard</span>
+    </a>
+</li>
+{{/if}}
+{{/if}}
+
+{{#if AuthMember}}
+<li>
+    <a class="" href="#" onclick="signOff(); return false;"
+       data-i18n-title="loggedin-info"
+       data-i18n-title-args="{{AuthMember.ProviderUserMail}}|{{AuthMember.ProviderName}}">
+        <i class="icon icon-off"></i>
+        <span data-i18n="logout">Logout</span>
+    </a>
+</li>
+{{/if}}
+<!--<li class="gap">
+    <a href="#" data-i18n-title="search">
+        <i class="foto-btn icon icon-search" style="font-size: 0.6em;"></i>
+    </a>
+    <i class="icon" style="font-size: 0.6em;">&nbsp;</i>
+    <input type="text" style="width: 150px; background-color: white;" id="searchItem"/>
+</li>
+
+<li>
+    <a class="cmd-cc0" href="/cc0">
+        <i class="icon icon-CC"></i>
+        <span data-i18n="license-free-photos">CCO</span>
+    </a>
+</li>
+-->
+
+<li class="gap">
+    <a class="cmd-lang lang-de" href="#" onclick="changeLanguage('de'); return false;">
+        <i class="flag-icon flag-icon-de"></i>
+        Deutsch
+    </a>
+</li>
+<li>
+    <a class="cmd-lang lang-en" href="#" onclick="changeLanguage('en'); return false;">
+        <i class="flag-icon flag-icon-en"></i>
+        English
+    </a>
+</li>
+
+<li class="gap">
+    <a class="cmd-bay" href="#" data-bay="contact">
+        <i class="icon icon-inbox"></i>
+        <span data-i18n="contact">Kontakt</span>
+    </a>
+</li>
+<li>
+    <a class="" href="/legalinfo">
+        <i class="icon icon-info-circled"></i>
+        <span data-i18n="legalinfo">Impressum</span>
+    </a>
+</li>
+
+<li class="gap">
+    <a class="blog" href="http://www.rokr.io" target="_blank">
+        <i class="icon icon-blogger"></i>
+        <span>Blog</span>
+    </a>
+</li>
+<li>
+    <a class="gplus" href="https://plus.google.com/+FotosteamPage" target="_blank">
+        <i class="icon icon-gplus"></i>
+        <span>Google Plus</span>
+    </a>
+</li>
+<li>
+    <a class="facebook" href="https://www.facebook.com/pages/Fotosteam/1597537423790954" target="_blank">
+        <i class="icon icon-facebook"></i>
+        <span>Facebook</span>
+    </a>
+</li>
+<li>
+    <a class="twitter" href="https://twitter.com/fotosteam" target="_blank">
+        <i class="icon icon-twitter"></i>
+        <span>Twitter</span>
+    </a>
+</li>
+
+<li class="gap">
+    <a class="cmd-bay" href="#" data-bay="keyboard">
+        <i class="icon icon-keyboard"></i>
+        <span data-i18n="keyboard-help">Tastaturhilfe</span>
+    </a>
+</li>

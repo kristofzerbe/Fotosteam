@@ -1,0 +1,30 @@
+﻿<div id="sharing-popout-{{Foto.fId}}" class="popout sharing-popout">
+    <div class="popout-wrapper">
+        <div class="popout-content" style="width: 330px">
+            <h3>
+                <span data-i18n="share-it-on">Teile dieses Bild auf</span><br />
+                <span class="sharing-platform">...</span>
+            </h3>
+            <a class="button brand gplus icon icon-gplus" href="#"
+               onclick="sharingClick('{{Foto.fId}}', 'gplus'); return false;"
+               onmouseover="sharingHover(this, 'Google Plus');"
+               onmouseout="sharingHover(this, '...');"></a>
+            <a class="button brand facebook icon icon-facebook" href="#"
+               onclick="sharingClick('{{Foto.fId}}', 'facebook'); return false;"
+               onmouseover="sharingHover(this, 'Facebook');"
+               onmouseout="sharingHover(this, '...');"></a>
+            <a class="button brand twitter icon icon-twitter" href="#"
+               onclick="sharingClick('{{Foto.fId}}', 'twitter'); return false;"
+               onmouseover="sharingHover(this, 'Twitter');"
+               onmouseout="sharingHover(this, '...');"></a>
+            <a class="button brand pinterest icon icon-pinterest" href="#"
+               onclick="sharingClick('{{Foto.fId}}', 'pinterest'); return false;"
+               onmouseover="sharingHover(this, 'Pinterest');"
+               onmouseout="sharingHover(this, '...');"></a>
+            <a class="button brand tumblr icon icon-tumblr" href="#"
+               onclick="sharingClick('{{Foto.fId}}', 'tumblr'); return false;"
+               onmouseover="sharingHover(this, 'Tumblr');"
+               onmouseout="sharingHover(this, '...');"></a>
+        </div>
+    </div>
+</div>

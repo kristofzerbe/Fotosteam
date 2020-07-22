@@ -1,0 +1,24 @@
+[
+    {
+        "CommentId": 8,
+        "ParentCommentId": null,
+        "Parent": null,
+        "Date": "2015-01-13T00:00:00",
+        "Text": "Geniales Fotos",
+        "UserAlias": "Dummy",
+        "UserAvatarLink": null,
+        "TotalCount": 1,
+        "PhotoId" : 22
+    },
+    {
+        "CommentId": 9,
+        "ParentCommentId": null,
+        "Parent": null,
+        "Date": "2015-01-11T00:00:00",
+        "Text": "Super Foto",
+        "UserAlias": "bla",
+        "UserAvatarLink": null,
+        "TotalCount": 2,
+        "PhotoId" : 22
+    }
+]

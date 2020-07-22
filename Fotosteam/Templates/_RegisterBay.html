@@ -1,0 +1,50 @@
+﻿<div id="sidebar-bay-register" class="sidebar-bay">
+    <div class="bay-wrapper">
+        <a class="bay-close icon icon-angle-left" onclick="closeSidebarBays();"
+           data-i18n="register">Registrieren</a>
+
+        <p data-i18n="register-info"></p>
+        
+        {{#if AuthMember}}
+        <p data-i18n="loggedin-info"
+           data-i18n-args="{{AuthMember.ProviderUserMail}}|{{AuthMember.ProviderName}}">
+        </p>
+        {{/if}}
+
+        <form id="register-form" style="margin: 10px 0 25px 0;">
+            <div class="field input dark">
+                <input id="PlainName" name="PlainName" type="text"
+                       data-i18n-placeholder="your-full-name" value="{{AuthMember.ProviderUserName}}" />
+                <label for="PlainName" data-i18n="your-full-name">PlainName</label>
+                <span id="errorPlainName" class='help-block'></span>
+            </div>
+            <div class="field input dark">
+                <input id="Alias" name="Alias" type="text"
+                       data-i18n-placeholder="your-alias-name" />
+                <label for="Alias" data-i18n="your-alias-name">Alias</label>
+                <span id="errorAlias" class='help-block'></span>
+            </div>
+            <div class="field input dark">
+                <input id="EMail" name="EMail" type="email"
+                       data-i18n-placeholder="your-mail-address" value="{{AuthMember.ProviderUserMail}}" />
+                <label for="EMail" data-i18n="your-mail-address">EMail</label>
+                <span id="errorEMail" class='help-block'></span>
+            </div>
+            <div class="field input dark">
+                <input id="InviteCode" name="InviteCode" type="text"
+                       data-i18n-placeholder="your-invite-code" />
+                <label for="InviteCode" data-i18n="your-invite-code"></label>
+                <span id="errorInviteCode" class='help-block'></span>
+            </div>
+        </form>
+
+        <p data-i18n="popup-info" class="icon icon-attention"></p>
+
+        <p data-i18n="register-with"></p>
+        <button class="button expand brand gplus" onclick="return register(loginProvider.Google);"><i class="icon icon-gplus"></i>... Google+</button>
+        <button class="button expand brand twitter" onclick="return register(loginProvider.Twitter);"><i class="icon icon-twitter"></i>... Twitter</button>
+        <button class="button expand brand facebook" onclick="return register(loginProvider.Facebook);"><i class="icon icon-facebook"></i>... Facebook</button>
+        <button class="button expand brand windows" onclick="return register(loginProvider.Microsoft);"><i class="icon icon-windows"></i>... Microsoft</button>
+    </div>
+</div>
+

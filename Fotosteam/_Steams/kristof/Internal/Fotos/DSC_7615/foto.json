@@ -1,0 +1,111 @@
+﻿{
+    "Id": "24";
+    "Name": "DSC_7615",
+    "Title": "Door Lamp",
+    "CaptureDate": "2014-09-27T12:36:53",
+    "PublishDate": "2014-11-09T15:33:00",
+    "IsPrivate": false,
+    "CommentCount": 0,
+    "AverageRating": 0,
+    "Categories": [
+        {
+            "Type": "urban",
+            "PhotoCount": 6
+        }
+    ],
+    "Topics": [
+        {
+            "Name": "Doors & Windows",
+            "Description": "Bildersammlung von allem wo man rausgehen oder rausschauen kann",
+            "PhotoCount": 2
+        }
+    ],
+    "Location": {
+        "Name": "Brügge",
+        "CountryIsoCode": "BEL",
+        "Latitude": 51.208958,
+        "Longitude": 3.224651,
+        "PhotoCount": 5
+    },
+    "Event": null,
+    "Stories": [
+        {
+            "Name": "Brügge Foto-Tour",
+            "HeaderFoto": "DSC_7487-Bearbeitet",
+            "ChapterCount": 1,
+            "PhotoCount": 6
+        },
+        {
+            "Name": "Belgien sehen und sterben",
+            "HeaderFoto": "DSC_7849",
+            "ChapterCount": 2,
+            "PhotoCount": 6
+        }
+    ],
+    "Width": 2760,
+    "Height": 3964,
+    "AspectRatio": 0.69626639757820386,
+    "Orientation": "portrait",
+    "DirectLinks": [
+        {
+            "Size": 0,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7615/full.jpg"
+        },
+        {
+            "Size": 100,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7615/100.jpg"
+        },
+        {
+            "Size": 200,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7615/200.jpg"
+        },
+        {
+            "Size": 400,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7615/400.jpg"
+        },
+        {
+            "Size": 640,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7615/640.jpg"
+        },
+        {
+            "Size": 1024,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7615/1024.jpg"
+        },
+        {
+            "Size": 1440,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7615/1440.jpg"
+        },
+        {
+            "Size": 1920,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7615/1920.jpg"
+        }
+    ],
+    "Comments": [ ],
+    "Ratings": [ ],
+    "License": 12,
+    "AllowFullsizeDownload": false,
+    "Exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D90",
+        "CaptureDate": "2014-09-27T12:36:53",
+        "Description": null,
+        "Software": "Adobe Photoshop Lightroom 5.6 (Windows)",
+        "Artist": "Kristof Zerbe",
+        "Copyright": null,
+        "FocalLength": 105.0,
+        "FNumber": 5.6,
+        "ApertureValue": 4.970854,
+        "MaxApertureValue": 5.0,
+        "ExposureTime": 0.004,
+        "ExposureBiasValue": 0.0,
+        "ExposureProgram": 2,
+        "ExposureMode": 0,
+        "ISOSpeedRatings": 400,
+        "MeteringMode": 5,
+        "XResolution": 240.0,
+        "YResolution": 240.0,
+        "ResolutionUnit": 2,
+        "Latitude": 51.215486666666663,
+        "Longitude": 3.2238
+    }
+}

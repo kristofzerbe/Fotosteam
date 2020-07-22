@@ -1,0 +1,81 @@
+﻿<figure id="figure-{{Foto.fId}}"
+        data-share-image-url="{{Foto.Url}}"
+        data-title="{{Foto.Title}}">
+
+    <div class="figure-bar">
+        <a class="figure-btn btn-show icon icon-fullscreen tooltip-left"
+           href="{{Foto.Url1920}}"
+           data-i18n-title="full-screen"
+           detailurl="{{Foto.Url}}"
+           plainname="{{Foto.PlainName}}"
+           avatarurl="{{Foto.Avatar100Url}}"
+           alias="{{Foto.Alias}}"></a>
+        <a class="figure-btn btn-info icon icon-picture tooltip-left"
+           data-i18n-title="photo-info"></a>
+        <a class="figure-btn btn-exif icon icon-camera tooltip-left"
+           data-i18n-title="exif-data"></a>
+        
+        {{#if Member.Options.AllowComments}}
+        {{#if Foto.AllowCommenting}}
+        <a class="figure-btn btn-comments icon icon-chat tooltip-left" href="#"
+           data-i18n-title="comments">
+            <span>{{Foto.CommentCount}}</span>
+        </a>
+        {{/if}}
+        {{/if}}
+
+        {{#if Member.Options.AllowRating}}
+        {{#if Foto.AllowRating}}
+        <a class="figure-btn btn-rating btn-popout icon icon-star tooltip-left"
+           data-popout="rating-popout-{{Foto.fId}}"
+           data-i18n-title="rating">
+            <span>{{Foto.RatingSum}}</span>
+        </a>
+        {{/if}}
+        {{/if}}
+
+        {{#if Member.Options.AllowSharing}}
+        {{#if Foto.AllowSharing}}
+        <a class="figure-btn btn-share btn-popout icon icon-share tooltip-left"
+           data-popout="sharing-popout-{{Foto.fId}}"
+           data-i18n-title="share"></a>
+        {{/if}}
+        {{/if}}
+    </div>
+
+    <div class="foto {{Foto.Orientation}}" id="{{Foto.fId}}" role="img" aria-label="{{Foto.Caption}}"
+         onclick="window.location.href = '{{Foto.Url}}';" style="cursor: pointer;"></div>
+    <figcaption>
+        <div class="info-icons">
+            {{#if Foto.IsPrivate}}
+            <i class="icon icon-lock" i18n-title="private"></i>
+            {{/if}}
+
+            {{#if Foto.IsForStoryOnly}}
+            <i class="icon icon-feather" i18n-title="story-only"></i>
+            {{/if}}
+        </div>
+        <span>{{Foto.Caption}}</span>
+    </figcaption>
+
+    <div class="figure-details"></div>
+
+    {{#if Member.Options.AllowRating}}
+    {{#if Foto.AllowRating}}
+    {{> FotoRating}}
+    {{/if}}
+    {{/if}}
+
+    {{#if Member.Options.AllowSharing}}
+    {{#if Foto.AllowSharing}}
+    {{> FotoSharing}}
+    {{/if}}
+    {{/if}}
+
+</figure>
+<style type="text/css">
+    @media only screen and (max-width: 40.063em) {#{{Foto.fId}} {background-image: url({{{Foto.Url640}}});}}
+    @media only screen and (min-width: 40.063em) and (max-width: 64em) {#{{Foto.fId}} {background-image: url({{{Foto.Url1024}}});}}
+    @media only screen and (min-width: 64.063em) and (max-width: 90em) {#{{Foto.fId}} {background-image: url({{{Foto.Url1440}}});}}
+    @media only screen and (min-width: 90.063em) {#{{Foto.fId}} {background-image: url({{{Foto.Url1920}}});}}
+</style>

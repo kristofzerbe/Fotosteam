@@ -1,0 +1,48 @@
+﻿<div class="cubicle" id="{{Foto.Name}}" data-url="{{Foto.Url}}">
+
+    <div class="info-icons">
+        {{#if Foto.IsNew}}
+        <i class="icon icon-star" i18n-title="new"></i>
+        {{/if}}
+        
+        {{#if Foto.IsPrivate}}
+        <i class="icon icon-lock" i18n-title="private"></i>
+        {{/if}}
+
+        {{#if Foto.IsForStoryOnly}}
+        <i class="icon icon-feather" i18n-title="story-only"></i>
+        {{/if}}
+    </div>
+
+    {{#if Foto.Url1920}}
+        <a class="btn-show icon cubicle-link icon-progress-2" 
+            href="{{Foto.Url1920}}"
+            data-i18n-title="full-screen"
+            detailUrl="{{Foto.Url}}"
+            plainName="{{Foto.PlainName}}"
+            avatarUrl="{{Foto.Avatar100Url}}"
+            alias="{{Foto.Alias}}">
+    {{else}}
+        <a class="icon cubicle-link icon-progress-2" href="{{Foto.Url}}">
+    {{/if}}
+            <img src="{{Foto.DummyUrl}}" data-id="{{Foto.Id}}" style="background-image: url({{Foto.CubicleUrl}})" />
+
+            <div class="title">
+                <a href="{{Foto.Url}}">{{Foto.Caption}}</a>
+            </div>
+
+            {{#if Foto.SteamPath}}
+            <div class="details">
+                <a href="{{Foto.SteamPath}}/about">{{Foto.PlainName}}</a>
+            </div>
+            {{/if}}
+
+            {{#if SelectorTrigger}}
+            <div class="selectortrigger">
+                <a href="#"><i class="icon icon-ok-circled"></i></a>
+            </div>
+            {{/if}}
+
+        </a>
+
+</div>

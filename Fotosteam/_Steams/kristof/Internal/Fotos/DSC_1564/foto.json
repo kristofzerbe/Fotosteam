@@ -1,0 +1,102 @@
+﻿{
+    "Id": "34";
+    "Name": "DSC_1564",
+    "Title": "",
+    "CaptureDate": "2011-04-21T12:21:26",
+    "PublishDate": "2014-11-09T15:33:00",
+    "IsPrivate": false,
+    "CommentCount": 0,
+    "AverageRating": 0,
+    "Categories": [
+        {
+            "Type": "architecture",
+            "PhotoCount": 2
+        },
+        {
+            "Type": "abstract",
+            "PhotoCount": 2
+        }
+    ],
+    "Topics": [
+        {
+            "Name": "Walls",
+            "Description": "Bildersammlung von Mauern und Wänden",
+            "PhotoCount": 1
+        }
+    ],
+    "Location": {
+        "Name": "Kloster Eberbach, Eltville",
+        "CountryIsoCode": "DEU",
+        "Latitude": 50.044157,
+        "Longitude": 8.046154,
+        "PhotoCount": 1
+    },
+    "Event": null,
+    "Stories": [ ],
+    "Width": 3199,
+    "Height": 2125,
+    "AspectRatio": 1.5054117647058825,
+    "Orientation": "landscape",
+    "DirectLinks": [
+        {
+            "Size": 0,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_1564/full.jpg"
+        },
+        {
+            "Size": 100,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_1564/100.jpg"
+        },
+        {
+            "Size": 200,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_1564/200.jpg"
+        },
+        {
+            "Size": 400,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_1564/400.jpg"
+        },
+        {
+            "Size": 640,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_1564/640.jpg"
+        },
+        {
+            "Size": 1024,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_1564/1024.jpg"
+        },
+        {
+            "Size": 1440,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_1564/1440.jpg"
+        },
+        {
+            "Size": 1920,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_1564/1920.jpg"
+        }
+    ],
+    "Comments": [ ],
+    "Ratings": [ ],
+    "License": 16,
+    "AllowFullsizeDownload": true,
+    "Exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D90",
+        "CaptureDate": "2011-04-21T12:21:26",
+        "Description": null,
+        "Software": "Adobe Photoshop CC 2014 (Windows)",
+        "Artist": "Kristof Zerbe",
+        "Copyright": "2011",
+        "FocalLength": 280.0,
+        "FNumber": 6.3,
+        "ApertureValue": 5.310704,
+        "MaxApertureValue": 5.0,
+        "ExposureTime": 0.0015625,
+        "ExposureBiasValue": 0.0,
+        "ExposureProgram": 0,
+        "ExposureMode": 0,
+        "ISOSpeedRatings": 200,
+        "MeteringMode": 5,
+        "XResolution": 300.0,
+        "YResolution": 300.0,
+        "ResolutionUnit": 2,
+        "Latitude": 0.0,
+        "Longitude": 0.0
+    }
+}

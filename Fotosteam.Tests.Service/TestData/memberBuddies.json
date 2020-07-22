@@ -1,0 +1,3 @@
+[ { "MemberId": 2, "BuddyMemberId": 3, "IsMutual": true },
+  { "MemberId": 3, "BuddyMemberId": 2, "IsMutual": true }
+]

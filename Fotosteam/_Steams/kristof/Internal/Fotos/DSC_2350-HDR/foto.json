@@ -1,0 +1,96 @@
+﻿{
+    "Id": "36";
+    "Name": "DSC_2350-HDR",
+    "Title": "Dublin Night",
+    "CaptureDate": "2011-04-30T00:16:00",
+    "PublishDate": "2014-11-09T15:33:00",
+    "IsPrivate": false,
+    "CommentCount": 0,
+    "AverageRating": 0,
+    "Categories": [
+        {
+            "Type": "urban",
+            "PhotoCount": 6
+        },
+        {
+            "Type": "night",
+            "PhotoCount": 5
+        }
+    ],
+    "Topics": null,
+    "Location": {
+        "Name": "Dublin",
+        "CountryIsoCode": "IRL",
+        "Latitude": 53.347883,
+        "Longitude": -6.259334,
+        "PhotoCount": 3
+    },
+    "Event": null,
+    "Stories": [ ],
+    "Width": 3216,
+    "Height": 2117,
+    "AspectRatio": 1.5191308455361361,
+    "Orientation": "landscape",
+    "DirectLinks": [
+        {
+            "Size": 0,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_2350-HDR/full.jpg"
+        },
+        {
+            "Size": 100,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_2350-HDR/100.jpg"
+        },
+        {
+            "Size": 200,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_2350-HDR/200.jpg"
+        },
+        {
+            "Size": 400,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_2350-HDR/400.jpg"
+        },
+        {
+            "Size": 640,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_2350-HDR/640.jpg"
+        },
+        {
+            "Size": 1024,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_2350-HDR/1024.jpg"
+        },
+        {
+            "Size": 1440,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_2350-HDR/1440.jpg"
+        },
+        {
+            "Size": 1920,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_2350-HDR/1920.jpg"
+        }
+    ],
+    "Comments": [ ],
+    "Ratings": [ ],
+    "License": 12,
+    "AllowFullsizeDownload": true,
+    "Exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D90",
+        "CaptureDate": "2011-04-30T00:16:00",
+        "Description": null,
+        "Software": "Oloneo PhotoEngine",
+        "Artist": "Kristof Zerbe",
+        "Copyright": "2011",
+        "FocalLength": 24.0,
+        "FNumber": 20.0,
+        "ApertureValue": 8.643856,
+        "MaxApertureValue": 0.0,
+        "ExposureTime": 30.0,
+        "ExposureBiasValue": 0.0,
+        "ExposureProgram": 0,
+        "ExposureMode": 0,
+        "ISOSpeedRatings": 200,
+        "MeteringMode": 0,
+        "XResolution": 300.0,
+        "YResolution": 300.0,
+        "ResolutionUnit": 2,
+        "Latitude": 53.34553055,
+        "Longitude": -6.2755972166666663
+    }
+}

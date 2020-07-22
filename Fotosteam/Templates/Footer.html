@@ -1,0 +1,27 @@
+﻿<div id="appinfo">
+    <div id="appinfo-logo">
+        <a href="/"><h2>Fotosteam</h2></a>
+        <p>
+            <span data-i18n="by">by</span>&nbsp;<a href="http://www.rokr.io" class="rokr" target="_blank">rokr.io</a><br />
+            <a href="/robert/about">Robert Bakos</a> & <a href="/kristof/about">Kristof Zerbe</a>
+        </p>
+    </div>
+    <div id="appinfo-social" class="socialmedia">
+        <a href="https://plus.google.com/+FotosteamPage" class="gplus" target="_blank"></a>
+        <a href="https://www.facebook.com/pages/Fotosteam/1597537423790954" class="facebook" target="_blank"></a>
+        <a href="https://twitter.com/fotosteam" class="twitter" target="_blank"></a>
+        <a href="mailto:info@fotosteam.com" class="mail" target="_blank"></a>
+    </div>    
+</div>
+<div id="moreinfo">
+    {{#if Background}}
+    <div id="moreinfo-background">
+        <span data-i18n="background">Hintergrundbild</span><br>
+        <a href="{{Background.OriginalUrl}}" target="_blank"><strong>{{Background.Title}}</strong>, {{Background.Artist}}, {{Background.License}}</a>
+    </div>
+    {{/if}}
+    <div id="moreinfo-app"></div>
+    <div id="moreinfo-buttons">
+        <a class="button small ghost" data-i18n="legalinfo" href="/legalinfo">Impressum</a>
+    </div>
+</div>

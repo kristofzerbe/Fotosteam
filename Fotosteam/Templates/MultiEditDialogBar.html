@@ -1,0 +1,85 @@
+﻿<div style="overflow: hidden;">
+    <h3 id="multiedit-selected" style="float: left"></h3>
+    <div style="float: right">
+        <button id="multiedit-delete" class="small shine ghost" data-i18n="delete"></button>
+        <button id="multiedit-edit" class="small shine" data-i18n="edit"></button>
+        <button id="multiedit-save" class="small shine" style="display:none;" data-i18n="save"></button>
+        <button id="multiedit-cancel" class="small" data-i18n="cancel"></button>
+        <a id="multiedit-close" class="icon icon-cancel" style="display:none;"></a>
+    </div>
+</div>
+<div id="multieditor" style="display:none; margin-top: 20px;">
+    <div id="multieditor-selection" class="collection-container">
+        <div class="collection-wrapper"></div>
+    </div>
+    <div id="multieditor-controls">
+
+        <div id="multieditor-controls-wrapper">
+
+            <h3><a href="#" data-i18n="status"></a></h3>
+            <input id="IsPrivate" type="checkbox" class="ios pubpriv" {{IsPrivateAttribute}} />
+
+            <h3><a href="#" data-i18n="categories"></a></h3>
+            <select id="Categories" multiple data-placeholder="{{ChoosePlaceholder}}">
+                {{#Categories}}
+                <option value="{{CategoryTypeValue}}">{{CategoryName}}</option>
+                {{/Categories}}
+            </select>
+
+            <h3><a href="#" data-i18n="topics"></a></h3>
+            <select id="Topics" multiple data-placeholder="{{ChoosePlaceholder}}">
+                {{#Topics}}
+                <option value="{{TopicId}}">{{TopicName}}</option>
+                {{/Topics}}
+            </select>
+
+            <h3><a href="#" data-i18n="location"></a></h3>
+            <select id="Location" data-placeholder="{{ChoosePlaceholder}}">
+                <option value="0" data-i18n="no-location"></option>
+                {{#Locations}}
+                <option value="{{LocationId}}">{{LocationName}}</option>
+                {{/Locations}}
+            </select>
+
+            <h3><a href="#" data-i18n="event"></a></h3>
+            <select id="Event" data-placeholder="{{ChoosePlaceholder}}">
+                <option value="0" data-i18n="no-event"></option>
+                {{#Events}}
+                <option value="{{EventId}}">{{EventName}}</option>
+                {{/Events}}
+            </select>
+
+            <h3><a href="#" data-i18n="license"></a></h3>
+            <select id="License">
+                {{#Licenses}}
+                {{#if Selected}}
+                <option value="{{Value}}" selected="selected">{{Caption}}</option>
+                {{else}}
+                <option value="{{Value}}">{{Caption}}</option>
+                {{/if}}
+                {{/Licenses}}
+            </select>
+
+            <h3><a href="#" data-i18n="download-original"></a></h3>
+            <input id="AllowFullSizeDownload" type="checkbox" class="ios allowdeny" {{AllowFullSizeDownloadAttribute}} />
+
+            <h3><a href="#" data-i18n="foto-commenting"></a></h3>
+            <input id="AllowCommenting" type="checkbox" class="ios allowdeny" {{AllowCommentingAttribute}} />
+
+            <h3><a href="#" data-i18n="foto-rating"></a></h3>
+            <input id="AllowRating" type="checkbox" class="ios allowdeny" {{AllowRatingAttribute}} />
+
+            <h3><a href="#" data-i18n="foto-sharing"></a></h3>
+            <input id="AllowSharing" type="checkbox" class="ios allowdeny" {{AllowSharingAttribute}} />
+
+            <h3><a href="#" data-i18n="story-only"></a></h3>
+            <input id="IsForStoryOnly" type="checkbox" class="ios yesno" {{IsForStoryOnlyAttribute}} />
+
+            <h3><a href="#" data-i18n="fotosteam-promote"></a></h3>
+            <input id="AllowPromoting" type="checkbox" class="ios allowdeny" {{AllowPromotingAttribute}} />
+
+        </div>
+
+    </div>
+</div>
+

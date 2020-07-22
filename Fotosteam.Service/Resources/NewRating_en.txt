@@ -1,0 +1,6 @@
+<strong>##userAlias##</strong> rated your photo 
+<a href="https://www.fotosteam.com/##alias##/foto/##photoname##">##phototitle##</a> 
+with <strong>##rating##</strong>.
+<br />
+<br />
+<img src="##photourl##" width="400" />

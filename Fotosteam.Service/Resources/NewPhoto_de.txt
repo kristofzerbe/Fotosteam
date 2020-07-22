@@ -1,0 +1,6 @@
+<strong>##userAlias##</strong> hat ein neues Foto 
+<a href="https://www.fotosteam.com/##userAlias##/foto/##photoname##">##phototitle##</a> 
+hinzugefügt. 
+<br />
+<br />
+<img src="##photourl##" width="400" />

@@ -1,0 +1,24 @@
+﻿[
+    {
+        "Alias": "kristof",
+        "PlainName": "Kristof Zerbe",
+        "Email": "kristof.zerbe@gmail.com",
+        "Avatar100Url": "/_Steams/kristof/Internal/Member/avatar-100.jpg",
+        "Avatar200Url": "/_Steams/kristof/Internal/Member/avatar-200.jpg",
+        "Header640Url": "/_Steams/kristof/Internal/Member/640.jpg",
+        "Header1024Url": "/_Steams/kristof/Internal/Member/1024.jpg",
+        "Header1440Url": "/_Steams/kristof/Internal/Member/1440.jpg",
+        "Header1920Url": "/_Steams/kristof/Internal/Member/1920.jpg"
+    },
+    {
+        "Alias": "robert",
+        "PlainName": "Robert Bakos",
+        "Email": "bobbakos@gmail.com",
+        "Avatar100Url": "/_Steams/robert/Internal/Member/avatar-100.jpg",
+        "Avatar200Url": "/_Steams/robert/Internal/Member/avatar-200.jpg",
+        "Header640Url": "/_Steams/robert/Internal/Member/640.jpg",
+        "Header1024Url": "/_Steams/robert/Internal/Member/1024.jpg",
+        "Header1440Url": "/_Steams/robert/Internal/Member/1440.jpg",
+        "Header1920Url": "/_Steams/robert/Internal/Member/1920.jpg"
+    }
+]

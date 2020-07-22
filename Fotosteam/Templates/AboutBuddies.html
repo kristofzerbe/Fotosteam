@@ -1,0 +1,24 @@
+﻿<div>
+{{#if AuthMember}}
+    {{#unless IsAuthMember}}
+        {{#if ShowRequest}}
+        <a id="buddy-request" class="icon icon-users" href="#"
+           data-i18n="buddies-request"
+           data-i18n-args="{{Member.PlainName}}"></a>
+        {{/if}}
+        {{#if ShowWait}}
+        <span data-i18n="buddies-wait"
+              data-i18n-args="{{Member.PlainName}}"></span>
+        {{/if}}
+        {{#if ShowConfirm}}
+        <a id="buddy-confirm" class="icon icon-users" href="#"
+           data-i18n="buddies-confirm"
+           data-i18n-args="{{Member.PlainName}}"></a>
+        {{/if}}
+        {{#if ShowMutual}}
+        <span data-i18n="buddies-mutual"
+              data-i18n-args="{{Member.PlainName}}"></span>
+        {{/if}}
+    {{/unless}}
+{{/if}}
+</div>

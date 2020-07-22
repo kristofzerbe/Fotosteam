@@ -1,0 +1,111 @@
+﻿{
+    "Id": "25";
+    "Name": "DSC_7975",
+    "Title": "Black Tower",
+    "CaptureDate": "2014-09-28T19:37:11",
+    "PublishDate": "2014-11-09T15:33:00",
+    "IsPrivate": false,
+    "CommentCount": 0,
+    "AverageRating": 0,
+    "Categories": [
+        {
+            "Type": "architecture",
+            "PhotoCount": 2
+        }
+    ],
+    "Topics": [
+        {
+            "Name": "Best of...",
+            "Description": "Meine besten Bilder",
+            "PhotoCount": 4
+        }
+    ],
+    "Location": {
+        "Name": "Antwerpen",
+        "CountryIsoCode": "BEL",
+        "Latitude": 51.222175,
+        "Longitude": 4.399050,
+        "PhotoCount": 1
+    },
+    "Event": null,
+    "Stories": [
+        {
+            "Name": "Brügge Foto-Tour",
+            "HeaderFoto": "DSC_7487-Bearbeitet",
+            "ChapterCount": 1,
+            "PhotoCount": 6
+        },
+        {
+            "Name": "Belgien sehen und sterben",
+            "HeaderFoto": "DSC_7849",
+            "ChapterCount": 2,
+            "PhotoCount": 6
+        }
+    ],
+    "Width": 2571,
+    "Height": 3747,
+    "AspectRatio": 0.68614891913530829,
+    "Orientation": "portrait",
+    "DirectLinks": [
+        {
+            "Size": 0,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7975/fill.jpg"
+        },
+        {
+            "Size": 100,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7975/100.jpg"
+        },
+        {
+            "Size": 200,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7975/200.jpg"
+        },
+        {
+            "Size": 400,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7975/400.jpg"
+        },
+        {
+            "Size": 640,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7975/640.jpg"
+        },
+        {
+            "Size": 1024,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7975/1024.jpg"
+        },
+        {
+            "Size": 1440,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7975/1440.jpg"
+        },
+        {
+            "Size": 1920,
+            "Url": "/_Steams/kristof/Internal/Fotos/DSC_7975/1920.jpg"
+        }
+    ],
+    "Comments": [ ],
+    "Ratings": [ ],
+    "License": 71,
+    "AllowFullsizeDownload": true,
+    "Exif": {
+        "Make": "NIKON CORPORATION",
+        "Model": "NIKON D90",
+        "CaptureDate": "2014-09-28T19:37:11",
+        "Description": null,
+        "Software": "Adobe Photoshop Lightroom 5.6 (Windows)",
+        "Artist": "Kristof Zerbe",
+        "Copyright": null,
+        "FocalLength": 80.0,
+        "FNumber": 5.6,
+        "ApertureValue": 4.970854,
+        "MaxApertureValue": 4.9,
+        "ExposureTime": 0.1,
+        "ExposureBiasValue": -2.0,
+        "ExposureProgram": 3,
+        "ExposureMode": 0,
+        "ISOSpeedRatings": 400,
+        "MeteringMode": 5,
+        "XResolution": 240.0,
+        "YResolution": 240.0,
+        "ResolutionUnit": 2,
+        "Latitude": 51.225808333333333,
+        "Longitude": 4.400025
+    }
+}

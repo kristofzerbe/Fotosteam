@@ -1,0 +1,14 @@
+﻿{
+    "salutation": "Hallo %1",
+    "complimentary-close-1": "Viele Grüße",
+    "complimentary-close-2": "Dein Fotosteam",
+    "disclaimer": "Falls Du keine Emails mehr erhalten willst, dann ändere bitte Deine Benachrichtungseinstellung.",
+    "beta-disclaimer": "Fotosteam ist noch in der Betaphase.",
+    "rating-title": "Neue Fotobewertung",
+	"rating-value-star": "1 Stern",
+	"rating-value-stars": "%1 Sternen",
+	"comment-title": "Neuer Fotokommentar",
+    "buddy-add-title": "Neue Buddyanfrage",
+    "buddy-confirmation-title": "Bestätigung der Buddy-Anfrage",
+    "new-foto-title": "Neues Foto von %1"
+}

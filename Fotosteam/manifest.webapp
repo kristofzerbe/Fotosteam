@@ -1,0 +1,35 @@
+﻿{
+    "version":  "0.1",
+    "name": "Fotosteam",
+    "description": "Fotosteam - Your photos, nothing more",
+    "launch_path": "/index.html",
+    "icons": {
+        "512": "/Content/Icons/icon-512.png",
+        "256": "/Content/Icons/icon-256.png",
+        "128": "/Content/Icons/icon-128.png",
+        "90": "/Content/Icons/icon-90.png",
+        "64": "/Content/Icons/icon-64.png",
+        "60": "/Content/Icons/firefox-os-icon-60.png",
+        "48": "/Content/Icons/favicon-48x48.png",
+        "32": "/Content/Icons/favicon-32x32.png",
+        "16": "/Content/Icons/icon-16.png",
+    },
+    "developer": {
+        "name": "Kristof Zerbe & Robert Bakos",
+        "url": "https://fotosteam.com/about"
+    },
+    "locales": {
+        "en": {
+            "description": "Fotosteam - Deine Fotos, mehr nicht",
+            "developer": {
+                "url": "https://fotosteam.com/about"
+            }
+        }
+    },
+    "default_locale": "en",
+    "type": "web",
+    "fullscreen": "true",
+    "permissions": {
+        "systemXHR": { }
+    }
+}

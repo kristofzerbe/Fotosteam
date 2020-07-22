@@ -1,0 +1,42 @@
+﻿<form id="event-new-form">
+    <div class="field input">
+        <input id="EventName" name="EventName" type="text"
+               data-i18n-placeholder="event-name" value="" />
+        <label for="EventName" data-i18n="event-name">Name</label>
+        <span id="errorEventName" class='help-block'></span>
+    </div>
+    <div class="field input">
+        <input id="Date" name="Date" type="text"
+               data-i18n-placeholder="event-date" value="" />
+        <label for="Date" data-i18n="event-date">Datum</label>
+        <span id="errorDate" class='help-block'></span>        
+    </div>
+    <div class="field input">
+        <input id="DateTo" name="DateTo" type="text"
+               data-i18n-placeholder="event-date-to" value="" />
+        <label for="DateTo" data-i18n="event-date-to">Datum bis</label>
+        <span id="errorDateTo" class='help-block'></span>
+    </div>
+    <div class="field">
+        <label for="EventLocationId" class="input-label" data-i18n="location"></label>
+        <select id="EventLocationId"
+                data-i18n-placeholder="event-location"
+                data-placeholder="{{ChoosePlaceholder}}">
+            <option value="0" data-i18n="no-location"></option>
+            {{#Locations}}
+            {{#if Selected}}
+            <option value="{{LocationId}}" selected="selected">{{LocationName}}</option>
+            {{else}}
+            <option value="{{LocationId}}">{{LocationName}}</option>
+            {{/if}}
+            {{/Locations}}
+        </select>
+    </div>
+    <div class="field input">
+        <textarea id="EventDescription" data-i18n-placeholder="event-description"></textarea>
+        <label for="EventDescription" data-i18n="event-description">Description</label>
+    </div>
+    <button class="small" data-i18n="event-new-save"></button>
+    <input id="EventDate" name="EventDate" type="hidden" />
+    <input id="EventDateTo" name="EventDateTo" type="hidden" />
+</form>

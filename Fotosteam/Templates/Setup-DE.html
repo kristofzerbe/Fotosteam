@@ -1,0 +1,114 @@
+﻿<div id="setup-intro" class="page-details">
+
+    <div class="details-commands">
+        <a href="#" onclick="global_auth_member.deleteAccount(); return false;" data-i18n="delete-account"><i class="icon icon-trash"></i>Konto löschen</a>
+    </div>
+
+    <div class="details-panel">
+
+        <h1>Willkommen bei FOTOSTEAM</h1>
+        <p>
+            Deine Registrierung war der erste Schritt zu Deinem Foto-Portfolio auf
+            FOTOSTEAM.
+        </p>
+        <p>
+            Der nächste ist die Verknüpfung Deines Konto mit Deinem Cloud-Anbieter, auf
+            dem alle Deine Fotos gespeichert werden, damit Du sie jederzeit im Zugriff
+            hast. Wähle aus...
+        </p>
+
+        <div id="setup-intro-provider">
+            {{> SetupProvider}}
+        </div>
+
+        <div id="setup-intro-info">
+
+            <div id="setup-intro-info-provider-0" class="setup-intro-info-provider">
+                <p>
+                    FOTOSTEAM interagiert mit
+                    <a href="http://www.dropbox.com/" target="_blank"><strong>Dropbox</strong></a>
+                    als sogenannte Dropbox-App, d.h. unserem Dienst wird unter dem Ordner
+                    <span class="folder">Apps</span> ein Ordner namens
+                    <span class="folder">Fotosteam</span> zugewiesen, in dem wir Deine
+                    optimierten Bilder abgelegen. Wir haben nur Zugriff auf diesen Ordner.
+                </p>
+                <img class="screenshot" src="/Content/Images/Screen-Windows-ToPublish-Dropbox.png" />
+                <p>
+                    Am einfachsten bekommt Du neue Bilder auf Deine FOTOSTEAM-Seite, wenn Du sie in
+                    Deinen lokalen Order <span class="folder wrap">.../Dropbox/App/Fotosteam/ToPublish</span>
+                    kopierst, wartest bis Dein Dropbox-Client alle Fotos hochgeladen hat und dann in
+                    Deinem Dashboard auf <strong>Synchronisieren</strong> klickst.
+                </p>
+                <p>
+                    Mit Dropbox hast Du zudem die Möglichkeit Deinen <span class="folder">ToPublish</span>
+                    automatisch synchronisieren zu lassen. Dabei benachrichtigt Dropbox unseren Server,
+                    sobald dort eine neue Datei vorhanden ist und sie wird von uns automatisch verarbeitet.
+                    Dies kannst Du in den Dashboard-Optionen einschalten.
+                </p>
+                <hr />
+                <p>
+                    <strong>WICHTIG</strong>:<br />
+                    Bitte beachte gleich beim Verknüpfen auf Popup-Fenster Deines Browsers und lasse sie
+                    für dieser Seite zu!<br />
+                    Wenn es nicht geklappt haben sollte, lösche Dein Konto und leg es erneut an.
+                </p>
+            </div>
+
+            <div id="setup-intro-info-provider-1" class="setup-intro-info-provider">
+                <p>
+                    Bei <a href="http://drive.google.com/drive" target="_blank"><strong>Google Drive</strong></a>
+                    legen wir einen Ordner namens <span class="folder">Fotosteam</span> an, in dem
+                    wir Deine optimierten Bilder abgelegen.
+                </p>
+                <p>
+                    Theoretisch haben wir Zugriff auf alle Deine Dateien auf Google Drive, da es dort
+                    kein App-Konzept gibt, aber wir kennen unsere Grenzen und werden niemals andere
+                    Dateien anfassen, außer Deinen FOTOSTEAM-Daten!
+                </p>
+                <img class="screenshot" src="/Content/Images/Screen-Windows-ToPublish-GoogleDrive.png" />
+                <p>
+                    Am einfachsten bekommt Du neue Bilder auf Deine FOTOSTEAM-Seite, wenn Du sie in
+                    Deinen lokalen Order <span class="folder wrap">.../GoogleDrive/Fotosteam/ToPublish</span>
+                    kopierst, wartest bis Dein GoogleDrive-Client alle Fotos hochgeladen hat und dann in
+                    Deinem Dashboard auf <strong>Synchronisieren</strong> klickst.
+                </p>
+                <hr />
+                <p>
+                    <strong>WICHTIG</strong>:<br />
+                    Bitte beachte gleich beim Verknüpfen auf Popup-Fenster Deines Browsers und lasse sie
+                    für dieser Seite zu!<br />
+                    Wenn es nicht geklappt haben sollte, lösche Dein Konto und leg es erneut an.
+                </p>
+            </div>
+
+            <div id="setup-intro-info-provider-2" class="setup-intro-info-provider">
+                <p>
+                    <a href="http://onedrive.live.com/" target="_blank"><strong>Microsoft OneDrive</strong></a>
+                    legt bei der Verknüpfung mit dem FOTOSTEAM-Konto im Ordner
+                    <span class="folder">Anwendungen</span> einen Ordner namens
+                    <span class="folder">Fotosteam</span> an, in dem wir Deine optimierten
+                    Bilder abgelegen. Wir haben nur Zugriff auf diesen Ordner.
+                </p>
+                <img class="screenshot" src="/Content/Images/Screen-Windows-ToPublish-OneDrive.png" />
+                <p>
+                    Am einfachsten bekommt Du neue Bilder auf Deine FOTOSTEAM-Seite, wenn Du sie in
+                    Deinen lokalen Order <span class="folder wrap">.../OneDrive/Anwendungen/Fotosteam/ToPublish</span>
+                    kopierst, wartest bis Dein OneDrive-Client alle Fotos hochgeladen hat und dann in Deinem
+                    Dashboard auf <strong>Synchronisieren</strong> klickst.
+                </p>
+                <hr />
+                <p>
+                    <strong>WICHTIG</strong>:<br />
+                    Bitte beachte gleich beim Verknüpfen auf Popup-Fenster Deines Browsers und lasse sie
+                    für dieser Seite zu!<br />
+                    Wenn es nicht geklappt haben sollte, lösche Dein Konto und leg es erneut an.
+                </p>
+            </div>
+
+        </div>
+
+        <button id="setup-intro-command" class="expand" disabled="disabled">(Bitte wähle Deinen Cloud-Provider aus)</button>
+
+    </div>
+
+</div>

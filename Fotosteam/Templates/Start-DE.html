@@ -1,0 +1,113 @@
+﻿<div id="start-intro" class="box">
+
+    {{> StartScreenshot}}
+
+    <div id="start-intro-text">
+        <h1>Ein Platz für Deine Fotos</h1>
+
+        <p class="subtitle" style="margin-bottom: 30px;">
+            FOTOSTEAM ist die neue Art des Foto-Portfolios.
+            Präsentiere Deine Bilder auf die einzige Art, die ihnen gebührt:<br />
+            In voller Breite und ohne Kompromisse. Jeder Zoll für Deine Arbeit.
+        </p>
+
+        {{> StartFeatures}}
+        {{> StartIntroButtons}}
+    </div>
+</div>
+
+<div id="start-howto" class="box" style="display:none;">
+
+    <div id="start-howto-text">
+        <h1>So funktioniert FOTOSTEAM</h1>
+
+        <p>Zunächst einmal...</p>
+        <p class="subtitle">
+            Deine Daten bleiben wo sie hingehören: bei Dir!
+        </p>
+        <p>
+            FOTOSTEAM, speichert Deine Fotos auf Deinem Cloud-Anbieter und
+            nicht auf irgendeinem Server, wo Du keinen direkten Zugriff darauf
+            hast. Dadurch behälst Du die volle und einfache Kontrolle über Deine Daten!
+        </p>
+
+        <h3 class="strip">Schritt 1</h3>
+        <p>
+            Du legst Dir ein <strong>FOTOSTEAM-Konto</strong> an, indem Du Dich über einen
+            der folgenden Social-Media-Dienste <strong>registrierst</strong>, denn wir speichern
+            auch Dein Kennwort nicht...
+        </p>
+        <p>
+            {{> StartAuthBrand}}
+        </p>
+
+        <h3 class="strip">Schritt 2</h3>
+        <p>
+            Du verknüpfst Dein Konto mit einem der verfügbaren <strong>Cloud-Anbieter</strong>...
+        </p>
+        {{> StartCloudBrand}}
+
+        <h3 class="strip">Schritt 3</h3>
+        <p>
+            Du lädst Deine Fotos entweder über unsere Web-Oberfläche hoch, oder Du kopierst
+            sie einfach in den Ordner <span class="folder">.../Fotosteam/ToPublish</span> auf
+            Deiner Festplatte, der bei der Verlinkung mit Deinem Cloud-Anbieter erzeugt wurde.
+        </p>
+        <img src="/Content/Images/Screen-Windows-ToPublish-Dropbox.png" style="display:block; margin: 10px 0;" />
+
+        <h3 class="strip">Schritt 4</h3>
+        <p>
+            Synchronisiere Deinen Fotos über die Schaltfläche auf Deinem
+            <a data-i18n="dashboard" href="/dashboard">Dashboard</a>. Dropbox-Benutzer
+            können sich diesen Schritt sparen, wenn sie in ihren
+            <a data-i18n="dashboard" href="/dashboard#options">Optionen</a> die
+            <strong>automatische Synchronisierung</strong> einschalten.
+        </p>
+        <p>
+            Die Bilder werden dabei aus dem ToPublish-Ordner ausgelesen, optimiert und in verschiedenen Größen
+            in einem neuen Ordner unter <span class="folder">.../Fotosteam/Internal/Fotos</span> abgelegt, um Deinen
+            Freunden das bestmögliche Fotoerlebnis zu bieten.
+        </p>
+        <img src="/Content/Images/Screen-Windows-Foto-Dropbox.png" style="display:block; margin: 10px 0;" />
+
+        <h3 class="strip">Schritt 5</h3>
+        <p>
+            Nach der Synchronisierung findest Du alle Deine neuen Fotos auf dem Dashboard-Karteireiter
+            <strong>Neue Fotos</strong>.
+        </p>
+        <p><strong>Fertig!</strong></p>
+
+    </div>
+    <div id="start-howto-pic"></div>
+
+</div>
+
+{{> StartFotosNew}}
+{{> StartFotosTop}}
+
+<div id="start-featured-story" class="box">
+    <div id="start-featured-story-text">
+        <h1>Empfohlene Geschichte</h1>
+        <p>
+            <strong>FOTOSTEAM Geschichten</strong> werden in wenigen Wochen fertiggestellt und
+            eingeführt. Um Dir zu zeigen wie diese aussehen, haben wir uns entschlossen eine
+            Vorversion aufzusetzen und Dir die Geschichte eine Wanderung zu erzählen ...
+            einer langen Wanderung.
+        </p>
+        <p>
+            <a href="/robert">Robert</a>, Mitgründer von FOTOSTEAM, ist aktuell auf einer Tour
+            entlang des <a href="http://www.wikiwand.com/en/Appalachian_Trail" target="_blank">Appalachian Trail</a>
+            und berichtet über dieses Abenteuer, wann immer er Zugnag zum Internet hat.
+        </p>
+        <p>
+            Stay tuned...
+        </p>
+    </div>
+    <div id="start-featured-story-pic"
+         style="background-image: url(https://dl.dropboxusercontent.com/s/vx0lr89jiw8ebzb/640.jpg);">
+        <a href="/robert/story/appalachian-trail">Appalachian Trail<span>von Robert Bakos</span></a>
+    </div>
+</div>
+
+
+{{> StartMember}}

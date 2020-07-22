@@ -1,0 +1,305 @@
+﻿<div id="dashboard" class="page-details">
+
+    <div class="details-commands">
+        {{#unless UsesWebHook}}
+        <a id="details-command-sync" href="#" onclick="syncPhotos(); return false;" data-i18n="provider-sync"><i class="icon icon-image icon-{{Member.StorageProviderKey}}"></i>Synch</a>
+        {{/unless}}
+        <a href="#" class="tooltip-left" onclick="global_auth_member.deleteAccount(); return false;" data-i18n-title="delete-account"><i class="icon icon-trash"></i></a>
+    </div>
+
+    <div class="details-panel" style="padding: 0; background: none;">
+        <div id="dashboard-tabs" class="tabulous-wrapper">
+            <ul>
+                <li><a id="tablink-profile" href="#profile" data-i18n="dashboard-tab-profile">Profil</a></li>
+                <li><a id="tablink-options" href="#options" data-i18n="dashboard-tab-options">Optionen</a></li>
+                <li><a id="tablink-topics" href="#topics" data-i18n="dashboard-tab-topics">Themen</a></li>
+                <li><a id="tablink-locations" href="#locations" data-i18n="dashboard-tab-locations">Orte</a></li>
+                <li><a id="tablink-events" href="#events" data-i18n="dashboard-tab-events">Events</a></li>
+                <li><a id="tablink-stories" href="#stories" data-i18n="dashboard-tab-stories">Stories</a></li>
+                <li><a id="tablink-newphotos" href="#newphotos" data-i18n="dashboard-tab-newphotos">Neue Fotos</a></li>
+            </ul>
+
+            <div class="tabulous-container">
+
+            <div id="profile" class="tabulous-shelf">
+
+                <section class="flex">
+                    <div id="tab-profile-common">
+                        <form id="profile-common-form">
+                            <div class="field input">
+                                <input id="PlainName" name="PlainName" type="text"
+                                        data-i18n-placeholder="your-full-name" value="{{Member.PlainName}}" />
+                                <label for="PlainName" data-i18n="your-full-name">PlainName</label>
+                                <span id="errorPlainName" class='help-block'></span>
+                            </div>
+                            <div class="field input">
+                                <input id="EMail" name="EMail" type="email"
+                                        data-i18n-placeholder="your-mail-address" value="{{Member.Email}}" />
+                                <label for="EMail" data-i18n="your-mail-address">EMail</label>
+                                <span id="errorEMail" class='help-block'></span>
+                            </div>
+                            <div class="field input">
+                                <textarea id="Motto" data-i18n-placeholder="your-motto">{{Member.Motto}}</textarea>
+                                <label for="Motto" data-i18n="your-motto">Motto</label>
+                            </div>
+                            <div class="field input">
+                                <textarea id="Description" data-i18n-placeholder="your-description">{{Member.Description}}</textarea>
+                                <label for="Description" data-i18n="your-description">Beschreibung</label>
+                            </div>
+                        </form>
+                    </div>
+                    <div id="tab-profile-avatar">
+                        <form id="profile-avatar-form" class="dropzone" action="/upload-target">
+                            <div class="current"><img src="{{Member.Avatar200Url}}" /></div>
+                        </form>
+                    </div>
+                </section>
+                <section>
+                    <h2 data-i18n="your-header-image"></h2>
+                    <form id="profile-header-image-form" class="dropzone" action="/upload-target">
+                        <div class="current"><img src="{{Member.Header640Url}}" /></div>
+                    </form>
+                    <h3 data-i18n="your-header-color" style="margin-top: 10px;"></h3>
+                    <div class="color-chooser">
+                        <a id="header-color-reset" href="#" data-i18n-title="header-reset-color">
+                            <i class="icon icon-arrows-cw"></i>
+                        </a>
+                        <label id="header-color-label" for="Color">{{Member.HeaderColorHex}}</label>
+                        <input id="HeaderColor" type="color" value="{{Member.HeaderColorHex}}" />
+                    </div>
+                </section>
+                <section id="profile-map-section">
+                    <h2 class="principal" data-i18n="your-location"></h2>
+                    <div class="adjunct">
+                        <input id="profile-map-address" type="text" data-i18n-placeholder="address" />
+                    </div>
+                    <div id="profile-map"></div>
+                    <div style="text-align: right; margin-top: 5px">
+                        <small style="display: inline-block; float: left;     margin-right: 10px;width: 50%;text-align: left;line-height: 14px;" data-i18n="homelocation-info"></small>
+                        <button id="profile-map-remove" class="small secondary" data-i18n="remove-homelocation">Standort entfernen</button>
+                        <button id="profile-map-save" class="small" data-i18n="save">Speichern</button>
+                    </div>
+                </section>
+                <section>
+                    <h2 data-i18n="social-media"></h2>
+                    <form id="profile-social-media-form">
+                        {{#Member.SocialMediaFullList}}
+                        <div class="field input inline-icon">
+                            <i class="text brand icon icon-{{TypeClass}} inline"></i>
+                            <input id="sm-{{TypeCaption}}" name="sm-{{TypeCaption}}" class="social-media" type="text"
+                                    data-type="{{Type}}"
+                                    data-id="{{Id}}"
+                                    placeholder="{{TypeCaption}}" value="{{Url}}" />
+                            <label for="sm-{{TypeCaption}}">{{TypeCaption}}</label>
+                            <span id="errorsm-{{TypeCaption}}" class='help-block'></span>
+                        </div>
+                        {{/Member.SocialMediaFullList}}
+                    </form>
+                </section>
+                <section>
+                    <h2 data-i18n="invitecodes"></h2>
+                    {{#unless Member.InviteCodes}}
+                    <div class="pagenote missing" data-i18n="invitecodes-pagenote"></div>
+                    {{else}}
+                    <ul class="square">
+                        {{#each Member.InviteCodes}}
+                        <li><code>{{this}}</code></li>
+                        {{/each}}
+                    </ul>
+                    {{/unless}}
+                </section>
+            </div>
+
+            <div id="options" class="tabulous-shelf">
+                <div class="flex options">
+
+                    <section class="collection-item-list">
+                        <h2 data-i18n="option-general"></h2>
+
+                        <label data-i18n="option-general-language"></label>
+                        <select id="Language">
+                            {{#OptionLanguages}}
+                            {{#if Selected}}
+                            <option value="{{Iso}}" selected="selected">{{Caption}}</option>
+                            {{else}}
+                            <option value="{{Iso}}">{{Caption}}</option>
+                            {{/if}}
+                            {{/OptionLanguages}}
+                        </select>
+                        
+                        {{#if UsesDropbox}}
+                        <label data-i18n="option-general-use-dropbox-webhook"></label>
+                        <input id="UseDropboxWebhook" type="checkbox" class="ios yesno" {{OptionAttributes.UseDropboxWebhook}} />
+                        {{/if}}
+
+                        <label data-i18n="option-overwrite-existing-photo"></label>
+                        <input id="OverwriteExistingPhoto" type="checkbox" class="ios yesno" {{OptionAttributes.OverwriteExistingPhoto}} />
+
+                        <label data-i18n="option-general-allow-comments"></label>
+                        <input id="AllowComments" type="checkbox" class="ios yesno" {{OptionAttributes.AllowComments}} />
+
+                        <label data-i18n="option-general-allow-rating"></label>
+                        <input id="AllowRating" type="checkbox" class="ios yesno" {{OptionAttributes.AllowRating}} />
+
+                        <label data-i18n="option-general-allow-sharing"></label>
+                        <input id="AllowSharing" type="checkbox" class="ios yesno" {{OptionAttributes.AllowSharing}} />
+
+                        <label data-i18n="option-general-display-email-address"></label>
+                        <input id="DisplayEmailAddress" type="checkbox" class="ios yesno" {{OptionAttributes.DisplayEmailAddress}} />
+
+                    </section>
+
+                    <section class="collection-item-list">
+                        <h2 data-i18n="option-notifications"></h2>
+
+                        <p data-i18n="option-notifications-on"></p>
+
+                        <label data-i18n="option-notifications-on-comment"></label>
+                        <input id="NotifyByEmailOnComment" type="checkbox" class="ios yesno" {{OptionAttributes.NotifyByEmailOnComment}} />
+
+                        <label data-i18n="option-notifications-on-rating"></label>
+                        <input id="NotifyByEmailOnRating" type="checkbox" class="ios yesno" {{OptionAttributes.NotifyByEmailOnRating}} />
+
+                        <label data-i18n="option-notifications-on-buddy-add"></label>
+                        <input id="NotifyByEmailOnBuddyAdd" type="checkbox" class="ios yesno" {{OptionAttributes.NotifyByEmailOnBuddyAdd}} />
+
+                        <label data-i18n="option-notifications-on-buddy-confirmation"></label>
+                        <input id="NotifyByEmailOnBuddyConfirmation" type="checkbox" class="ios yesno" {{OptionAttributes.NotifyByEmailOnBuddyConfirmation}} />
+
+                        <label data-i18n="option-notifications-on-buddy-added-photo"></label>
+                        <input id="NotifyByEmailOnBuddyAddedPhoto" type="checkbox" class="ios yesno" {{OptionAttributes.NotifyByEmailOnBuddyAddedPhoto}} />
+
+                    </section>
+
+                    <section class="collection-item-list">
+                        <h2 data-i18n="option-defaults"></h2>
+
+                        <p data-i18n="option-defaults-info"></p>
+
+                        <label data-i18n="option-default-is-private">Status</label>
+                        <input id="DefaultIsPrivate" type="checkbox" class="ios pubpriv" {{OptionAttributes.DefaultIsPrivate}} />
+
+                        <label data-i18n="option-default-license">Lizenz</label>
+                        <select id="DefaultLicense">
+                            {{#OptionLicenses}}
+                            {{#if Selected}}
+                            <option value="{{Value}}" selected="selected">{{Caption}}</option>
+                            {{else}}
+                            <option value="{{Value}}">{{Caption}}</option>
+                            {{/if}}
+                            {{/OptionLicenses}}
+                        </select>
+
+                        <label data-i18n="option-default-allow-fullsize-download"></label>
+                        <input id="DefaultAllowFullSizeDownload" type="checkbox" class="ios allowdeny" {{OptionAttributes.DefaultAllowFullSizeDownload}} />
+
+                        <label data-i18n="option-default-allow-commenting"></label>
+                        <input id="DefaultAllowCommenting" type="checkbox" class="ios allowdeny" {{OptionAttributes.DefaultAllowCommenting}} />
+
+                        <label data-i18n="option-default-allow-rating"></label>
+                        <input id="DefaultAllowRating" type="checkbox" class="ios allowdeny" {{OptionAttributes.DefaultAllowRating}} />
+
+                        <label data-i18n="option-default-allow-sharing"></label>
+                        <input id="DefaultAllowSharing" type="checkbox" class="ios allowdeny" {{OptionAttributes.DefaultAllowSharing}} />
+
+                        <label data-i18n="option-default-allow-promoting"></label>
+                        <input id="DefaultAllowPromoting" type="checkbox" class="ios allowdeny" {{OptionAttributes.DefaultAllowPromoting}} />
+
+                    </section>
+                </div>
+            </div>
+
+            <div id="topics" class="tabulous-shelf">
+                <section class="flex">
+                    <div id="topic-list" class="collection-item-list">
+                        <p data-i18n="list-intro-topic"></p>
+                        <div class="collection-items">
+                            {{#Member.Topics}}
+                            <a id="topic-{{TopicId}}" class="collection-item collection-topic"
+                               data-id="{{TopicId}}" href="#"><span>{{TopicName}}</span><i>{{TopicPhotoCount}}</i></a>
+                            {{/Member.Topics}}
+                        </div>
+                    </div>
+                    <div id="topic-edit" class="collection-item-edit">
+                        <p data-i18n="edit-intro-topic"></p>
+                        <div style="height: 100%;"></div>
+                    </div>
+                </section>
+            </div>
+
+            <div id="locations" class="tabulous-shelf">
+                <section class="flex">
+                    <div id="location-list" class="collection-item-list">
+                        <p data-i18n="list-intro-location"></p>
+                        <div class="collection-items">
+                            {{#Member.LocationList}}
+                            <a id="location-{{LocationId}}" class="collection-item collection-location"
+                               data-id="{{LocationId}}" href="#"><span>{{LocationName}}</span><i>{{LocationPhotoCount}}</i></a>
+                            {{/Member.LocationList}}
+                        </div>
+                    </div>
+                    <div id="location-edit" class="collection-item-edit">
+                        <p data-i18n="edit-intro-location"></p>
+                        <div style="height: 100%;"></div>
+                    </div>
+                </section>
+            </div>
+
+            <div id="events" class="tabulous-shelf">
+                <section class="flex">
+                    <div id="event-list" class="collection-item-list">
+                        <p data-i18n="list-intro-event"></p>
+                        <div class="collection-items">
+                            {{#Member.Events}}
+                            <a id="event-{{EventId}}" class="collection-item collection-event"
+                               data-id="{{EventId}}" href="#"><span>{{EventName}}</span><i>{{EventPhotoCount}}</i></a>
+                            {{/Member.Events}}
+                        </div>
+                    </div>
+                    <div id="event-edit" class="collection-item-edit">
+                        <p data-i18n="edit-intro-event"></p>
+                        <div style="height: 100%;"></div>
+                    </div>
+                </section>
+            </div>
+
+            <div id="stories" class="tabulous-shelf">
+                <div class="devnote" data-i18n="stories-devnote" style="margin-top: 20px;"></div>
+            </div>
+
+            <div id="newphotos" class="tabulous-shelf">
+                <section class="flex new-photos">
+                    <div id="new-foto-list" class="collection-item-list">
+                        <p id="newphotos-info-none" data-i18n="newphotos-info-none"></p>
+                        <p id="newphotos-info" data-i18n="newphotos-info" style="display:none;"></p>
+                        <div id="new-photo-wrapper" class="collection-wrapper"></div>
+                    </div>
+                    <div id="new-foto-upload" class="collection-item-edit">
+                        <br style="clear:both;" />
+
+                        <h3 data-i18n="newphotos-upload"></h3>
+                        <form id="foto-upload-form" class="dropzone" action="/upload-target">
+                            <div class="current"></div>
+                        </form>
+
+                        {{#if HasWebHook}}
+                        {{#unless UsesWebHook}}
+                        <div class="pagenote hint" style="margin-top: 20px;"
+                             data-i18n="newphotos-webhook-pagenote"
+                             data-i18n-args="{{Member.StorageProviderCaption}}"></div>
+                        {{/unless}}
+                        {{else}}
+                        <div class="devnote" style="margin-top: 20px;"
+                             data-i18n="newphotos-devnote"></div>
+                        {{/if}}
+
+                    </div>
+                </section>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+</div>

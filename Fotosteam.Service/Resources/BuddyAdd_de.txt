@@ -1,0 +1,3 @@
+<strong>##userAlias##</strong> möchte Dich als Buddy hinzufügen. Bestätige die Anfrage auf:
+<br /><br />
+<a href="##userUrl##">##userUrl##</a>

@@ -1,0 +1,276 @@
+[
+    {
+        "Alias": "kristof",
+        "AspNetUserId": "8B0C4AD6-BA43-41F0-8D4B-111FC1A945FB",
+        "PlainName": "Kristof Zerbe",
+        "Email": "kristof.zerbe@gmail.com",
+        "Avatar100Url": "https://dl.dropboxusercontent.com/s/fz085d19gm6vl9v/avatar-100.jpg",
+        "Avatar200Url": "https://dl.dropboxusercontent.com/s/x3py4t6gwm6qncc/avatar-200.jpg",
+        "Header640Url": "https://dl.dropusercontent.com/s/k7lus8nujph4qje/640.jpg",
+        "Header1024Url": "https://dl.dropboxusercontent.com/s/ftouq2lpie7js56/1024.jpg",
+        "Header1440Url": "https://dl.dropboxusercontent.com/s/a80rykcfrcz09ms/1440.jpg",
+        "Header1920Url": "https://dl.dropboxusercontent.com/s/1x5hzyy5ksgxbe4/1920.jpg",
+        "ProviderKey": null,
+        "InviteCodeForRegistration": null,
+        "Stories": null,
+        "Locations": [
+            {
+                "MemberId": 2,
+                "Name": "Wiesbaden",
+                "CountryIsoCode": "DEU",
+                "Country": "Germany",
+                "Street": null,
+                "City": "Wiesbaden",
+                "State": "Hessen",
+                "County": "Darmstadt",
+                "Longitude": 8.248353400,
+                "Latitude": 50.072482500,
+                "PhotoCount": 0,
+                "Id": 19
+            }
+        ],
+        "Events": null,
+        "StorageAccesses": [
+            {
+                "MemberId": 2,
+                "StorageProviderTypeId": 1,
+                "Token": "f19p00ll9j1gm3ls",
+                "Secret": "j9884tvio5kofxy"
+            }
+        ],
+        "HomeLocation": {
+            "MemberId": 2,
+            "Name": "Wiesbaden",
+            "CountryIsoCode": "DEU",
+            "Country": "Germany",
+            "Street": null,
+            "City": "Wiesbaden",
+            "State": "Hessen",
+            "County": "Darmstadt",
+            "Longitude": 8.248353400,
+            "Latitude": 50.072482500,
+            "PhotoCount": 0,
+            "Id": 19
+        },
+        "Motto": "A good photograph touches you. No more, no less.",
+        "Description": null,
+        "Buddies": [
+            {
+                "MemberId": 2,
+                "BuddyMemberId": 3,
+                "IsMutual": true
+            }
+        ],
+        "SocialMedias": [
+            {
+                "Type": 4,
+                "Url": "https://www.flickr.com/photos/kzerbe/",
+                "MemberId": 2,
+                "Id": 7
+            },
+            {
+                "Type": 1,
+                "Url": "https://plus.google.com/+KristofZerbe",
+                "MemberId": 2,
+                "Id": 2
+            },
+            {
+                "Type": 2,
+                "Url": "https://twitter.com/kristofz",
+                "MemberId": 2,
+                "Id": 3
+            },
+            {
+                "Type": 0,
+                "Url": "https://www.facebook.com/kristofzerbe",
+                "MemberId": 2,
+                "Id": 4
+            },
+            {
+                "Type": 3,
+                "Url": "https://500px.com/kikon",
+                "MemberId": 2,
+                "Id": 5
+            }
+        ],
+        "Id": 2
+    },
+    {
+        "Alias": "robert",
+        "AspNetUserId": "c3d71ec7-e492-4b1d-85e1-55e1d16f7c00",
+        "PlainName": "Robert Bakos",
+        "Email": "bobbakos@gmail.com",
+        "Avatar100Url": "https://dl.dropboxusercontent.com/s/03twz1uyxxg8rmc/avatar-100.jpg",
+        "Avatar200Url": "https://dl.dropboxusercontent.com/s/7rwi4p6k4c4y2zb/avatar-200.jpg",
+        "Header640Url": "https://dl.dropboxusercontent.com/s/x70eemhdzdtnw6q/640.jpg",
+        "Header1024Url": "https://dl.dropboxusercontent.com/s/zceqcxk3oyllkyg/1024.jpg",
+        "Header1440Url": "https://dl.dropboxusercontent.com/s/4qbuydfxlsu30qz/1440.jpg",
+        "Header1920Url": "https://dl.dropboxusercontent.com/s/omoecrqllr6feus/1920.jpg",
+        "ProviderKey": null,
+        "InviteCodeForRegistration": null,
+        "Stories": null,
+        "Locations": null,
+        "Events": null,
+        "Options": {
+            "MemberId": 3,
+            "IsAvailableForProjects": false,
+            "IsProfessional": false,
+            "DisplayEmailAddress": false,
+            "DisplayNotifications": true,
+            "NotifyByEmailOnComment": false,
+            "NotifyByEmailOnRating": false,
+            "NotifyByEmailOnBuddyAdd": false,
+            "NotifyByEmailOnBuddyConfirmation": false,
+            "NotifyByEmailOnBuddyAddedPhoto": false,
+            "NotifyByEmailOnNews": false,
+            "AllowComments": true,
+            "AllowRating": true,
+            "AllowSharing": false,
+            "Language": 0,
+            "UseDropboxWebhook": true,
+            "DefaultIsPrivate": true,
+            "DefaultLicense": 1,
+            "DefaultAllowPromoting": false,
+            "DefaultAllowSharing": false,
+            "DefaultAllowFullSizeDownload": false,
+            "DefaultAllowRating": true,
+            "DefaultAllowCommenting": true
+        },
+        "StorageAccessType": "Dropbox",
+        "StorageAccesses": [
+            {
+                "MemberId": 3,
+                "StorageProviderTypeId": 1,
+                "Token": "f19p00ll9j1gm3ls",
+                "Secret": "j9884tvio5kofxy"
+            }
+        ],
+        "HomeLocation": {
+            "MemberId": 2,
+            "Name": "Wiesbaden",
+            "CountryIsoCode": "DEU",
+            "Country": "Germany",
+            "Street": null,
+            "City": "Wiesbaden",
+            "State": "Hessen",
+            "County": "Darmstadt",
+            "Longitude": 8.248353400,
+            "Latitude": 50.072482500,
+            "PhotoCount": 0,
+            "Id": 19
+        },
+        "Motto": "Open minded individual roaming the world.",
+        "Description": null,
+        "Buddies": [
+            {
+                "MemberId": 3,
+                "BuddyMemberId": 2,
+                "IsMutual": false
+            }
+        ],
+        "SocialMedias": [
+            {
+                "Type": 1,
+                "Url": "https://plus.google.com/+RobertBakos",
+                "MemberId": 3,
+                "Id": 1
+            },
+            {
+                "Type": 3,
+                "Url": "https://500px.com/bobbakos",
+                "MemberId": 3,
+                "Id": 6
+            }
+        ],
+        "Id": 3
+    },
+        {
+        "Alias": "tes user",
+        "AspNetUserId": "c3d71ec7-e492-4b1d-85e1-55e1d16f7c05",
+        "PlainName": "Test User",
+        "Email": "Test@gmail.com",
+        "Avatar100Url": "https://dl.dropboxusercontent.com/s/03twz1uyxxg8rmc/avatar-100.jpg",
+        "Avatar200Url": "https://dl.dropboxusercontent.com/s/7rwi4p6k4c4y2zb/avatar-200.jpg",
+        "Header640Url": "https://dl.dropboxusercontent.com/s/x70eemhdzdtnw6q/640.jpg",
+        "Header1024Url": "https://dl.dropboxusercontent.com/s/zceqcxk3oyllkyg/1024.jpg",
+        "Header1440Url": "https://dl.dropboxusercontent.com/s/4qbuydfxlsu30qz/1440.jpg",
+        "Header1920Url": "https://dl.dropboxusercontent.com/s/omoecrqllr6feus/1920.jpg",
+        "ProviderKey": null,
+        "InviteCodeForRegistration": null,
+        "Stories": null,
+        "Locations": null,
+        "Events": null,
+        "Options": {
+            "MemberId": 44,
+            "IsAvailableForProjects": false,
+            "IsProfessional": false,
+            "DisplayEmailAddress": false,
+            "DisplayNotifications": true,
+            "NotifyByEmailOnComment": false,
+            "NotifyByEmailOnRating": false,
+            "NotifyByEmailOnBuddyAdd": false,
+            "NotifyByEmailOnBuddyConfirmation": false,
+            "NotifyByEmailOnBuddyAddedPhoto": false,
+            "NotifyByEmailOnNews": false,
+            "AllowComments": true,
+            "AllowRating": true,
+            "AllowSharing": false,
+            "Language": 0,
+            "UseDropboxWebhook": true,
+            "DefaultIsPrivate": true,
+            "DefaultLicense": 1,
+            "DefaultAllowPromoting": false,
+            "DefaultAllowSharing": false,
+            "DefaultAllowFullSizeDownload": false,
+            "DefaultAllowRating": true,
+            "DefaultAllowCommenting": true
+        },
+        "StorageAccessType": "Dropbox",
+        "StorageAccesses": [
+            {
+                "MemberId": 44,
+                "StorageProviderTypeId": 1,
+                "Token": "f19p00ll9j1gm3ls",
+                "Secret": "j9884tvio5kofxy"
+            }
+        ],
+        "HomeLocation": {
+            "MemberId": 44,
+            "Name": "Wiesbaden",
+            "CountryIsoCode": "DEU",
+            "Country": "Germany",
+            "Street": null,
+            "City": "Wiesbaden",
+            "State": "Hessen",
+            "County": "Darmstadt",
+            "Longitude": 8.248353400,
+            "Latitude": 50.072482500,
+            "PhotoCount": 0,
+            "Id": 19
+        },
+        "Motto": "Open minded individual roaming the world.",
+        "Description": null,
+        "Buddies": [
+            {
+                "MemberId": 44,
+                "BuddyMemberId": 2,
+                "IsMutual": false
+            }
+        ],
+        "SocialMedias": [
+            {
+                "Type": 1,
+                "Url": "https://plus.google.com/+RobertBakos",
+                "MemberId": 44,
+                "Id": 1
+            },
+            {
+                "Type": 3,
+                "Url": "https://500px.com/bobbakos",
+                "MemberId": 44,
+                "Id": 6
+            }
+        ],
+        "Id": 44
+    }
+]

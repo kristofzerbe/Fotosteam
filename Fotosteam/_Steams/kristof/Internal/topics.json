@@ -1,0 +1,22 @@
+﻿[
+    {
+        "Name": "Best of...",
+        "Description": "Meine besten Bilder",
+        "PhotoCount": 4
+    },
+    {
+        "Name": "Die frühen Jahre",
+        "Description": "Bilder aus der analogen Fotowelt",
+        "PhotoCount": 0
+    },
+    {
+        "Name": "Doors & Windows",
+        "Description": "Bildersammlung von allem wo man rausgehen oder rausschauen kann",
+        "PhotoCount": 2
+    },
+    {
+        "Name": "Walls",
+        "Description": "Bildersammlung von Mauern und Wänden",
+        "PhotoCount": 1
+    }
+]

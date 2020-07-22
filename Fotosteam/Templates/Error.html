@@ -1,0 +1,55 @@
+﻿<div class="box">
+    <i class="err">{{ErrorNo}}</i>
+
+    <small style="font-size: 0.9em; color: #aaa;">{{Route.FullPath}}</small>
+    <h1 style="margin-top: 0;" data-i18n="error-title">Arrrgh, da fehlt eine Seite!</h1>
+
+    <p data-i18n="error-decide">Entscheide Du, wie es weitergehen soll:</p>
+
+    {{#if Member}}
+    <a class="button" href="{{Member.SteamPath}}"
+       data-i18n="error-steam-from"
+       data-i18n-args="{{Member.PlainName}}">Steam von{{Member.PlainName}}</a>
+    {{else}}
+    <a class="button" href="/start" data-i18n="error-startpage">Startseite</a>
+    {{/if}}
+
+    <p id="err-contact-info" data-i18n="error-contact"></p>
+
+    <div id="err-who-failed">
+        <img id="err-kr" data-dev="KRISTOF" src="/Content/Images/rokr-kr-failed.png" />
+        <img id="err-ro" data-dev="ROBERT" src="/Content/Images/rokr-ro-failed.png" />
+    </div>
+    
+    <h2 data-i18n="contact">Contact</h2>
+
+    <form id="err-contact-form">
+        <div class="field input">
+            <input id="ErrSubject" name="ErrSubject" type="text"
+                   data-i18n-placeholder="contact-subject"
+                   data-i18n-value="error-contact-default"
+                   data-i18n-value-args="{{ErrorNo}}" value="{{Subject}}" />
+            <label for="ErrSubject" data-i18n="contact-subject">Betreff</label>
+            <span id="errorErrSubject" class='help-block'></span>
+        </div>
+        <div class="field input">
+            <input id="ErrSenderName" name="ErrSenderName" type="text"
+                   data-i18n-placeholder="your-name" value="{{SenderName}}" />
+            <label for="ErrSenderName" data-i18n="your-name">SenderName</label>
+            <span id="errorErrSenderName" class='help-block'></span>
+        </div>
+        <div class="field input">
+            <input id="ErrSenderMail" name="ErrSenderMail" type="email"
+                   data-i18n-placeholder="your-mail-address" value="{{SenderMail}}" />
+            <label for="ErrSenderMail" data-i18n="your-mail-address">EMail</label>
+            <span id="errorErrSenderMail" class='help-block'></span>
+        </div>
+        <div class="field input">
+            <textarea id="ErrMessage" name="ErrMessage" data-i18n-placeholder="contact-message"></textarea>
+            <label for="ErrMessage" data-i18n="contact-message">Nachricht</label>
+        </div>
+        <input id="WhoFailed" type="hidden" value="NOBODY" />
+        <a class="button small" id="ErrContactSend" data-i18n="error-contact-send">Senden</a>
+    </form>
+
+</div>

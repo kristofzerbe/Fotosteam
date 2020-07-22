@@ -1,0 +1,22 @@
+﻿<div id="start-intro-buttons"
+     style="margin-top:30px;">
+
+    <button class="shine bold"
+            style="font-size: 1.3rem;"
+            onclick="showHowTo(this);"
+            data-i18n="how-to"></button>
+
+    {{#unless AuthMember}}
+    <p data-i18n="have-invitecode"
+       class="subtitle"
+       style="margin-top: 20px;">Du hast einen Einladungs-Code?</p>
+    <button class="bold"
+            style="font-size: 1.3rem;"
+            onclick="openSidebarBay('register');"
+            data-i18n="create-your-fotosteam"></button>
+    <p id="tweet-invite-code"
+       data-i18n="dont-have-invitecode"
+       class="subtitle"
+       style="margin-top: 10px;"></p>
+    {{/unless}}
+</div>
