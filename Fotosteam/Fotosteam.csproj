@@ -116,9 +116,8 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Microsoft.Owin.Security.Twitter.3.0.1\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
@@ -2909,6 +2908,9 @@
     <Content Include="Scripts\dropzone\dropzone.min.js">
       <DependentUpon>dropzone.js</DependentUpon>
     </Content>
+    <None Include="Scripts\jquery-2.1.3.intellisense.js" />
+    <Content Include="Scripts\jquery-2.1.3.js" />
+    <Content Include="Scripts\jquery-2.1.3.min.js" />
     <Content Include="Scripts\jquery.dropit.js" />
     <Content Include="Scripts\dropzone\dropzone.css" />
     <Content Include="Scripts\dropzone\dropzone.js" />
@@ -4074,19 +4076,12 @@
     <Content Include="Content\Background\maybe\maybe.txt" />
     <Content Include="changelog.json" />
     <Content Include=".gitignore" />
-    <None Include="Scripts\jquery-2.1.3.intellisense.js">
-      <DependentUpon>jquery-2.1.3.js</DependentUpon>
-    </None>
     <Content Include="Scripts\handlebars-v2.0.js" />
     <Content Include="Scripts\handlebars-v3.0.0.js" />
     <Content Include="Scripts\jquery.fullsizable.min.js">
       <DependentUpon>jquery.fullsizable.js</DependentUpon>
     </Content>
     <Content Include="Scripts\jquery.inputs.js" />
-    <Content Include="Scripts\jquery-2.1.3.js" />
-    <Content Include="Scripts\jquery-2.1.3.min.js">
-      <DependentUpon>jquery-2.1.3.js</DependentUpon>
-    </Content>
     <Content Include="Scripts\jquery.validate.unobtrusive.js">
       <DependentUpon>jquery.validate.js</DependentUpon>
     </Content>
@@ -4254,9 +4249,6 @@
     <Content Include="Scripts\jquery.scrollTo.min.js">
       <DependentUpon>jquery.scrollTo.js</DependentUpon>
     </Content>
-    <Content Include="Scripts\jquery-2.1.3.min.map">
-      <DependentUpon>jquery-2.1.3.js</DependentUpon>
-    </Content>
     <Content Include="Scripts\jquery.fullsizable.min.js.map">
       <DependentUpon>jquery.fullsizable.min.js</DependentUpon>
     </Content>
@@ -4266,6 +4258,7 @@
     <Content Include="Scripts\jquery.imgareaselect-0.9.10\scripts\jquery.imgareaselect.min.js.map">
       <DependentUpon>jquery.imgareaselect.min.js</DependentUpon>
     </Content>
+    <Content Include="Scripts\jquery-2.1.3.min.map" />
     <None Include="Scripts\linq-vsdoc.js">
       <DependentUpon>linq.js</DependentUpon>
     </None>
@@ -4451,7 +4444,7 @@
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
-      <UserProperties package_1json__JSONSchema="" Content_2Locales_2en_1json__JSONSchema="http://json.schemastore.org/config" __Steams_2robert_2Internal_2Fotos_2ejo4zkxy_2foto_1json__JSONSchema="" __Steams_2robert_2Internal_2Fotos_2fotos_1json__JSONSchema="" node__modules_2grunt-contrib-handlebars_2package_1json__JSONSchema="" />
+      <UserProperties node__modules_2grunt-contrib-handlebars_2package_1json__JSONSchema="" __Steams_2robert_2Internal_2Fotos_2fotos_1json__JSONSchema="" __Steams_2robert_2Internal_2Fotos_2ejo4zkxy_2foto_1json__JSONSchema="" Content_2Locales_2en_1json__JSONSchema="http://json.schemastore.org/config" package_1json__JSONSchema="" />
     </VisualStudio>
   </ProjectExtensions>
   <Import Project="$(SlowCheetahTargets)" Condition="Exists('$(SlowCheetahTargets)')" Label="SlowCheetah" />

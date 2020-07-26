@@ -1,6 +1,6 @@
 function fsConfig() {
     this.resourceSuffix = function() { 
-        return "fJue9"; 
+        return "dbr2o"; 
     };
     this.version = function() { 
         return "1.1.7";

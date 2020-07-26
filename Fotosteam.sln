@@ -6,12 +6,10 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fotosteam", "Fotosteam\Fotosteam.csproj", "{84C82339-8AB3-41FD-90F1-1CB35BC7717B}"
 	ProjectSection(ProjectDependencies) = postProject
 		{C753B104-79F7-4031-8ECD-B9A50047E8F0} = {C753B104-79F7-4031-8ECD-B9A50047E8F0}
-		{7CFA73EF-485B-44C1-BE7E-18391750C725} = {7CFA73EF-485B-44C1-BE7E-18391750C725}
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fotosteam.Service", "Fotosteam.Service\Fotosteam.Service.csproj", "{C753B104-79F7-4031-8ECD-B9A50047E8F0}"
 	ProjectSection(ProjectDependencies) = postProject
-		{7CFA73EF-485B-44C1-BE7E-18391750C725} = {7CFA73EF-485B-44C1-BE7E-18391750C725}
 		{E9580EFC-6014-4D3B-82A8-5F6D57213CE4} = {E9580EFC-6014-4D3B-82A8-5F6D57213CE4}
 	EndProjectSection
 EndProject
@@ -28,9 +26,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fotosteam.Console", "Fotosteam.Console\Fotosteam.Console.csproj", "{79D5C310-3279-4D37-8BD0-13F0DDBDCFA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneDriveSDK", "OneDriveSDK\OneDriveSDK.csproj", "{7CFA73EF-485B-44C1-BE7E-18391750C725}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fotosteam.Admin", "Fotosteam.Admin\Fotosteam.Admin.csproj", "{581DF838-F62C-4550-AF25-F84F2BF0281B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneDriveSDK", "OneDriveSDK\OneDriveSDK.csproj", "{7CFA73EF-485B-44C1-BE7E-18391750C725}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,13 +55,13 @@ Global
 		{79D5C310-3279-4D37-8BD0-13F0DDBDCFA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{79D5C310-3279-4D37-8BD0-13F0DDBDCFA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79D5C310-3279-4D37-8BD0-13F0DDBDCFA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{581DF838-F62C-4550-AF25-F84F2BF0281B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{581DF838-F62C-4550-AF25-F84F2BF0281B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{581DF838-F62C-4550-AF25-F84F2BF0281B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7CFA73EF-485B-44C1-BE7E-18391750C725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7CFA73EF-485B-44C1-BE7E-18391750C725}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CFA73EF-485B-44C1-BE7E-18391750C725}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CFA73EF-485B-44C1-BE7E-18391750C725}.Release|Any CPU.Build.0 = Release|Any CPU
-		{581DF838-F62C-4550-AF25-F84F2BF0281B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{581DF838-F62C-4550-AF25-F84F2BF0281B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{581DF838-F62C-4550-AF25-F84F2BF0281B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,52 +69,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E9580EFC-6014-4D3B-82A8-5F6D57213CE4} = {2F3A575F-01E2-4E82-8011-DADCBFACB3CF}
 		{FD4A5D07-1835-4F07-B32D-F0F5BB7FD292} = {581DBBC3-523B-4F25-A6AD-AD81F1E2560A}
-		{7CFA73EF-485B-44C1-BE7E-18391750C725} = {2F3A575F-01E2-4E82-8011-DADCBFACB3CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B7AB3037-CAF5-4B43-A12C-3203329CF187}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 7
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://kristof.visualstudio.com/
-		SccProjectUniqueName0 = Fotosteam.Service\\Fotosteam.Service.csproj
-		SccProjectName0 = $/Fotosteam/Fotosteam.Service
-		SccAuxPath0 = https://kristof.visualstudio.com
-		SccLocalPath0 = Fotosteam.Service
-		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName1 = DropNet-master\\DropNet\\DropNet.csproj
-		SccProjectTopLevelParentUniqueName1 = Fotosteam.sln
-		SccProjectName1 = $/Fotosteam/DropNet-master/DropNet
-		SccAuxPath1 = https://kristof.visualstudio.com
-		SccLocalPath1 = DropNet-master\\DropNet
-		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName2 = Fotosteam.Console\\Fotosteam.Console.csproj
-		SccProjectName2 = $/Fotosteam/Fotosteam.Console
-		SccAuxPath2 = https://kristof.visualstudio.com
-		SccLocalPath2 = Fotosteam.Console
-		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName3 = Fotosteam\\Fotosteam.csproj
-		SccProjectName3 = $/Fotosteam/Fotosteam
-		SccAuxPath3 = https://kristof.visualstudio.com
-		SccLocalPath3 = Fotosteam
-		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName4 = Fotosteam.Tests.Service\\Fotosteam.Tests.Service.csproj
-		SccProjectTopLevelParentUniqueName4 = Fotosteam.sln
-		SccProjectName4 = $/Fotosteam/Fotosteam.Tests.Service
-		SccAuxPath4 = https://kristof.visualstudio.com
-		SccLocalPath4 = Fotosteam.Tests.Service
-		SccProvider4 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName5 = OneDriveSDK\\OneDriveSDK.csproj
-		SccProjectTopLevelParentUniqueName5 = Fotosteam.sln
-		SccProjectName5 = $/Fotosteam/OneDriveSDK
-		SccAuxPath5 = https://kristof.visualstudio.com
-		SccLocalPath5 = OneDriveSDK
-		SccProvider5 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccProjectUniqueName6 = Fotosteam.Admin\\Fotosteam.Admin.csproj
-		SccProjectName6 = $/Fotosteam/Fotosteam.Admin
-		SccAuxPath6 = https://kristof.visualstudio.com
-		SccLocalPath6 = Fotosteam.Admin
-		SccProvider6 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 	EndGlobalSection
 EndGlobal
